@@ -1,0 +1,151 @@
+﻿DIPLOMACY = {
+
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:LUX
+			type = personal_union
+		}
+	}
+	
+	c:CRN = { #Carantania
+		create_diplomatic_pact = {
+			country = c:GOT
+			type = personal_union
+		}
+	}
+	c:TIB = {
+		create_diplomatic_pact = {
+			country = c:CYI
+			type = puppet
+		}		
+	}
+	c:AUS = {
+		create_diplomatic_pact = {
+			country = c:KRA
+			type = puppet
+		}
+	}
+	c:USA = {
+		create_diplomatic_pact = {
+			country = c:LIB
+			type = protectorate
+		}
+	}
+	c:GBR = {
+		create_diplomatic_pact = {
+			country = c:ABU
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ION
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SIL
+			type = puppet
+		}		
+		create_diplomatic_pact = {
+			country = c:HAN
+			type = personal_union
+		}
+
+	}
+	#Anatolia
+	c:ANA = {
+		create_diplomatic_pact = {
+			country = c:KRU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LNG
+			type = puppet
+		}			
+	}
+	#Ethiopia
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:CTS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:YEM
+			type = puppet
+		}
+	}
+
+	#Majapahit
+	c:MJP = {
+		create_diplomatic_pact = {
+			country = c:PPU
+			type = puppet
+		}		
+		create_diplomatic_pact = {
+			country = c:LAA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AOT
+			type = protectorate
+		}
+	}
+	
+	#Punjab
+	c:PAN = {
+		create_diplomatic_pact = {
+			country = c:TRH
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MAK
+			type = puppet
+		}
+	}
+	
+	#Gujarat
+	c:GUJ = {
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = puppet
+		}
+	}
+	
+	#Tamilakam
+	c:TAM = {
+		create_diplomatic_pact = {
+			country = c:SHP
+			type = puppet
+		}
+	}
+	
+	#Muisca
+	c:MCA = {
+		create_diplomatic_pact = {
+			country = c:ORP
+			type = dominion
+		}
+	}
+	
+	#Oil River Protectorate
+	c:ORP = {
+		create_diplomatic_pact = {
+			country = c:SOK
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BEN
+			type = puppet
+		}
+	}
+	
+	#Cherokee/Tsalagi
+	c:CHE = {
+		create_diplomatic_pact = {
+			country = c:OYO
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ULQ
+			type = dominion
+		}		
+	}
+}

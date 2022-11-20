@@ -1,0 +1,734 @@
+﻿# REGARDING BRAZIL: There are several varying estimates for Brazil's population overall in the 1830s. There's no good censuses for 1836 specifically, and provincial censuses are all over the place in terms of quality and distance in time from 1836. Everything will be drawn from estimates of estimates and probably have some issues with accuracy. I can do nothing but apologize, and encourage students of history to go forth and write a book I can steal data from in the future.
+
+POPS = {
+	s:STATE_ECUADOR = {
+		region_state:CYA = {
+			create_pop = {
+				culture = muisca
+				size = 332100
+			}
+			create_pop = {
+				culture = quechua
+				size = 427596
+			}
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}	
+		}
+	}
+	s:STATE_GUAYANA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 6632
+			}
+			create_pop = {
+				culture = amazonian
+				size = 120000
+			}
+		}
+	}
+	s:STATE_ZULIA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 325608
+			}
+			create_pop = {
+				culture = cariban
+				size = 4004
+			}
+			create_pop = {
+				culture = guajiro
+				size = 4004
+			}
+			
+		}
+	}
+	s:STATE_MIRANDA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 266908
+			}
+			create_pop = {
+				culture = cariban
+				religion = sunni
+				size = 8004
+			}
+		}
+	}
+	s:STATE_BOLIVAR = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 144392
+			}
+			create_pop = {
+				culture = amazonian
+				size = 28000
+			}
+		}
+	}
+	s:STATE_ANTIOQUIA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 269804
+			}
+			create_pop = {
+				culture = guajiro
+				size = 12000
+			}
+			create_pop = {
+				culture = muisca
+				religion = sunni
+				size = 32004
+			}
+		}
+	}
+	s:STATE_GUAVIARE = {
+		region_state:MCA = {
+			create_pop = {
+				culture = amazonian
+				size = 88000
+			}
+			create_pop = {
+				culture = muisca
+				size = 27996
+			}
+		}
+	}
+	s:STATE_CUNDINAMARCA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 463396
+			}
+			create_pop = {
+				culture = muisca
+				religion = sunni
+				size = 44204
+			}
+		}
+	}
+	s:STATE_CAUCA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 164400
+			}
+			create_pop = {
+				culture = muisca
+				religion = sunni
+				size = 12000
+			}
+			create_pop = {
+				culture = quechua
+				size = 68000
+			}
+		}
+	}
+	s:STATE_PASTAZA = {
+		region_state:CYA = {
+			create_pop = {
+				culture = amazonian
+				size = 72000
+			}
+			create_pop = {
+				culture = chachapoya
+				size = 14096
+			}
+			create_pop = {
+				culture = quechua
+				size = 7504
+			}
+		}
+	}
+	s:STATE_TARAPACA = {
+		region_state:CYA = {
+			create_pop = {
+				culture = chachapoya
+				size = 12000
+			}
+			create_pop = {
+				culture = aimara
+				size = 38500
+			}
+		}
+	}
+	s:STATE_ANTOFAGASTA = {
+		region_state:CCQ = {
+			create_pop = {
+				culture = quechua
+				size = 55000
+			}
+			create_pop = {
+				culture = aimara
+				size = 64200
+			}
+			create_pop = {
+				culture = diaguita
+				size = 20000
+			}
+		}
+	}
+	s:STATE_SANTA_CRUZ = {
+		region_state:CRC = {
+			create_pop = {
+				culture = aymara
+				size = 28200
+			}
+			create_pop = {
+				culture = amazonian
+				size = 8000
+			}
+			create_pop = {
+				culture = quechua
+				size = 102800
+			}
+			create_pop = {
+				culture = guarani
+				size = 32000
+			}
+		}
+	}
+	s:STATE_LA_PAZ = {
+		region_state:CYA = {
+			create_pop = {
+				culture = quechua
+				size = 521000
+			}
+			create_pop = {
+				culture = aimara
+				size = 468004
+			}
+			create_pop = {
+				culture = amazonian
+				size = 48000
+			}
+		}
+	}
+	s:STATE_POTOSI = {
+		region_state:CRC = {
+			create_pop = {
+				culture = aimara
+				size = 150996
+			}
+			create_pop = {
+				culture = quechua
+				size = 14000
+			}
+		}
+	}
+	s:STATE_CAJAMARCA = {
+		region_state:CYA = {
+			create_pop = {
+				culture = chachapoya
+				size = 91804
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 12000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 4000
+			}
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+			create_pop = {
+				culture = quechua
+				size = 186696
+			}
+		}
+	}
+	s:STATE_LIMA = {
+		region_state:CYA = {
+			create_pop = {
+				culture = chachapoya
+				size = 248000
+			}
+			create_pop = {
+				culture = quechua
+				size = 212000
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 21900
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 6200
+			}
+			create_pop = {
+				culture = amazonian
+				size = 16000
+			}
+		}
+	}
+	s:STATE_ICA = {
+		region_state:CYA = {
+			create_pop = {
+				culture = chachapoya
+				size = 92904
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 3350
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 650
+			}
+			create_pop = {
+				culture = quechua
+				size = 302804
+			}
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+		}
+	}
+	s:STATE_AREQUIPA = {
+		region_state:CYA = {
+			create_pop = {
+				culture = chachapoya
+				size = 48000
+			}
+			create_pop = {
+				culture = aimara
+				size = 80400
+			}
+			create_pop = {
+				culture = quechua
+				size = 146500
+			}
+		}
+	}
+	s:STATE_URUGUAY = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 110000
+			}
+		}
+	}
+	s:STATE_JUJUY = {
+		region_state:CCQ = {
+			create_pop = {
+				culture = aymara
+				size = 25304
+			}
+			create_pop = {
+				culture = quechua
+				size = 35000
+			}
+			create_pop = {
+				culture = diaguita
+				size = 40000
+			}
+		}
+	}
+	s:STATE_ALTO_PARAGUAY = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 11000
+			}
+			create_pop = {
+				culture = platinean
+				size = 1030
+			}
+		}
+	}
+	s:STATE_BAJO_PARAGUAY = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 582240
+			}
+			create_pop = {
+				culture = quechua
+				size = 30560
+			}
+		}
+	}
+	s:STATE_BUENOS_AIRES = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 283000
+			}		
+		}
+	}
+	s:STATE_PATAGONIA = {
+		region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 25100
+			}
+		}
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 31100
+			}
+			create_pop = {
+				culture = platinean
+				size = 8000
+			}			
+		}
+	}
+	s:STATE_RIO_NEGRO = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 80000
+			}
+		}
+	}
+	s:STATE_LA_PAMPA = {
+		region_state:PAT = {
+			create_pop = {
+				culture = platinean
+				size = 180740
+			}
+		}
+	}
+	s:STATE_SANTA_FE = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 110000
+			}
+		}
+	}
+	s:STATE_CORRIENTES = {
+		region_state:GNI = {
+			create_pop = {
+				culture = platinean
+				size = 170000
+			}
+		}
+	}
+	s:STATE_TUCUMAN = {
+		region_state:CCQ = {
+			create_pop = {
+				culture = diaguita
+				size = 76078
+			}
+			create_pop = {
+				culture = quechua
+				size = 4500
+			}
+		}
+	}
+	s:STATE_CHACO = {
+		region_state:GNI = {
+			create_pop = {
+				culture = guarani
+				size = 45000
+			}
+			create_pop = {
+				culture = quechua # Santiagueño Quechua
+				size = 2900
+			}
+		}
+	}
+	s:STATE_SANTIAGO = {
+		region_state:CCQ = {
+			create_pop = {
+				culture = diaguita
+				size = 655608
+			}
+			create_pop = {
+				culture = quechua
+				size = 12000
+			}
+		}
+	}
+	s:STATE_LOS_RIOS = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 260000
+			}
+		}
+	}
+	s:STATE_ARAUCANIA = {
+		region_state:THL = {
+			create_pop = {
+				culture = patagonian
+				size = 112200
+			}
+		}
+	}
+	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
+		region_state:PAT = {
+			create_pop = {
+				culture = patagonian
+				size = 14540
+			}
+		}
+	}
+	s:STATE_ACRE={
+		region_state:CYA = {
+			create_pop = {
+				culture = amazonian
+				size = 15750
+			}
+			create_pop = {				
+				culture = chachapoya
+				size = 250
+			}
+		}
+	}
+	s:STATE_AMAZONAS = {
+		region_state:MCA = {
+			create_pop = {
+				culture = amazonian
+				size = 12000
+			}
+			create_pop = {
+				culture = muisca
+				size = 210
+			}
+		}
+		region_state:TPI = {
+			create_pop = {
+				culture = amazonian
+				size = 46800
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 14325 
+			}
+
+		}		
+	}
+	s:STATE_MATO_GROSSO = {
+		region_state:JEE = {
+			create_pop = {
+				culture = guarani
+				size = 68000
+			}
+			create_pop = {
+				culture = amazonian
+				size = 44000
+			}
+			create_pop = {
+				culture = platinean
+				size = 4000
+			}
+		}
+	}
+	s:STATE_RIO_GRANDE_DO_SUL = {
+		region_state:GNI = {
+			create_pop = {
+				culture = tupinamba
+				size = 116681
+			}
+			create_pop = {
+				culture = amazonian
+				size = 42176
+			}
+			create_pop = {
+				culture = guarani
+				size = 40000
+			}
+		}
+	}
+	s:STATE_PARANA = {
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 20444
+			}
+		}
+	}
+	s:STATE_SANTA_CATARINA = { 
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 35582
+			}
+		}
+	}
+	s:STATE_SAO_PAULO = {
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 172879 # 1836 census
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 8000
+			}
+		}
+	}
+	s:STATE_MINAS_GERAIS = {
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 367304
+			}
+		}
+	}
+	s:STATE_RIO_DE_JANEIRO = {
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 647988
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 100000
+			}
+		}
+	}
+	s:STATE_BAHIA = {
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 335500
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 400000
+			}
+		}
+	}
+	s:STATE_RIO_GRANDE_DO_NORTE = { 
+		region_state:PRI = {
+			create_pop = {
+				culture = mande
+				size = 29902
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 4944
+			}
+			create_pop = {
+				culture = ge
+				size = 10242
+			}
+		}
+	}
+	s:STATE_CEARA = { # Ceara, 1835 estimate. Total population of 211451
+		region_state:PRI = {
+			create_pop = {
+				culture = mande
+				size = 69779
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 2000
+			}
+			create_pop = {
+				culture = ge
+				size = 114270
+			}
+		}
+	}
+	s:STATE_PIAUI = { # Piaui, 1835 estimate. Total population of 94932.
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 31839
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3000
+			}
+			create_pop = {
+				culture = mande
+				size = 36546
+			}
+		}
+	}
+	s:STATE_PERNAMBUCO = { # Pernambuco proper (1829) + Alagoas (1849), Sergipe (1849), and Paraiba (estimate from average of 1811 and 1872 censii)
+		region_state:PRI = {
+			create_pop = {
+				culture = amazonian
+				size = 234140
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 29920
+			}
+			create_pop = {
+				culture = mande
+				size = 452391
+			}
+		}
+	}
+	s:STATE_PARAIBA = { # Paraiba, 1835 estimate. Total population of 135764.
+		region_state:PRI = {
+			create_pop = {
+				culture = amazonian
+				size = 45114
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 7445
+			}
+			create_pop = {
+				culture = mande
+				size = 61245
+			}
+		}
+	}
+	s:STATE_MARANHAO = {
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 42595 
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 7294
+			}
+			create_pop = {
+				culture = mande
+				size = 61084
+			}
+		}
+	}
+	s:STATE_GOIAS = { 
+		region_state:JEE = {
+			create_pop = {
+				culture = amazonian
+				size = 21921
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 9940 # 1825 estimate
+			}
+		}
+	}
+	s:STATE_PARA = {
+
+		region_state:TPI = {
+			create_pop = {
+				culture = tupinamba
+				size = 111297
+			}
+			create_pop = {
+				culture = amazonian
+				size = 43800
+			}
+			create_pop = {
+				culture = tupinamba
+				size = 3646
+			}
+		}
+	}
+}

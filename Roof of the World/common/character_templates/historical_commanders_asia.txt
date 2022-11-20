@@ -1,0 +1,151 @@
+﻿
+# Japan - JAP
+jap_admiral_togo = {
+	first_name = Heihachiro
+	last_name = Togo
+	culture = cu:japanese
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1848.1.27
+	traits = {
+		expert_naval_commander
+		direct
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = admiral
+		earliest_usage_date = 1883.2.5
+		latest_usage_date = 1913.1.1	
+		chance = 50
+	}
+}
+jap_general_saigo = {
+	first_name = Takamori
+	last_name = Saigo
+	culture = cu:japanese
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_landed_gentry
+	birth_date = 1828.1.23
+	traits = {
+		basic_offensive_planner
+		romantic
+		brave
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1880.1.1	
+		chance = 50
+	}
+}
+jap_general_gentaro = {
+	first_name = Gentaro
+	last_name = Kodama
+	culture = cu:japanese
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landed_gentry
+	birth_date = 1852.3.16
+	traits = {
+		experienced_offensive_planner
+		experienced_colonial_administrator
+		innovative
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1889.1.1
+		latest_usage_date = 1906.1.1	
+		chance = 50
+	}
+}
+jap_general_oyama = {
+	first_name = Iwao
+	last_name = Oyama
+	culture = cu:japanese
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landed_gentry
+	birth_date = 1842.11.12
+	traits = {
+		experienced_offensive_planner
+		trench_rat
+		reserved
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:JAP
+			this = c:JAP
+		}
+		role = general
+		earliest_usage_date = 1889.1.1
+		latest_usage_date = 1906.1.1	
+		chance = 50
+	}
+}
+# Punjab - PAN
+pan_general_singh = {
+	first_name = Sher
+	last_name = Singh
+	culture = cu:panjabi
+	female = no
+	religion = sikh
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1807.12.4
+	traits = {
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			this = c:PAN
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 75
+	}
+}
+
+
+# Ottomans - TUR
+#general_tur_chrzanowski = {		Chrzanowski was only a British-sent military attache to the OE, unsure if this is enough for a general spot.
+#	first_name = Wojciech
+#	last_name = Chrzanowski
+#	culture = cu:polish
+#	female = no
+#	religion = catholic
+#	commander_rank = default
+#	interest_group = ig_armed_forces
+#	birth_date = 1793.1.14 # Only birth year certain
+#	traits = {
+#		surveyor
+#		romantic
+#	}
+#	commander_usage = {
+#		country_trigger = {
+#			this = c:TUR
+#		}
+#		role = general
+#		earliest_usage_date = 1836.1.1
+#		latest_usage_date = 1880.1.1	
+#		chance = 75
+#	}
+#}
