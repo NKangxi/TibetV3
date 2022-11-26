@@ -1970,7 +1970,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS={
-		region_state:GRE={
+		region_state:CYP={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -2166,7 +2166,7 @@
 		}
 	}
 	s:STATE_ATTICA={
-		region_state:GRE={
+		region_state:CYP={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2230,7 +2230,7 @@
 		}
 	}	
 	s:STATE_PELOPONNESE={
-		region_state:GRE={
+		region_state:CYP={
 			create_building={
 				building="building_wheat_farm"
 				level=1

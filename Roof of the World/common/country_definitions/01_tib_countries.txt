@@ -448,7 +448,7 @@ LAA = {
 TAI = {
 	color = { 60 80 140 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
 	tier = principality
 	
@@ -643,6 +643,18 @@ YEM = {
 
 ## Europe
 
+ANH = {
+	color = { 203  93  124 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_ANHALT
+	is_named_from_capital = yes
+}
+
 BAV = {
 	color = { 121  175  235 }
 	
@@ -652,6 +664,18 @@ BAV = {
 	
 	cultures = { south_german }
 	capital = STATE_BAVARIA
+	is_named_from_capital = yes
+}
+
+BRA = {
+	color = { 116  92  39 }
+	
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_BRUNSWICK
 	is_named_from_capital = yes
 }
 
@@ -750,6 +774,18 @@ GOT = {
 	cultures = { swedish }
 }
 
+HES = {
+	color = { 146  108  146 }	
+	
+	country_type = decentralized
+
+	tier = grand_principality
+	
+	cultures = { north_german }
+	capital = STATE_HESSE
+	is_named_from_capital = yes
+}
+
 HLN = {
 	color = { 20  50  250 }
 
@@ -797,12 +833,24 @@ KRL = {
 LOT = { #Lotharingia
 	color = { 110 110 160 }
 	
-	country_type = recognized
+	country_type = unrecognized
 
 	tier = kingdom
 	
 	cultures = { flemish wallonian }	
 	capital = STATE_WALLONIA
+}
+
+MEC = {
+	color = { 207  111  64 }
+	
+	country_type = unrecognized
+
+	tier = grand_principality
+	
+	cultures = { north_german }
+	capital = STATE_MECKLENBURG
+	is_named_from_capital = yes
 }
 
 NNT = { # Nenetsia
@@ -826,6 +874,18 @@ POL = {
 	
 	cultures = { polish }
 	capital = STATE_MAZOVIA
+}
+
+SAX = {
+	color = { 155  147  180 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { north_german }
+	capital = STATE_SAXONY
+	is_named_from_capital = yes
 }
 
 SCA = {

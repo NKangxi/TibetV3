@@ -895,7 +895,7 @@ STATES = {
 	}
 	s:STATE_PELOPONNESE = {
 		create_state = {
-			country = c:GRE
+			country = c:CYP
 			owned_provinces = { x0055D7 x43409D xC0D060 xBA3449 x61E57E }
 		}
 		
@@ -3348,7 +3348,7 @@ STATES = {
 	}
 	s:STATE_ATTICA = {
 		create_state = {
-			country = c:GRE
+			country = c:CYP
 			owned_provinces = { xC72C61 x8D7F62 x518791 x0A645C xBF5160 x465F8D xCA246A xA010A0 }
 		}
 		
@@ -3381,7 +3381,7 @@ STATES = {
 		}
 		
 		add_homeland = greek
-		add_claim = c:GRE
+		add_claim = c:CYP
 	}
 	s:STATE_WESTERN_THRACE = {
 		create_state = {
@@ -4539,7 +4539,7 @@ STATES = {
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
 		create_state = {
-			country = c:GRE
+			country = c:CYP
 			owned_provinces = { x6090A0 x6960a0 }
 		}
 		

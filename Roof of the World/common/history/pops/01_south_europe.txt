@@ -748,7 +748,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:GRE = {
+		region_state:CYP = {
 			create_pop = {
 				culture = greek
 				size = 80404
@@ -773,7 +773,7 @@
 		}
 	}
 	s:STATE_ATTICA = {
-		region_state:GRE = {
+		region_state:CYP = {
 			create_pop = {
 				culture = greek
 				size = 637592
@@ -899,7 +899,7 @@
 		}
 	}
 	s:STATE_PELOPONNESE = {
-		region_state:GRE = {
+		region_state:CYP = {
 			create_pop = {
 				culture = greek
 				size = 221996
