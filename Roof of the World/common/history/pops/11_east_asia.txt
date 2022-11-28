@@ -1108,14 +1108,14 @@
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:BIC = {
+		region_state:MJP = {
 			create_pop = {
 				culture = karen
 				size = 180800
 			}
 			create_pop = {
-				culture = british
-				size = 96
+				culture = javan
+				size = 9600
 			}
 			create_pop = {
 				culture = burmese

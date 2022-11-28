@@ -591,18 +591,7 @@
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}		
-			create_building={
-				building="building_textile_mills"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
-			}			
-			create_building={
-				building="building_arms_industry"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" "pm_cannons" }
-			}
+			
 			create_building={
 				building="building_coal_mine"
 				level=15
