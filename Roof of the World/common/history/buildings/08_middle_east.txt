@@ -195,6 +195,12 @@
 	s:STATE_LEBANON={
 		region_state:ANA={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_millet_farm"
 				level=1
 				reserves=1
@@ -257,6 +263,12 @@
 	s:STATE_ALEPPO={
 		region_state:ANA={
 			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_glassworks"
 				level=2
 				reserves=1
@@ -296,6 +308,12 @@
 	}
 	s:STATE_BAGHDAD={
 		region_state:ANA={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -356,6 +374,12 @@
 	}
 	s:STATE_BASRA={
 		region_state:ANA={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -751,6 +775,12 @@
 	s:STATE_AYDIN={
 		region_state:ANA={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_textile_mills"
 				level=3
 				reserves=1
@@ -968,6 +998,12 @@
 	}
 	s:STATE_TRABZON={
 		region_state:ANA={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
 			create_building={
 				building="building_fishing_wharf"
 				level=2

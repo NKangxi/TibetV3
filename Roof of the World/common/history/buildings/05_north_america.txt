@@ -361,8 +361,14 @@
 	s:STATE_IOWA={
 		region_state:ASI={
 			create_building={
-				building="building_maize_farm"
+				building="building_government_administration"
 				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
+			create_building={
+				building="building_maize_farm"
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -370,6 +376,12 @@
 	}
 	s:STATE_MINNESOTA={
 		region_state:ASI={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -418,6 +430,12 @@
 	}
 	s:STATE_MICHIGAN={
 		region_state:ASI={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -903,6 +921,12 @@
 	s:STATE_ILLINOIS={
 		region_state:ASI={
 			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
+			create_building={
 				building="building_lead_mine"
 				level=3
 				reserves=1
@@ -1364,6 +1388,12 @@
 	}
 	s:STATE_QUEBEC={
 		region_state:ASI={
+			create_building={
+				building="building_government_administration"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
 			create_building={
 				building="building_university"
 				level=1

@@ -368,6 +368,12 @@
 	s:STATE_WESTERN_AFGHANISTAN={
 		region_state:PAN={
 			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}		
+			create_building={
 				building="building_textile_mills"
 				level=2
 				reserves=1
@@ -468,6 +474,12 @@
 		}
 		region_state:PAN={
 			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				level=1
 				reserves=1
@@ -505,7 +517,7 @@
 		region_state:TIB={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
@@ -538,6 +550,12 @@
 	s:STATE_NGARI={
 		region_state:TIB={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				level=3
 				reserves=1
@@ -552,23 +570,13 @@
 		}
 	}
 	s:STATE_HIMALAYAS={
-		region_state:SIK={
+		region_state:TIB={
 			create_building={
-				building="building_barracks"
+				building="building_government_administration"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+				activate_production_methods={ "pm_simple_organization" }
 			}
-		}
-		region_state:BHU={
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
-		region_state:NEP={
 			create_building={
 				building="building_tobacco_plantation"
 				level=1

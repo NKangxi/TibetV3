@@ -271,7 +271,7 @@
 		}
 	}
 	s:STATE_BENIN = {
-		region_state:BEN = {
+		region_state:ORP = {
 			create_pop = {
 				culture = edo
 				size = 493792
@@ -300,7 +300,7 @@
 		}
 	}
 	s:STATE_YORUBA_STATES = {
-		region_state:OYO = {
+		region_state:ORP = {
 			create_pop = {
 				culture = yoruba
 				size = 1548008

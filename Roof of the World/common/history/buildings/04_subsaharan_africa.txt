@@ -146,7 +146,7 @@
 		}
 	}
 	s:STATE_BENIN={
-		region_state:BEN={
+		region_state:ORP={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -168,7 +168,7 @@
 		}
 	}
 	s:STATE_YORUBA_STATES={
-		region_state:OYO={
+		region_state:ORP={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -538,10 +538,28 @@
 	}
 	s:STATE_KENYA={
 		region_state:ETH={
+			create_building={
+				building="building_coffee_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
 		}
 	}
 	s:STATE_RIFT_VALLEY={
 		region_state:ETH={
+			create_building={
+				building="building_coal_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
+			}
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -558,6 +576,12 @@
 	}
 	s:STATE_OROMIA={
 		region_state:ETH={
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
 			create_building={
 				building="building_millet_farm"
 				level=3
@@ -599,6 +623,12 @@
 	s:STATE_AMHARA={
 		region_state:ETH={
 			create_building={
+				building="building_government_administration"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
 				building="building_millet_farm"
 				level=4
 				reserves=1
@@ -626,6 +656,12 @@
 	}
 	s:STATE_GONDER={
 		region_state:ETH={
+			create_building={
+				building="building_government_administration"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
 			create_building={
 				building="building_millet_farm"
 				level=5
@@ -664,6 +700,12 @@
 	}
 	s:STATE_SOMALILAND={
 		region_state:ETH={
+			create_building={
+				building="building_government_administration"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
 			create_building={
 				building="building_livestock_ranch"
 				level=4
