@@ -4750,7 +4750,7 @@ STATES = {
 			country = c:TTI
 			owned_provinces = { xB0D0C0 xB03EF0 x614287 x705040 x879C25 x8EC4C9 x305040 xCCB03E x70D040 x9BD7C1 x9E58B2 }
 		}
-		
+		add_claim = c:SOO
 		add_homeland = japanese
 	}
 	s:STATE_KYUSHU = {
