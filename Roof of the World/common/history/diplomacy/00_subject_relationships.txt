@@ -55,10 +55,6 @@
 		create_diplomatic_pact = {
 			country = c:KRU
 			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:LNG
-			type = puppet
 		}			
 	}
 	#Ethiopia

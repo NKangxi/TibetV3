@@ -345,6 +345,12 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA={
@@ -1189,6 +1195,8 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+		}
+		region_state:EGY={
 			create_building={
 				building="building_port"
 				level=1
@@ -2306,6 +2314,14 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:EGY={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}

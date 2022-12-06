@@ -203,6 +203,12 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_OUTER_HAUSALAND={
@@ -322,15 +328,7 @@
 		}
 	}
 	s:STATE_GHANA={
-		region_state:GBR={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-		region_state:NET={
+		region_state:CHE={
 			create_building={
 				building="building_port"
 				level=1
@@ -792,6 +790,12 @@
 				reserves=1
 				activate_production_methods={ "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_UGANDA={
@@ -953,7 +957,7 @@
 	s:STATE_CONGO={
 		region_state:BOB={
 		}
-		region_state:LNG={
+		region_state:KON={
 		}
 		region_state:TKE={
 		}
@@ -982,7 +986,24 @@
 	}
 	s:STATE_BAS_CONGO={
 		region_state:KON={
-
+			create_building={
+				building="building_millet_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_coffee_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 			create_building={
 				building="building_barracks"
 				level=5
@@ -1064,7 +1085,7 @@
 	s:STATE_GABON={
 		region_state:FNG={
 		}
-		region_state:LNG={
+		region_state:KON={
 		}
 	}
 	s:STATE_ZAMBIA={
@@ -1182,6 +1203,12 @@
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
+			}
+			create_building={
+				building="building_port"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}

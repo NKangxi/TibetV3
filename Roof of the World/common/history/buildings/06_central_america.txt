@@ -252,7 +252,7 @@
 		}
 	}
 	s:STATE_BAHAMAS={
-		region_state:CHE={
+		region_state:MCA={
 			create_building={
 				building="building_banana_plantation"
 				level=1

@@ -586,28 +586,18 @@
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:GBR = {
+		region_state:CHE = {
 			create_pop = {
 				culture = akan
-				size = 40204
+				size = 90204
 			}
 			create_pop = {
 				culture = mossi
-				size = 4844
+				size = 8844
 			}
 			create_pop = {
 				culture = ewe
 				size = 6984
-			}
-		}
-		region_state:NET = {
-			create_pop = {
-				culture = akan
-				size = 45572
-			}
-			create_pop = {
-				culture = mossi
-				size = 4220
 			}
 		}
 		region_state:ASH = {
@@ -1554,7 +1544,7 @@
 				size = 2400
 			}
 		}
-		region_state:LNG = {
+		region_state:KON = {
 			create_pop = {
 				culture = bakongo
 				size = 36200
@@ -1901,7 +1891,7 @@
 				size = 20000
 			}
 		}
-		region_state:LNG = {
+		region_state:KON = {
 			create_pop = {
 				culture = bakongo
 				size = 32000
