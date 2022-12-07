@@ -99,7 +99,7 @@
 	}
 
 	s:STATE_OB = {
-		region_state:RUS = {
+		region_state:SIB = {
 			create_pop = {
 				culture = ugrian
 				size = 10776

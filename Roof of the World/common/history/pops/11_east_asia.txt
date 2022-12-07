@@ -839,7 +839,7 @@
 		}
 	}
 	s:STATE_CAMBODIA = {
-		region_state:CAM = {
+		region_state:CHA = {
 			create_pop = {
 				culture = khmer
 				size = 800202

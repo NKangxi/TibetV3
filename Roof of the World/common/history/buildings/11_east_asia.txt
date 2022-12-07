@@ -23,7 +23,7 @@
 		region_state:TIB={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -413,7 +413,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -463,7 +463,7 @@
 		region_state:TIB={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -507,7 +507,7 @@
 		region_state:TIB={
 			create_building={
 				building="building_government_administration"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -529,7 +529,7 @@
 		region_state:TIB={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -665,7 +665,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -705,7 +705,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -751,7 +751,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=14
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -791,7 +791,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=15
+				level=18
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -831,7 +831,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=15
+				level=18
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -945,7 +945,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -991,7 +991,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1019,7 +1019,7 @@
 		region_state:TIB={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1059,7 +1059,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=9
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1261,7 +1261,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=15
+				level=18
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
