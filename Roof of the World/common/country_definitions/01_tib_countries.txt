@@ -427,12 +427,12 @@ MJP = {
 	tier = empire
 	
 	cultures = { balinese bornean javan sumatran }
-	capital = STATE_WEST_JAVA
+	capital = STATE_EAST_JAVA
 }
 
 ##Australia/Oceania/New Zealand
 
-LAA = {
+LAA = { #Luca Antara
 	color = { 114 165 203 }
 	
 	country_type = colonial
@@ -441,6 +441,29 @@ LAA = {
 	
 	capital = STATE_NEW_SOUTH_WALES
 	cultures = { lucaantaran }
+}
+
+
+MGD = { # Maguindanao
+	color = { 119  32  29 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { moro }
+	capital = STATE_MINDANAO
+}
+
+SUL = { # Sulu
+	color = { 89  164  144 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { moro }
+	capital = STATE_MINDANAO
 }
 
 ## Siberia
@@ -487,10 +510,9 @@ ETH = {
 	country_type = recognized
 	
 	tier = empire
-	
 	religion = hindu
 	
-	cultures = { amhara oromo tigray }
+	cultures = { amhara oromo tigray bedouin }
 	capital = STATE_GONDER
 }
 
@@ -990,7 +1012,7 @@ CRN = { #Carantania
 	tier = empire
 	religion = bogomilist
 	
-	cultures = { slovene south_german hungarian }
+	cultures = { slovene south_german }
 	capital = STATE_SLOVENIA
 	is_named_from_capital = yes
 }
@@ -1016,7 +1038,7 @@ ASI = { #Assiniboine/Nakota
 	
 	tier = empire
 	
-	cultures = { siouan cree }
+	cultures = { siouan cree caddoan }
 	capital = STATE_ONTARIO
 
 }

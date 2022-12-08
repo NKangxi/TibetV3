@@ -671,7 +671,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=12
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -818,6 +818,12 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_steel" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}				
 			create_building={
 				building="building_glassworks"
@@ -987,7 +993,7 @@
 			}
 			create_building={
 				building="building_paper_mills"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
@@ -1009,7 +1015,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=15
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1077,7 +1083,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=12
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1279,7 +1285,7 @@
 		region_state:CWU={
 			create_building={
 				building="building_government_administration"
-				level=18
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}

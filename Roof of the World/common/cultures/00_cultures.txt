@@ -18045,7 +18045,7 @@ nilotic = {
 
 amhara={
 	color= hsv{ 0.25 0.43 0.55 }
-	religion = oriental_orthodox
+	religion = hindu
 	traits = { ethiopian east_african_culture_group african_heritage }
 	male_common_first_names={
 		Amare
@@ -18618,7 +18618,7 @@ nuba={
 
 oromo={
 	color= rgb{ 56 153 122 }
-	religion = oriental_orthodox
+	religion = hindu
 	traits = { ethiopian east_african_culture_group african_heritage }
 	male_common_first_names={
 		Abadula

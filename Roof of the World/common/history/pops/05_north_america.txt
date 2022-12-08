@@ -76,7 +76,7 @@
 			}
 			create_pop = {
 				culture = salish
-				size = 20000
+				size = 80000
 			}
 		}
 	}
@@ -84,7 +84,7 @@
 		region_state:SLS = {		
 			create_pop = {
 				culture = salish
-				size = 15000
+				size = 55000
 			}
 			create_pop = {
 				culture = paiute
@@ -453,7 +453,7 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 329836
+				size = 629836
 			}
 			create_pop = {
 				culture = nahua

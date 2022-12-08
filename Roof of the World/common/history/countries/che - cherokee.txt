@@ -7,15 +7,22 @@ COUNTRIES = {
         	ig_devout
         }
 		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_cultural_exclusion
-		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_agrarianism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_national_militia
-		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_charitable_health_system
-		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_serfdom
 		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms
@@ -27,11 +34,6 @@ COUNTRIES = {
 		
 		ig:ig_intelligentsia = {
 			remove_ideology = ideology_anti_clerical
-		}
-
-		ig:ig_devout = {
-			set_ig_bolstering = yes
-			set_interest_group_name = ig_trizin_council
 		}
 	}
 }
