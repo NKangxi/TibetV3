@@ -141,7 +141,7 @@
 		region_state:DLH={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=20
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -451,7 +451,7 @@
 		region_state:PAN={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
@@ -691,19 +691,19 @@
 		region_state:PAN={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -712,6 +712,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -795,7 +801,7 @@
 		region_state:TAM={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
@@ -804,6 +810,12 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_shipyards"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding" "pm_no_military_shipbuilding" "pm_merchant_guilds_building_shipyards" }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -881,7 +893,7 @@
 		region_state:TAM={
 			create_building={
 				building="building_government_administration"
-				level=6
+				level=7
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -996,6 +1008,12 @@
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
+				building="building_university"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_tea_plantation"
 				level=3
 				reserves=1
@@ -1025,7 +1043,7 @@
 		region_state:TAM={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1073,13 +1091,13 @@
 			}
 			create_building={
 				building="building_iron_mine"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}

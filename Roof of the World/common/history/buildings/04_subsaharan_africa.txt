@@ -2,6 +2,12 @@
 	s:STATE_IVORY_COAST={
 		region_state:ASH={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_port"
 				level=1
 				reserves=1
@@ -987,6 +993,12 @@
 	s:STATE_BAS_CONGO={
 		region_state:KON={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_millet_farm"
 				level=2
 				reserves=1
@@ -1080,6 +1092,24 @@
 	}
 	s:STATE_KATANGA={
 		region_state:KON={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
+			}
+			create_building={
+				building="building_millet_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}	
 		}
 	}
 	s:STATE_GABON={
