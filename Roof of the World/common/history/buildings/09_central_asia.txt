@@ -202,7 +202,7 @@
 		}
 	}
 	s:STATE_KHIVA={
-		region_state:KHI={
+		region_state:TRH={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -230,7 +230,13 @@
 		}
 	}
 	s:STATE_UZBEKIA={
-		region_state:BUK={
+		region_state:TRH={
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}	
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -258,7 +264,7 @@
 		}
 	}
 	s:STATE_TAJIKISTAN={
-		region_state:KOK={
+		region_state:TRH={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -280,7 +286,7 @@
 		}
 	}
 	s:STATE_KIRGHIZIA={
-		region_state:KOK={
+		region_state:TRH={
 			create_building={
 				building="building_wheat_farm"
 				level=3
@@ -308,7 +314,7 @@
 		}
 	}
 	s:STATE_TURKMENIA={
-		region_state:KHI={
+		region_state:TRH={
 			create_building={
 				building="building_livestock_ranch"
 				level=2

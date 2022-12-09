@@ -176,6 +176,12 @@
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
+				building="building_silk_plantation"
+				level=5
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_rice_farm"
 				level=10
 				reserves=1
@@ -381,6 +387,12 @@
 			}
 		}
 		region_state:TSH={
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
 			create_building={
 				building="building_cotton_plantation"
 				level=2
@@ -852,6 +864,12 @@
 	s:STATE_INDIAN_OCEAN_TERRITORY={
 		region_state:GUJ={
 			create_building={
+				building="building_government_administration"
+				level=12
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
 				building="building_sugar_plantation"
 				level=2
 				reserves=1
@@ -886,6 +904,12 @@
 				level=4
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
