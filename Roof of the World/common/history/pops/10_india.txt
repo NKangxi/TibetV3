@@ -252,26 +252,6 @@
 		}
 	}
 	s:STATE_CENTRAL_INDIA = {
-		region_state:IND = {
-			create_pop = {
-				culture = marathi
-				size = 951959
-			}
-			create_pop = {
-				culture = avadhi
-				size = 26000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 68033 
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 2000
-			}
-		}
 		region_state:BUN = {
 			create_pop = {
 				culture = kanauji
@@ -346,7 +326,7 @@
 		region_state:TSH = {
 			create_pop = {
 				culture = marathi
-				size = 3239096
+				size = 4239096
 			}
 			create_pop = {
 				culture = tibetan
@@ -354,7 +334,7 @@
 			}
 			create_pop = {
 				culture = avadhi
-				size = 139908
+				size = 170908
 			}
 			create_pop = {
 				pop_type = slaves
@@ -584,44 +564,24 @@
 		}
 	}
 	s:STATE_RAJPUTANA = {
-		region_state:BIK = {
-			create_pop = {
-				culture = rajput
-				size = 1001004
-			}
-			create_pop = {
-				culture = avadhi
-				size = 31000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = rajput
-				size = 31000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 1000
-			}
-		}
 		region_state:PAN = {
 			create_pop = {
 				culture = rajput
-				size = 387096
+				size = 3087096
 			}
 			create_pop = {
 				culture = avadhi
-				size = 29000
+				size = 140000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = rajput
-				size = 20900
+				size = 100900
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = avadhi
-				size = 3000
+				size = 8000
 			}
 		}
 		region_state:MEW = {
@@ -642,26 +602,6 @@
 				pop_type = slaves
 				culture = avadhi
 				size = 2100
-			}
-		}
-		region_state:JOD = {
-			create_pop = {
-				culture = rajput
-				size = 1667504
-			}
-			create_pop = {
-				culture = avadhi
-				size = 80665
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = rajput
-				size = 50000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 4000
 			}
 		}
 		region_state:JAI = {
