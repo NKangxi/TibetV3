@@ -3,11 +3,11 @@
 		region_state:XIU = {
 			create_pop = {
 				culture = mayan
-				size = 50000
+				size = 100000
 			}
 			create_pop = {
 				culture = central_american
-				size = 428204
+				size = 808204
 			}
 		}
 	}
@@ -15,15 +15,15 @@
 		region_state:XIU = {
 			create_pop = {
 				culture = central_american
-				size = 164404
+				size = 304404
 			}
 			create_pop = {
 				culture = mayan
-				size = 312000
+				size = 652000
 			}
 			create_pop = {
 				culture = nahua
-				size = 104
+				size = 1000
 			}
 		}
 	}
@@ -31,15 +31,15 @@
 		region_state:XIU = {
 			create_pop = {
 				culture = central_american
-				size = 385204
+				size = 750204
 			}
 			create_pop = {
 				culture = mayan
-				size = 100000
+				size = 200000
 			}
 			create_pop = {
 				culture = miskito # Cape of Gracias a Dios Miskito
-				size = 3000
+				size = 6000
 			}
 		}
 	}
@@ -47,21 +47,21 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = central_american
-				size = 284000
+				size = 564000
 			}
 			create_pop = {
 				culture = muisca
-				size = 45000
+				size = 100000
 			}
 			create_pop = {
 				culture = miskito 
 				religion = animist
-				size = 30000
+				size = 60000
 			}
 			create_pop = {
 				culture = miskito
 				religion = nahua
-				size = 10000
+				size = 20000
 			}
 		}
 	}
@@ -69,11 +69,11 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = central_american
-				size = 83992
+				size = 165992
 			}
 			create_pop = {
 				culture = muisca
-				size = 10000
+				size = 20000
 			}
 		}
 	}
@@ -81,19 +81,19 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = central_american
-				size = 87792
+				size = 170792
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 28300
+				size = 55300
 			}
 			create_pop = {
 				culture = muisca
-				size = 4000
+				size = 8000
 			}
 			create_pop = {
 				culture = cariban
-				size = 4000
+				size = 8000
 			}
 		}
 	}
@@ -101,7 +101,7 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = cariban
-				size = 660000
+				size = 1250000
 			}
 		}
 	}
@@ -109,7 +109,7 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = cariban
-				size = 550000
+				size = 1100000
 			}
 		}
 	}
@@ -117,11 +117,11 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = cariban
-				size = 550000
+				size = 750000
 			}
 			create_pop = {
 				culture = muisca
-				size = 5904
+				size = 10004
 			}	
 		}
 	}
@@ -137,7 +137,7 @@
 			}
 			create_pop = {
 				culture = muskogean
-				size = 22000
+				size = 50000
 			}
 		}
 	}
@@ -145,11 +145,11 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = muisca
-				size = 60200
+				size = 120200
 			}
 			create_pop = {
 				culture = cariban
-				size = 506104
+				size = 1006104
 			}
 		}
 	}
@@ -157,11 +157,11 @@
 		region_state:MCA = {
 			create_pop = {
 				culture = cariban
-				size = 358596
+				size = 700596
 			}
 			create_pop = {
 				culture = muisca
-				size = 23040
+				size = 60040
 			}
 		}
 	}
@@ -170,11 +170,11 @@
 			# 896400
 			create_pop = {
 				culture = cariban
-				size = 461304 
+				size = 1000304 
 			}		
 			create_pop = {
 				culture = muisca
-				size = 22004
+				size = 50004
 			}
 		}
 	}

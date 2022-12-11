@@ -1275,7 +1275,7 @@
 			}
 			create_building={
 				building="building_naval_base"
-				level=25
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_power_of_the_purse" }
 			}
@@ -1605,7 +1605,7 @@
 			}
 			create_building={
 				building="building_naval_base"
-				level=10
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_power_of_the_purse" }
 			}
@@ -2637,24 +2637,6 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
-				building="building_university"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_scholastic_education" }
-			}
-			create_building={
-				building="building_tooling_workshops"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
-			}
-			create_building={
-				building="building_textile_mills"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
-			}
-			create_building={
 				building="building_wheat_farm"
 				level=9
 				reserves=1
@@ -2682,12 +2664,6 @@
 	}
 	s:STATE_BADEN={
 		region_state:WUR={
-			create_building={
-				building="building_university"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_scholastic_education" }
-			}
 			create_building={
 				building="building_government_administration"
 				level=1

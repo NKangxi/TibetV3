@@ -111,7 +111,7 @@
 		region_state:EST = {
 			create_pop = {
 				culture = ukrainian
-				size = 3923992
+				size = 1923992
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -131,7 +131,7 @@
 		region_state:RYA = {
 			create_pop = {
 				culture = russian
-				size = 1335050
+				size = 735050
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -175,7 +175,7 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 1753376
+				size = 1153376
 			}
 			create_pop = {
 				culture = ashkenazi

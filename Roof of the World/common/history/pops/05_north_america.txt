@@ -3,11 +3,11 @@
 		region_state:CHE = { 
 			create_pop = {
 				culture = cherokee
-				size = 27544
+				size = 55544
 			}		
 			create_pop = {
 				culture = algonquian
-				size = 86263
+				size = 160263
 			}
 		}
 	}
@@ -16,19 +16,19 @@
 			create_pop = {
 				culture = nahua
 				religion = nahuatl
-				size = 35992
+				size = 70992
 			}
 			create_pop = {
 				culture = siouan
-				size = 133392
+				size = 253392
 			}
 			create_pop = {
 				culture = caddoan
-				size = 21106 
+				size = 40106 
 			}
 			create_pop = {
 				culture = cherokee
-				size = 102994
+				size = 202994
 			}
 		}
 	}
@@ -36,11 +36,11 @@
 		region_state:IRO = {
 			create_pop = {
 				culture = irish
-				size = 16000
+				size = 32000
 			}
 			create_pop = {
 				culture = iroquoian
-				size = 1008000
+				size = 1508000
 			}
 		}
 	}
@@ -56,15 +56,15 @@
 		region_state:SLS = {
 			create_pop = {
 				culture = athabaskan
-				size = 19780
+				size = 40780
 			}
 			create_pop = {
 				culture = salish
-				size = 192
+				size = 1500
 			}
 			create_pop = {
 				culture = inuit
-				size = 4968
+				size = 10000
 			}
 		}
 	}
@@ -72,11 +72,11 @@
 		region_state:SLS = {	
 			create_pop = {
 				culture = nez_perce
-				size = 10000
+				size = 20000
 			}
 			create_pop = {
 				culture = salish
-				size = 80000
+				size = 100000
 			}
 		}
 	}
@@ -100,11 +100,11 @@
 		region_state:SLS = {
 			create_pop = {
 				culture = paiute
-				size = 20000
+				size = 30000
 			}
 			create_pop = {
 				culture = nez_perce
-				size = 40000
+				size = 55000
 			}
 		}
 
@@ -113,37 +113,37 @@
 		region_state:PUE = {
 			create_pop = {
 				culture = siouan
-				size = 20000
+				size = 40000
 			}
 			create_pop = {
-				culture = mexican
-				size = 8000
+				culture = comanche
+				size = 15000
 			}
 		}
 		region_state:ARP = {
 			create_pop = {
 				culture = siouan
-				size = 100000
+				size = 150000
 			}
 		}
 		region_state:UTE = {
 			create_pop = {
 				culture = paiute
-				size = 40000
+				size = 80000
 			}
 			create_pop = {
 				culture = apache
-				size = 40000
+				size = 80000
 			}
 		}
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 12000
+				size = 25000
 			}
 			create_pop = {
 				culture = comanche
-				size = 6000
+				size = 15000
 			}
 		}
 	}
@@ -167,7 +167,7 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 1040000
+				size = 140000
 			}
 			create_pop = {
 				culture = dakota
@@ -231,21 +231,21 @@
 		region_state:OSA = {
 			create_pop = {
 				culture = siouan
-				size = 2000
-			}
-			create_pop = {
-				culture = caddoan
 				size = 8000
 			}
 			create_pop = {
+				culture = caddoan
+				size = 80000
+			}
+			create_pop = {
 				culture = cherokee
-				size = 50800
+				size = 10800
 			}
 		}
 		region_state:COM = {
 			create_pop = {
-				culture = siouan
-				size = 18000
+				culture = comanche
+				size = 55000
 			}
 		}
 	}
@@ -273,15 +273,15 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 138666
+				size = 248666
 			}
 			create_pop = {
 				culture = caddoan
-				size = 20000
+				size = 40000
 			}
 			create_pop = {
 				culture = comanche
-				size = 10000
+				size = 20000
 			}
 		}
 	}
@@ -289,15 +289,15 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = algonquian
-				size = 24000
+				size = 58000
 			}
 			create_pop = {
 				culture = dakota
-				size = 16000
+				size = 32000
 			}
 			create_pop = {
 				culture = siouan
-				size = 23992
+				size = 50992
 			}
 		}
 	}
@@ -305,15 +305,15 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = algonquian
-				size = 32000
+				size = 104000
 			}
 			create_pop = {
 				culture = dakota
-				size = 44000
+				size = 128000
 			}
 			create_pop = {
 				culture = siouan
-				size = 20000
+				size = 90000
 			}
 		}
 	}
@@ -321,11 +321,11 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = algonquian
-				size = 16000
+				size = 60000
 			}
 			create_pop = {
 				culture = siouan
-				size = 28004
+				size = 116004
 			}
 		}
 	}
@@ -345,19 +345,15 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 123996
-			}
-			create_pop = {
-				culture = algonquian
-				size = 12000
+				size = 253996
 			}
 			create_pop = {
 				culture = cree
-				size = 8000
+				size = 30000
 			}
 			create_pop = {
 				culture = algonquian
-				size = 10000
+				size = 50000
 			}
 		}
 	}
@@ -405,7 +401,7 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 221804
+				size = 421804
 			}
 		}
 	}
@@ -413,19 +409,19 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 629008
+				size = 1129008
 			}
 			create_pop = {
 				culture = caddoan
-				size = 16004
+				size = 50004
 			}
 			create_pop = {
 				culture = muskogean 
-				size = 22240
+				size = 80240
 			}
 			create_pop = {
 				culture = nahua
-				size = 11000
+				size = 55000
 			}
 		}
 	}
@@ -453,11 +449,11 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 629836
+				size = 1129836
 			}
 			create_pop = {
 				culture = nahua
-				size = 20620 
+				size = 80620 
 			}
 
 		}
@@ -466,11 +462,11 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = algonquian
-				size = 160916
+				size = 300916
 			}
 			create_pop = {
 				culture = cherokee
-				size = 58000
+				size = 108000
 			}
 		}
 	}
@@ -478,11 +474,11 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = algonquian
-				size = 351997
+				size = 701997
 			}
 			create_pop = {
 				culture = cherokee
-				size = 100000
+				size = 200000
 			}
 		}
 	}
@@ -491,7 +487,7 @@
 		region_state:PEQ = {
 			create_pop = {
 				culture = algonquian
-				size = 77000
+				size = 157000
 			}
 		}
 	}
@@ -520,11 +516,11 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 452400
+				size = 852400
 			}
 			create_pop = {
 				culture = caddoan
-				size = 4000
+				size = 15000
 			}
 		}
 	}
@@ -608,7 +604,7 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size = 900000
+				size = 1500000
 			}
 		}
 	}
@@ -616,23 +612,23 @@
 		region_state:MVJ = {
 			create_pop = {
 				culture = paiute
-				size = 3000
+				size = 30000
 			}
 		}
 		region_state:NVJ = {
 			create_pop = {
 				culture = paiute
-				size = 2000
+				size = 20000
 			}
 			create_pop = {
 				culture = navajo
-				size = 4000
+				size = 40000
 			}
 		}
 		region_state:UTE = {
 			create_pop = {
 				culture = paiute
-				size = 11000
+				size = 110000
 			}
 		}
 	}
@@ -652,35 +648,19 @@
 		region_state:HAW = {
 			create_pop = {
 				pop_type = clergy
-				culture = yankee
-				religion = protestant
+				culture = tibetan
+				religion = bon
 				size = 100
 			}
 			create_pop = {
-				pop_type = capitalists
-				culture = yankee
-				religion = protestant
+				pop_type = clergy
+				culture = japanese
+				religion = mahayana
 				size = 450
 			}
 			create_pop = {
-				pop_type = capitalists
-				culture = british
-				size = 500
-			}
-			create_pop = {
-				pop_type = capitalists
-				culture = russian
-				size = 250
-			}
-			create_pop = {
 				culture = hawaiian
-				religion = protestant
-				size = 132304
-			}
-			create_pop = {
-				culture = hawaiian
-				religion = catholic
-				size = 8500
+				size = 202304
 			}
 			create_pop = {
 				culture = han
@@ -692,23 +672,23 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 370792
+				size = 970792
 			}
 			create_pop = {
 				culture = cree
-				size = 40400
+				size = 100400
 			}
 			create_pop = {
 				culture = athabaskan
-				size = 23400
+				size = 73400
 			}
 			create_pop = {
 				culture = iroquoian
-				size = 20902
+				size = 60902
 			}
 			create_pop = {
 				culture = algonquian
-				size = 13902
+				size = 73902
 			}
 		}
 	}
@@ -724,19 +704,19 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = inuit
-				size = 14000
+				size = 30000
 			}
 			create_pop = {
 				culture = cree
-				size = 521204
+				size = 1021204
 			}
 			create_pop = {
 				culture = siouan
-				size = 219200
+				size = 419200
 			}
 			create_pop = {
 				culture = algonquian
-				size = 55000
+				size = 105000
 			}
 		}
 	}
@@ -744,15 +724,15 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = algonquian
-				size = 7980
+				size = 20980
 			}
 			create_pop = {
 				culture = inuit
-				size = 40000
+				size = 80000
 			}
 			create_pop = {
 				culture = cherokee
-				size = 1100
+				size = 2100
 			}
 		}
 	}
@@ -760,19 +740,15 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = athabaskan
-				size = 3999
+				size = 7999
 			}		
 			create_pop = {
 				culture = siouan
-				size = 35000
-			}
-			create_pop = {
-				culture = metis
-				size = 16000
+				size = 100000
 			}
 			create_pop = {
 				culture = cree
-				size = 12000
+				size = 55000
 			}
 		}
 	}
@@ -792,15 +768,15 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 12200
+				size = 48200
 			}
 			create_pop = {
 				culture = metis
-				size = 16000
+				size = 64000
 			}
 			create_pop = {
 				culture = cree
-				size = 24000
+				size = 99000
 			}
 		}
 	}
@@ -808,24 +784,15 @@
 		region_state:ASI = {	
 			create_pop = {
 				culture = siouan
-				size = 50000
-			}
-			create_pop = {
-				culture = metis
-				religion = protestant
-				size = 3996
+				size = 100000
 			}
 			create_pop = {
 				culture = athabaskan
-				size = 16000
-			}
-			create_pop = {
-				culture = metis
-				size = 20004
+				size = 55000
 			}
 			create_pop = {
 				culture = cree
-				size = 12000
+				size = 60000
 			}
 		}
 	}
@@ -833,7 +800,7 @@
 		region_state:SLS = {
 			create_pop = {
 				culture = athabaskan
-				size = 12000
+				size = 24000
 			}
 		}
 	}
@@ -841,7 +808,7 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = athabaskan
-				size = 16000
+				size = 32000
 			}
 		}
 	}
@@ -849,7 +816,7 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = inuit
-				size = 11980
+				size = 22980
 			}
 		}
 	}
@@ -857,7 +824,7 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 14848
+				size = 30848
 			}
 		}
 	}
@@ -865,29 +832,33 @@
 		region_state:OSA = {
 			create_pop = {
 				culture = siouan
-				size = 50224
+				size = 100224
 			}
 			create_pop = {
 				culture = caddoan
-				size = 6000
+				size = 12000
 			}
 			create_pop = {
 				culture = nahua
-				size = 16040
+				size = 32040
 			}
 			create_pop = {
 				culture = oodham
-				size = 12000
+				size = 24000
+			}
+			create_pop = {
+				culture = comanche
+				size = 48000
 			}
 		}
 		region_state:COM = {
 			create_pop = {
 				culture = comanche
-				size = 18000
+				size = 50000
 			}
 			create_pop = {
 				culture = apache
-				size = 4000
+				size = 8000
 			}
 		}
 	}
@@ -895,7 +866,7 @@
 		region_state:NVJ = {
 			create_pop = {
 				culture = paiute
-				size = 28000
+				size = 56000
 			}
 		}
 	}
@@ -903,29 +874,29 @@
 		region_state:NVJ = {
 			create_pop = {
 				culture = navajo
-				size = 25000
+				size = 100000
 			}
 			create_pop = {
 				culture = oodham
-				size = 4000
+				size = 16000
 			}
 			create_pop = {
 				culture = paiute
-				size = 4000
+				size = 16000
 			}
 			create_pop = {
 				culture = pueblo
-				size = 3000
+				size = 12000
 			}
 		}
 		region_state:APC = {
 			create_pop = {
 				culture = apache
-				size = 11000
+				size = 22000
 			}
 			create_pop = {
 				culture = pueblo
-				size = 2000
+				size = 8000
 			}
 		}
 	}
@@ -933,29 +904,29 @@
 		region_state:PUE = {
 			create_pop = {
 				culture = pueblo
-				size = 56000
+				size = 112000
 			}
 		}
 		region_state:NVJ = {
 			create_pop = {
 				culture = navajo
-				size = 6000
+				size = 24000
 			}
 			create_pop = {
 				culture = paiute
-				size = 2000
+				size = 8000
 			}
 		}
 		region_state:COM = {
 			create_pop = {
-				culture = siouan
-				size = 3000
+				culture = comanche
+				size = 12000
 			}
 		}
 		region_state:APC = {
 			create_pop = {
 				culture = apache
-				size = 11000
+				size = 22000
 			}
 		}
 	}
@@ -963,11 +934,11 @@
 		region_state:NVJ = {
 			create_pop = {
 				culture = hokan
-				size = 52000
+				size = 104000
 			}
 			create_pop = {
 				culture = navajo
-				size = 11996
+				size = 22996
 			}
 		}
 	}
@@ -975,11 +946,11 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 69087
+				size = 140087
 			}
 			create_pop = {
 				culture = oodham
-				size = 43637
+				size = 86637
 			}
 		}
 	}
@@ -987,32 +958,32 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 139895
+				size = 280895
 			}
 			create_pop = {
 				culture = oodham
-				size = 8000
+				size = 16000
 			}
 			create_pop = {
 				culture = apache
-				size = 16000
+				size = 32000
 			}
 		}
 	}
-	s:STATE_RIO_GRANDE = { # Coahuila, Nuevo Leon and Tamaulipas. est. pop 182352 in 1830, 266647 in 1840
+	s:STATE_RIO_GRANDE = { 
 		region_state:TLX = {
 			create_pop = {
 				culture = nahua
-				size = 121499
+				size = 240499
 			}
 			create_pop = {
 				culture = oodham
-				size = 27000
+				size = 54000
 			}
 			create_pop = {
 				culture = oodham
 				religion = nahuatl
-				size = 70004
+				size = 140004
 			}
 		}
 	}
@@ -1020,11 +991,11 @@
 		region_state:TLX = {
 			create_pop = {
 				culture = nahua
-				size = 251061
+				size = 501061
 			}		
 			create_pop = {
 				culture = mayan
-				size = 10000
+				size = 50000
 			}
 		}
 	}
@@ -1032,15 +1003,15 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 136199
+				size = 280199
 			}
 			create_pop = {
 				culture = oodham
-				size = 20000
+				size = 40000
 			}
 			create_pop = {
 				culture = comanche
-				size = 1100
+				size = 2200
 			}
 		}
 	}
@@ -1048,15 +1019,15 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 113841
+				size = 220841
 			}
 			create_pop = {
 				culture = oodham
-				size = 20000
+				size = 40000
 			}
 			create_pop = {
 				culture = comanche
-				size = 1100
+				size = 5000
 			}
 		}
 	}
@@ -1068,15 +1039,15 @@
 		region_state:TLX = {
 			create_pop = {
 				culture = nahua
-				size = 866461
+				size = 1606461
 			}
 			create_pop = {
 				culture = tarascan
-				size = 85162
+				size = 190162
 			}
 			create_pop = {
 				culture = cherokee
-				size = 3801
+				size = 7501
 			}
 		}
 	}
@@ -1088,11 +1059,11 @@
 		region_state:XIU = {
 			create_pop = {
 				culture = nahua
-				size = 126764
+				size = 256764
 			}
 			create_pop = {
 				culture = mayan
-				size = 488804
+				size = 968804
 			}
 		}
 	}
@@ -1104,15 +1075,15 @@
 		region_state:TLX = {
 			create_pop = {
 				culture = nahua
-				size = 1500000
+				size = 3000000
 			}
 			create_pop = {
 				culture = mixtec
-				size = 39996
+				size = 80000
 			}
 			create_pop = {
 				culture = zapotec
-				size = 264004
+				size = 528004
 			}
 		}
 	}
@@ -1123,23 +1094,23 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 114874
+				size = 228874
 			}
 			create_pop = {
 				culture = zapotec
-				size = 13183
+				size = 28183
 			}
 			create_pop = {
 				culture = comanche
-				size = 60846
+				size = 120846
 			}
 			create_pop = {
 				culture = nahua
-				size = 27381
+				size = 55381
 			}
 			create_pop = {
 				culture = mayan
-				size = 15036
+				size = 30036
 			}
 		}
 	}
@@ -1147,19 +1118,19 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 143903
+				size = 283903
 			}
 			create_pop = {
 				culture = zapotec
-				size = 40532
+				size = 80532
 			}
 			create_pop = {
 				culture = tarascan
-				size = 187073
+				size = 377073
 			}
 			create_pop = {
 				culture = mayan
-				size = 84182
+				size = 14182
 			}
 		}
 	}
@@ -1172,16 +1143,16 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 1011710
+				size = 2011710
 			}
 			create_pop = {
 				culture = oodham
 				religion = nahuatl
-				size = 152078
+				size = 302078
 			}
 			create_pop = {
 				culture = oodham
-				size = 26373
+				size = 55373
 			}
 		}
 	}
@@ -1192,11 +1163,11 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 137347
+				size = 277347
 			}
 			create_pop = {
 				culture = nahua
-				size = 175961
+				size = 345961
 			}
 		}
 	}
@@ -1206,15 +1177,15 @@
 		region_state:XIU = {
 			create_pop = {
 				culture = nahua
-				size = 63346
+				size = 126346
 			}
 			create_pop = {
 				culture = mayan
-				size = 81364
+				size = 162364
 			}
 			create_pop = {
 				culture = central_american
-				size = 1854
+				size = 4054
 			}
 		}
 	}
@@ -1222,11 +1193,11 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = tarascan
-				size = 8264
+				size = 16264
 			}
 			create_pop = {
 				culture = oodham
-				size = 13300
+				size = 26300
 			}
 		}
 	}
