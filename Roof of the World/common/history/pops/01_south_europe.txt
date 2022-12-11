@@ -275,7 +275,7 @@
 		}
 	}
 	s:STATE_ARAGON = {
-		region_state:ULQ = {
+		region_state:CAT = {
 			create_pop = {
 				culture = spanish
 				size = 301200
@@ -291,7 +291,7 @@
 		}
 	}
 	s:STATE_CATALONIA = {
-		region_state:ULQ = {
+		region_state:CAT = {
 			create_pop = {
 				culture = catalan
 				size = 654308
@@ -307,7 +307,7 @@
 		}
 	}
 	s:STATE_BALEARES = {
-		region_state:ULQ = {
+		region_state:CAT = {
 			create_pop = {
 				culture = catalan
 				size = 145244
@@ -355,7 +355,7 @@
 		}
 	}
 	s:STATE_VALENCIA = {
-		region_state:ULQ = {
+		region_state:CAT = {
 			create_pop = {
 				culture = spanish
 				size = 789604

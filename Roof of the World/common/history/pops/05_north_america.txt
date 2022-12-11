@@ -585,7 +585,7 @@
 		}
 	}
 	s:STATE_VERMONT = {
-		region_state:USA = {
+		region_state:ASI = {
 			create_pop = {
 				culture = iroquoian
 				size = 282848

@@ -38,11 +38,11 @@
 			create_pop = {
 				culture = assamese
 				religion = hindu
-				size = 922404
+				size = 822404
 			}
 			create_pop = {
 				culture = tibetan
-				size = 100096
+				size = 250096
 			}
 			create_pop = {
 				culture = thai
@@ -59,7 +59,7 @@
 			}
 			create_pop = {
 				culture = bengali
-				size = 210000
+				size = 160000
 			}
 			create_pop = {
 				culture = assamese

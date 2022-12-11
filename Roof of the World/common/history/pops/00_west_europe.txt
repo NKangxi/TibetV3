@@ -463,7 +463,7 @@
 		}
 	}
 	s:STATE_PROVENCE = {
-		region_state:HLN = {
+		region_state:OCC = {
 			create_pop = {
 				culture = occitan
 				size = 1162200
@@ -487,7 +487,7 @@
 		}
 	}
 	s:STATE_LANGUEDOC = {
-		region_state:ULQ = {
+		region_state:OCC = {
 			create_pop = {
 				culture = occitan
 				size = 1517200
@@ -499,7 +499,7 @@
 		}
 	}
 	s:STATE_RHONE = {
-		region_state:ULQ = {
+		region_state:OCC = {
 			create_pop = {
 				culture = french
 				size = 1553794

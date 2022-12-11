@@ -1178,7 +1178,7 @@
 		}
 	}
 	s:STATE_PROVENCE={
-		region_state:ULQ={
+		region_state:OCC={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -1288,7 +1288,7 @@
 		}
 	}
 	s:STATE_LANGUEDOC={
-		region_state:ULQ={
+		region_state:OCC={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -1322,7 +1322,7 @@
 		}
 	}
 	s:STATE_RHONE={
-		region_state:ULQ={		
+		region_state:OCC={		
 			create_building={
 				building="building_government_administration"
 				level=6
@@ -1924,12 +1924,6 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}		
-			create_building={
-				building="building_paper_mills"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
-			}
 			create_building={
 				building="building_glassworks"
 				level=1

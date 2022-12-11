@@ -998,7 +998,7 @@
 		}
 	}
 	s:STATE_ARAGON={
-		region_state:ULQ={
+		region_state:CAT={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -1026,7 +1026,7 @@
 		}
 	}
 	s:STATE_CATALONIA={
-		region_state:ULQ={
+		region_state:CAT={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1078,7 +1078,7 @@
 		}
 	}
 	s:STATE_BALEARES={
-		region_state:ULQ={
+		region_state:CAT={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -1208,7 +1208,7 @@
 		}
 	}
 	s:STATE_VALENCIA={
-		region_state:ULQ={
+		region_state:CAT={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1510,6 +1510,12 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
+			}		
+			create_building={
+				building="building_paper_mills"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}			
 			create_building={
 				building="building_shipyards"
