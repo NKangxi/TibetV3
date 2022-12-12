@@ -9024,7 +9024,7 @@ tibetan={
 
 assamese={
 	color= hsv{ 0.58 0.28 0.61 }
-	religion = sunni
+	religion = bon
 	traits = { south_asian_heritage northeast_indian }
 	male_common_first_names={
 		Chandraka
@@ -9065,7 +9065,7 @@ assamese={
 
 bengali={
 	color= hsv{ 0.79 0.37 0.36 }
-	religion = sunni
+	religion = bon
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Ahmad
@@ -9212,7 +9212,7 @@ manipuri={
 
 nepali={
 	color= hsv{ 0.79 0.25 0.74 }
-	religion = hindu
+	religion = bon
 	traits = { himalayan south_asian_heritage }
 	
 	obsessions = {

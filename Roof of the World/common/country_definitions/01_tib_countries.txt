@@ -143,7 +143,7 @@ TIB = {
 
 	religion = bon
 	
-	cultures = { tibetan }
+	cultures = { tibetan nepali bengali }
 	capital = STATE_LHASA
 }
 
