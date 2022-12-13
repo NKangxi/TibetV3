@@ -8997,7 +8997,7 @@ tibetan={
 		Phuntsog
 		Tsewang
 		Lasya
-		
+		Gyalyum
 	}	
 	noble_last_names = {
 		Purygal
@@ -12281,80 +12281,55 @@ mayan={
 	graphics = generic
 }
 
-nahua={
+nahua={ #here a group of people
 	color= hsv{ 0.47 0.29 0.38 }
 	religion = nahuatl
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Antonio
-		Carlos
-		Diego
-		Emiliano
-		Emilio
-		Felipe
-		Fernando
-		Francisco
-		Gaspar
-		Hernando
-		Hilario
-		Ignacio
-		Isaac
-		Jacinto
-		Jesus
-		Jose
-		Juan
-		Julio
-		Lorenzo
-		Manuel
-		Marcial
-		Mario
-		Martin_2
-		Natalio
-		Oliverio
-		Pedro
-		Roberto
-		Rodolfo
-		Santiago
-		Victor_2
+		Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+		Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+		Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+		Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+		Ahcambal Huanitzin Panitzin
 	}
 	female_common_first_names = {
-		Antonia
-		Celsa
-		Cleofas
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
+		Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli Centehua Moyolehuani Yaotl Xipil Xitlali Xiuhcoatl Xochicotzin Xochiyotl Xoco Yayauhqui Yolihuani Yoloxochitl 
+			Yolyamanitzin 
 	}	
 	noble_last_names = {
-		Altamirano
-		Cortes
-		Gonzalez
-		Moyotlan
-		Neri
-		Palafox
-		Salazar
-		Zapata
-	}
-	common_last_names={
 		Ahuactzin
-		Atlanteco
-		Badiano
-		Bernardino
 		Coaguila
 		Coyotl
 		Cuautlaxahue
-		Gutierrez
-		Hernandez
 		Huanitzin
 		Itzel
 		Ixtlilxochitl
 		Jimenez
+		Matlacuahuac
+		Mayahuel
+		Moxo
+		Munoz
+		Nahui
+		Ocelotl
+		Panecatl
+		Tlaxca
+		Tletla
+		Tzehe
+		Valeriano
+		Xaxalpa
+		Xochitl
+		Zapotitla
+		Zicotencatl
+		Moyotlan
+	}
+	common_last_names={
+		Ahuactzin
+		Coaguila
+		Coyotl
+		Cuautlaxahue
+		Huanitzin
+		Itzel
+		Ixtlilxochitl
 		Matlacuahuac
 		Mayahuel
 		Moxo
@@ -12382,85 +12357,25 @@ tarascan={
 	religion = nahuatl
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
-		Agustin
-		Alberto
-		Alfredo
-		Antonio
-		Armando
-		Arturo
-		Carlos
-		Cenobio
-		Daniel
-		Diego
-		Everardo
-		Gerardo
-		Gumersindo
-		Hector
-		Jesus
-		Juan
-		Leobardo
-		Luis
-		Manuel
-		Marcial
-		Marco_Antonio
-		Melchor
-		Pedro
-		Ricardo
-		Salvador
-		Samuel
-		Sergio
-		Silvano
-		Silvestre
-		Victor_2
+		Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+		Cuinierangari Bibejw Binech Bzojj Chsáaxcejj Cháalaxa Chonna Bicu Coqui Djoraxa Gwèibóoné Gyazob 
+		Ipalnemoani Ji Jzió Jituh Jzió Láxdaóxo Lyebe Mbalaz Na Yel Naquichinisa Naxiñanguiiu Ngolbex An 
+		Rire Nisa Ro Pijje Jzió Tobi Rusiguunda Véeni Veziá Zne Yel Zniá Zyrx Gyejj Nguiiu
 	}
 	female_common_first_names = {
-		Amalia
-		Antonia
-		Celsa
-		Erendira
-		Eva
-		Jovita
-		Laureana
-		Margarita
-		Maria
-		Marta
-		Matilde
-		Modesta
-		Ramona
+		Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
 	}	
-	noble_last_names = {
-		Calderon
-		Cristobal_2
-		Ochoa
-		Paniagua
-		Ocampo
+	noble_last_names = { #im getting desperate here
+		Acatl Atl Calli Cipactli Coatl Coyotl Cozcaquauhtli Cuetzpalin Ehecatl Icpalli 
+		Itz Itzcuintli Macehualli Malinalli Mazatl Miquiztli Nezahual Nochtli Ocelotl 
+		Ollin Otli Ozomatli Pipiltin Pochtecatl Quauhtli Quauitl Quiautl Tecpatl 
+		Tecuhtli Tepetl Tetl Tlantli Tochtli Toltecatl Xochitl
 	}
 	common_last_names={
-		Almonte
-		Arredondo
-		Arriaga
-		Aureoles
-		Bernal
-		Brito
-		Cano
-		Carrillo
-		Cuevas
-		Dimas
-		Esquivel
-		Estrada
-		Galeana
-		Gallardo
-		Garcia
-		Gomez
-		Lopez
-		Maciel
-		Magana
-		Medrano
-		Mena
-		Tinoco
-		Toryo
-		Vargas
-		Zendejas
+		Acatl Atl Calli Cipactli Coatl Coyotl Cozcaquauhtli Cuetzpalin Ehecatl Icpalli 
+		Itz Itzcuintli Macehualli Malinalli Mazatl Miquiztli Nezahual Nochtli Ocelotl 
+		Ollin Otli Ozomatli Pipiltin Pochtecatl Quauhtli Quauitl Quiautl Tecpatl 
+		Tecuhtli Tepetl Tetl Tlantli Tochtli Toltecatl Xochitl
 	}
 	ethnicities = {
 		1 = native_american
@@ -12481,11 +12396,10 @@ quechua={
 		Aklla Asiri Chami Haylli Killa Killay Killari Kuka Illa Illari Izayana Maimara Maywa Nuna Puquy Qori Sami Shaya Sisa Sulay Suyana Thani Urma Urpi Urpillay Waylla Yanay Yuriana Yuia
 	}	
 	noble_last_names = {
-		Collahuazo
-		Duchicela
-		Poma
-		Quispe
-		Santa_Cruz
+		Anquimarca Apo Atahualpa Atoc Atoc-Suqui Auqui-Huaman Canchari Chalcuchima Challco Chiaquitinta Chilche Colla-Topa 
+		Curiatao Cusi Guacra Guaritito Guaritopa Huachuri Huaman Huascar Huaypalcon Illaquita Inquill Llicllic Maila Maras 
+		Marcavilca Mayta Ninancoro Ozcoc Parinango Paucar Paullu Pomacapi Puma Pusca Puyu-Vilca Quilaco Quingallumbo 
+		Quintiraura Quisquis Quizo Rimac Ronpa Sahuaraura Sotaurco Tanqui Tucuycuyche Tupac-Amaru Yupanqui
 	}
 	common_last_names={
 		Cajahuanca
@@ -12496,15 +12410,12 @@ quechua={
 		Gamarra
 		Guaman
 		Guayasamin
-		Gutierrez
-		Heredia
 		Humala
 		Iturri
 		Lazarte
 		Luduena
 		Melgarejo
 		Noguera
-		Palacios
 		Patino
 		Roncaglia
 		Sumac
@@ -12543,15 +12454,12 @@ chachapoya={
 		Gamarra
 		Guaman
 		Guayasamin
-		Gutierrez
-		Heredia
 		Humala
 		Iturri
 		Lazarte
 		Luduena
 		Melgarejo
 		Noguera
-		Palacios
 		Patino
 		Roncaglia
 		Sumac
@@ -12569,90 +12477,18 @@ guarani={
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Aniceto
-		Antonio
-		Bartolome
-		Camilo
-		Carlos
-		Claudio
-		David
-		Emiliano
-		Eugenio_2
-		Felipe
-		Fernando
-		Felix
-		Gregorio
-		Jacinto
-		Jesus
-		Jose
-		Juan
-		Julio
-		Luis
-		Manuel
-		Marcos
-		Maximo
-		Narciso
-		Pablo
-		Pedro
-		Rodrigo
-		Roque
-		Simon_2
-		Teodoro
-		Victor_2
+		Angatupyry Apytere Arandu Araresa Amaru Amapytu Amangy Aravera Arasunu Aratiri Chavuku Jakaira Karai 
+		Katupyry Kuarahy Kuarahyrese Maitei Mba'ehory Mbarakapu Namandu Tajy Tatarendy Tatajyva Tatapytu 
+		Tuvicha Ygary Tekokatu
 	}
 	female_common_first_names = {
-		Adela
-		Blanca
-		Carola
-		Celsa
-		Eliza
-		Ermelina
-		Hercilia
-		Lindaura
-		Maria
-		Modesta
-		Sara
-		Ubalda
-		Veronica
+		Bartira Potira Porasy Jougousa Azelene
 	}	
 	noble_last_names = {
-		Anzoategui
-		Campero
-		Santa_Cruz
-		Tiaraju
-		Tumpa
+		Mbigua Caracara Timbu Tucague Calchagui Quiloazaz Cario Itatine Tarci Bomboi Curupaiti Curumai Caaigua Tape Ciriguana
 	}
 	common_last_names={
-		Abjaisu
-		Ayegua
-		Camba
-		Chuaie
-		Correa
-		Cunhagatu
-		Diaz_2
-		Fernandez
-		Galeano
-		Gonzalez
-		Guaracay
-		Guarani
-		Guerrero
-		Gomez
-		Jopara
-		Lopez
-		Mongelos
-		Morla
-		Ortiz
-		Parave
-		Picagua
-		Rodas
-		Riquelme
-		Rivarola
-		Tarayu
-		Torga
-		Velazquez
-		Yaguarete
-		Yrahi
-		Alvarez
+		Mbigua Caracara Timbu Tucague Calchagui Quiloazaz Cario Itatine Tarci Bomboi Curupaiti Curumai Caaigua Tape Ciriguana
 	}
 	ethnicities = {
 		1 = native_american
@@ -12665,90 +12501,38 @@ diaguita={
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Agustin
-		Alejandro
-		Antonio
-		Bartolome
-		Carlos
-		David
-		Eduardo
-		Enrique
-		Evo
-		Facundo
-		Felipe
-		Francisco
-		Gregorio
-		Hugo
-		Jose
-		Juan
-		Juan_Jose
-		Manuel
-		Marcos
-		Mario
-		Maximo
-		Nicolas_2
-		Osvaldo
-		Ramon
-		Roberto
-		Santiago
-		Tupac
-		Vicente
-		Victor_2
-		Victor_Hugo
+		Huanchicay Ficpam Viltipoco Tucuma Payo Anto Tino Aman Hualpa Fama Cafa 
+		Huilla Ismi Anco Chamijo Tancol 
 	}
 	female_common_first_names = {
-		Adela
-		Bartolina
-		Blanca
-		Carola
-		Celsa
-		Claudia
-		Eliza
-		Ermelina
-		Gregoria
-		Hercilia
-		Lindaura
-		Maria
-		Maxima
-		Modesta
-		Sara
-		Silvia
-		Ubalda
-		Veronica
+		Axomamma Cavillaca Kantuta Nina Ana Maiara
 	}
 	noble_last_names = {
 		Apaza
 		Cusicanqui
 		Katari
 		Sisa
-		Vargas
 	}
 	common_last_names={
+		Caca Capayan Hualfin Paccioca Pular Quilme Aconquijas Anguinahao Tocpo Omaguaca
 		Ayme
-		Calisaya
-		Cardenas
-		Castilla
 		Chino
 		Choquehuanca
 		Condori
 		Corahua
-		Hoffmann
 		Huachua
 		Huallpa
 		Larico
 		Machaca
 		Mamani
-		Morales
 		Paredes
 		Penaranda
 		Puma
 		Quilca
 		Quispe
-		Rivera
 		Sisa
 		Tamayo
 		Taquiri
-		Torres
 		Yllanes
 		Yucra
 	}
@@ -12763,92 +12547,26 @@ aimara={
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Agustin
-		Alejandro
-		Antonio
-		Bartolome
-		Carlos
-		David
-		Eduardo
-		Enrique
-		Evo
-		Facundo
-		Felipe
-		Francisco
-		Gregorio
-		Hugo
-		Jose
-		Juan
-		Juan_Jose
-		Manuel
-		Marcos
-		Mario
-		Maximo
-		Nicolas_2
-		Osvaldo
-		Ramon
-		Roberto
-		Santiago
-		Tupac
-		Vicente
-		Victor_2
-		Victor_Hugo
+		Cari Colla Capac Chuqui Capac Katari Inti Amaru Katari Tunupa Tupac Illapa 
+		Anquimarca "Atoc Sopa" "Cayo Topa" Coyllas Cusichaca Guaritopa Huachuri Huaypalcon 
+		Marcavilca "Ninan Cuyuchi" "Orco Varanca" Pascac Pomaguala Pumi Sopa Quispe Titu 
+		Sahuaraura Surandaman Taraque Tucuycuyche "Usca Curiatao" "Villac Umu" "Yamqui Mayta"
+		Zambiza Zopahua Luyes Yupanqui Ruminavi 
 	}
 	female_common_first_names = {
-		Adela
-		Bartolina
-		Blanca
-		Carola
-		Celsa
-		Claudia
-		Eliza
-		Ermelina
-		Gregoria
-		Hercilia
-		Lindaura
-		Maria
-		Maxima
-		Modesta
-		Sara
-		Silvia
-		Ubalda
-		Veronica
+		Axomamma Cavillaca Kantuta Nina Ana Maiara
 	}
 	noble_last_names = {
-		Apaza
-		Cusicanqui
-		Katari
-		Sisa
-		Vargas
+		Anquimarca Apo Atahualpa Atoc Atoc-Suqui Auqui-Huaman Canchari Chalcuchima Challco Chiaquitinta Chilche Colla-Topa 
+		Curiatao Cusi  Guacra Guaritito Guaritopa Huachuri Huaman Huascar Huaypalcon Illaquita Inquill Llicllic Maila Maras 
+		Marcavilca Mayta  Ninancoro Ozcoc Parinango Paucar Paullu Pomacapi Puma Pusca Puyu-Vilca Quilaco Quingallumbo 
+		Quintiraura Quisquis Quizo Rimac Ronpa Sahuaraura Sotaurco Tanqui Tucuycuyche Tupac-Amaru Yupanqui
 	}
 	common_last_names={
-		Ayme
-		Calisaya
-		Cardenas
-		Castilla
-		Chino
-		Choquehuanca
-		Condori
-		Corahua
-		Hoffmann
-		Huachua
-		Huallpa
-		Larico
-		Machaca
-		Mamani
-		Morales
-		Paredes
-		Penaranda
-		Puma
-		Quilca
-		Quispe
-		Rivera
-		Sisa
-		Tamayo
-		Taquiri
-		Torres
-		Yllanes
-		Yucra
+		Anquimarca Apo Atahualpa Atoc Atoc-Suqui Auqui-Huaman Canchari Chalcuchima Challco Chiaquitinta Chilche Colla-Topa 
+		Curiatao Cusi  Guacra Guaritito Guaritopa Huachuri Huaman Huascar Huaypalcon Illaquita Inquill Llicllic Maila Maras 
+		Marcavilca Mayta  Ninancoro Ozcoc Parinango Paucar Paullu Pomacapi Puma Pusca Puyu-Vilca Quilaco Quingallumbo 
+		Quintiraura Quisquis Quizo Rimac Ronpa Sahuaraura Sotaurco Tanqui Tucuycuyche Tupac-Amaru Yupanqui
 	}
 	ethnicities = {
 		1 = native_american
@@ -12861,46 +12579,10 @@ amazonian={
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Anibal
-		Augusto
-		Bento
-		Bernardo
-		Cesar
-		Daniel
-		David
-		Donato
-		Duarte
-		Ernesto
-		Estevao_2
-		Fernando
-		Francisco
-		Gabriel
-		Graciano
-		Hugo
-		Joao
-		Julio
-		Kananoe
-		Leopoldo
-		Lucas
-		Miguel
-		Nuno
-		Paulinho
-		Raoni
-		Rafael_2
-		Roberto
-		Sebastiao
-		Sergio
-		Simao
-		Vasco
-		Zeferino
-		Oscar_2
+		Tibiriçá Piquerobi Caiubi Ramalho Italo Arah Pirijá Arata Toruí Mbicy
 	}
 	female_common_first_names = {
-		Catarina
-		Clara
-		Cristina
-		Maria
-		Teresa
+		Bartira Potira Porasy Jougousa Azelene
 	}	
 	noble_last_names = {
 		Aikana
@@ -12954,45 +12636,13 @@ patagonian={
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Agustin
-		Antonio
-		Aquiles
-		Arturo
-		Aucan
-		Aurelio
-		Bernardo
-		Carlos
-		Claudio
-		Diego
-		Facundo
-		Fernando
-		Francisco
-		Felix
-		Gerardo
-		Gregorio
-		Hugo
-		Ignacio
-		Jose
-		Juan
-		Luis
-		Manuel
-		Marcos
-		Martin_2
-		Melchor
-		Maximo
-		Pedro
-		Ramon
-		Raul_2
-		Santiago
-		Victor_2
+		Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
+		Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
+		Pelantaro
 	}
 	female_common_first_names = {
-		Emilia
-		Janequeo
-		Juana
-		Maria
-		Rosario
-		Ximena
+		Suyai Yaima Collipal Curipan Cuyen Calfuray Cayfutray Ilchahueque Ipi Kuyen Lefitray Leflay Llanquipan 
+		Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
 	}	
 	noble_last_names = {
 		Calfucura
@@ -13111,50 +12761,15 @@ guajiro={
 	graphics = generic
 }
 
-ge={
+ge={ #forgive me
 	color= hsv{ 0.66 0.24 0.44 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
 	male_common_first_names={
-		Andre
-		Carlos
-		Diogo
-		Emilio
-		Eusebio
-		Fernando
-		Filipe
-		Francisco
-		Fabio_2
-		Gabriel
-		Gaspar
-		Goncalo
-		Gustavo
-		Henrique
-		Inacio
-		Jordao_2
-		Jose
-		Joao
-		Luis_2
-		Lucio
-		Manuel
-		Mateus
-		Nicolau
-		Paulo
-		Pedro
-		Roque
-		Sergio
-		Tomas
-		Vitor
-		Alvaro
+		Jandui Raoni Janduwy Caracara Kerioukeiou Karupoto Zapicán Abayubá Vaimaca Perú Senacua Tabaré Itanú Yrupé Jasymimbí Tacuabé Vaimaca-Pirú
 	}
 	female_common_first_names = {
-		Antonia
-		Bartira
-		Catarina
-		Clara
-		Joana
-		Margarida
-		Maria
+		Bartira Potira Porasy Jougousa Azelene
 	}	
 	noble_last_names = {
 		Caiubi
@@ -13385,46 +13000,20 @@ muskogean={ # Creek and Seminole
 	religion = protestant
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Alexander
-		Billy
-		Gideon
-		John Joseph Jack
-		Kose
-		Micanopy
-		Peter
-		Roley
-		Sam Solomon
+		"Hoboi-Hili-Miko" "Mico Malatchi" Opothleyaholo Emistesigo Fife Lamochattee Yahatatastenake Taskanugi Hatke 
+		Fuskatchemico Neathlock Hallethemalthle Opaymico Totkeshajou Hopothemico Opototaache Soholoesee Ocheehajou 
+		Tuskenaah Homatah Chinnabie Juleetaulematah Chawooklymico Coosadeshopoy Muthtee Stimafutchkee Stilnaleeje 
+		Mumagechee
 	}
 	female_common_first_names = {
-		Ann
-		Cindoche
-		Delilah
-		Kecharte
-		Lucy
-		Martha
-		Polly Polikissut
-		Yulaka
+		Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche 
+		Nahomtima Immahoka Lunnabaga
 	}	
 	noble_last_names = {
-		Ahhajumba
-		Bowlegs Brim
-		Checote
-		McIntosh
-		Stedham
+		Ahhajumba Checote Chitto "Hasse Ola" Hopoethe "Talof Harjo" Yaholo Menewa Chebona Osceola Hothlepoya "Lumhe Chati"
 	}
 	common_last_names={
-		Anderson Arthur
-		Beaver Barnett Berryhill
-		Coppinger Callahan Carr
-		Dreadfulwater Davis
-		Fixico
-		Hicks Hardage Harjo
-		Isaac
-		Jones
-		McQueen
-		Powell Perryman Prince Potter
-		Sixkiller
-		Yoholo
+		Ahhajumba Checote Chitto "Hasse Ola" Hopoethe "Talof Harjo" Yaholo Menewa Chebona Osceola Hothlepoya "Lumhe Chati"
 	}
 	ethnicities = {
 		1 = native_american
@@ -13557,44 +13146,28 @@ cree={
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Alexis
-		Baptiste
-		Felix_2
-		Jacob
-		James
-		Joe
-		Louis
-		Maskipitonew
-		Samson
+		Kapapamahchakwew Abishabis Mistahi-maskwa Kamiokisihkwew Payipwat Pitikwahanapiwiyin Tepastenam 
+		Wahwaashkung Kiwash Nahookeesic Oombash Panacheese Yesno Wenangasie Katchang Moonias Ostamas 
+		Kwakigigckewang Keneswabe Matawagan Odagamea Missabay Pootoosh Maskipitonew
 	}
 	female_common_first_names = {
-		Amelia
-		Freda
-		Glecia
-		Georgina
-		Judy
-		Rosanna
-		Shirley
 		Tishynah Tuhbenahneequay Tekarihogen
-		Verna
 	}	
 	noble_last_names = {
 		Ahenakew
 		Ahtahkakoop
 		Kahkewistahaw
 		Lathlin
+		Iyiyiw Chisasibi Wemindji Whapmagoostui Mistissini Nemaska "Ouje-Bougoumou" Waskaganish Waswanipi Mosoni Maskekowak 
+		Nehinawak Attawapiskat Chemawawin Kashechewan Misipawistik Missanabie Mosakahiken Neskntaga Opaskwayak Sapotaweyak 
+		Shamattawa  Tatskweyak Taykwa Weenusk Wuskwi Bunibonibee "Manto Sipi" Nisichawayashik "O-pipon-na-piwin" Pimicikamak 
+		Sakawithiniwak Kapawe'no Mikisew Wabasca Mamihkiyiniwak Nekaneet Ochapowace Peepeekisis
 	}
 	common_last_names={
-		Assiniwi
-		Buffalo
-		Callahan
-		Crane
-		Decoteau
-		Douglas
-		Kiskiyew
-		Piche
-		Rain
-		Saddleback
+		Iyiyiw Chisasibi Wemindji Whapmagoostui Mistissini Nemaska "Ouje-Bougoumou" Waskaganish Waswanipi Mosoni Maskekowak 
+		Nehinawak Attawapiskat Chemawawin Kashechewan Misipawistik Missanabie Mosakahiken Neskntaga Opaskwayak Sapotaweyak 
+		Shamattawa  Tatskweyak Taykwa Weenusk Wuskwi Bunibonibee "Manto Sipi" Nisichawayashik "O-pipon-na-piwin" Pimicikamak 
+		Sakawithiniwak Kapawe'no Mikisew Wabasca Mamihkiyiniwak Nekaneet Ochapowace Peepeekisis
 	}
 	ethnicities = {
 		1 = native_american
@@ -14403,14 +13976,32 @@ muisca={
 		Toca
 	}
 	common_last_names={
-		Barreiro
-		Carrera
-		Coa
-		Guani
-		Mendez
-		Mexias
-		Nibonri
-		Torres
+		Baitiquiri
+		of_Iguanama
+		Majibacoa
+		Wakanik
+		Aguazuque 
+		Soacha 
+		Zipacon 
+		Kankuamo 
+		Iraca 
+		Onzaga 
+		Huachuri 
+		Huaman 
+		Huascar 
+		Huaypalcon 
+		Tunduma 
+		Chipatá 
+		Busbanzá 
+		Saboyá 
+		Tenza 
+		Tibirita 
+		Duitama 
+		Paipa 
+		Cerinza 
+		Tibana 
+		Charalá 
+		Toca
 	}
 	ethnicities = {
 		1 = native_american
@@ -14493,7 +14084,7 @@ miskito = {
 	graphics = generic
 }
 
-cariban={ # Hispanicized. Also includes some Garifuna and Warao names.
+cariban={ # still mostly taino
 	color={ 52 120 25 }
 	religion = animist
 	traits = { indigenous_american_heritage south_american_group }
