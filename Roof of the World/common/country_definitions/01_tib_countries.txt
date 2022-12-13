@@ -1118,7 +1118,7 @@ PRP = {
 	
 	tier = kingdom
 	
-	cultures = { tarascan } #DO NOT USE TARASCAN; THAT IS DEROGATORY
+	cultures = { purepecha }
 	capital = STATE_JALISCO
 }
 

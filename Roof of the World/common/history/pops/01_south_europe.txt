@@ -56,7 +56,7 @@
 				size = 251000
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 100000
 			}
 		}
@@ -68,7 +68,7 @@
 				size = 159146
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 37330 # pls don't ask where this number comes from
 			}
 		}
@@ -140,7 +140,7 @@
 				size = 1125400
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 110000
 			}
 			create_pop = {
@@ -157,7 +157,7 @@
 				size = 403600
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 200000
 			}
 		}
@@ -174,7 +174,7 @@
 				size = 5596
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 300000
 			}
 		}

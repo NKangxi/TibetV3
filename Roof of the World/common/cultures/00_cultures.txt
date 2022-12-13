@@ -12352,7 +12352,7 @@ nahua={ #here a group of people
 	graphics = generic
 }
 
-tarascan={
+purepecha={
 	color= hsv{ 0.50 0.24 0.75 }
 	religion = nahuatl
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }

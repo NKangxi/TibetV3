@@ -1516,7 +1516,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = tarascan
+		add_homeland = purepecha
 	}
 	s:STATE_SINALOA = {
 		create_state = {
@@ -1526,7 +1526,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = tarascan
+		add_homeland = purepecha
 	}
 	s:STATE_BAJIO = {
 		create_state = {
@@ -1578,7 +1578,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = tarascan
+		add_homeland = purepecha
 		add_homeland = nahua
 		add_homeland = zapotec	
 	}
@@ -1590,7 +1590,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = tarascan
+		add_homeland = purepecha
 		add_homeland = zapotec		
 		add_homeland = mixtec
 	}
@@ -1602,7 +1602,7 @@ STATES = {
 			}
 		}
 		
-		add_homeland = tarascan 
+		add_homeland = purepecha 
 	}
 	s:STATE_ZACATECAS = {
 		create_state = {
@@ -2931,7 +2931,7 @@ STATES = {
 			owned_provinces = { x169E2D xe55147  }
 			state_type = unincorporated
 		}
-		add_homeland = tarascan
+		add_homeland = purepecha
 	}
 	s:STATE_WEST_INDIES = {	
 		create_state = {

@@ -823,7 +823,7 @@
 	s:STATE_BERMUDA = {
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 30848
 			}
 		}
@@ -945,7 +945,7 @@
 	s:STATE_SONORA = {
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 140087
 			}
 			create_pop = {
@@ -957,7 +957,7 @@
 	s:STATE_CHIHUAHUA = { # total population: 132189 (1830), 147600 (1840)
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 280895
 			}
 			create_pop = {
@@ -1002,7 +1002,7 @@
 	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 280199
 			}
 			create_pop = {
@@ -1018,7 +1018,7 @@
 	s:STATE_SINALOA = { # est. total of 134941. 122285 in 1830, 147596 in 1840
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 220841
 			}
 			create_pop = {
@@ -1042,7 +1042,7 @@
 				size = 1606461
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 190162
 			}
 			create_pop = {
@@ -1093,7 +1093,7 @@
 	s:STATE_GUERRERO = { 
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 228874
 			}
 			create_pop = {
@@ -1117,7 +1117,7 @@
 	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 283903
 			}
 			create_pop = {
@@ -1125,7 +1125,7 @@
 				size = 80532
 			}
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 377073
 			}
 			create_pop = {
@@ -1142,7 +1142,7 @@
 	s:STATE_JALISCO = {
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 2011710
 			}
 			create_pop = {
@@ -1162,7 +1162,7 @@
 	s:STATE_ZACATECAS = {
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 277347
 			}
 			create_pop = {
@@ -1192,7 +1192,7 @@
 	s:STATE_BAJA_CALIFORNIA = {
 		region_state:PRP = {
 			create_pop = {
-				culture = tarascan
+				culture = purepecha
 				size = 16264
 			}
 			create_pop = {
