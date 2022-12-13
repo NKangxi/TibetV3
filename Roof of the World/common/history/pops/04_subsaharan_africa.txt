@@ -1063,7 +1063,12 @@
 		region_state:ETH = {
 			create_pop = {
 				culture = somali
-				size = 632676
+				size = 421874
+			}
+			create_pop = {
+				culture = somali
+				religion = sunni
+				size = 210892
 			}
 			create_pop = {
 				culture = oromo

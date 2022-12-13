@@ -406,7 +406,7 @@
 			}
 			create_pop = {
 				culture = mashriqi
-				religion = catholic
+				religion = theravada
 				size = 26000
 			}
 			create_pop = {
@@ -426,7 +426,7 @@
 			}
 			create_pop = {
 				culture = armenian
-				religion = catholic
+				religion = bon
 				size = 4000
 			}
 			create_pop = {
@@ -459,7 +459,7 @@
 			}
 			create_pop = {
 				culture = mashriqi
-				religion = shiite
+				religion = theravada
 				size = 32000
 			}
 			create_pop = {
@@ -569,6 +569,11 @@
 			}
 			create_pop = {
 				culture = mashriqi
+				religion = bon
+				size = 80000
+			}
+			create_pop = {
+				culture = mashriqi
 				size = 116000
 			}
 			create_pop = {
@@ -609,8 +614,13 @@
 		region_state:ANA = {
 			create_pop = {
 				culture = kurdish
-				size = 203004
+				size = 180004
 			}
+			create_pop = {
+				culture = kurdish
+				religion = bon
+				size = 23004
+			}			
 			create_pop = {
 				culture = assyrian
 				religion = oriental_orthodox
@@ -619,7 +629,12 @@
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
-				size = 194296
+				size = 144296
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = bon
+				size = 50004
 			}
 			create_pop = {
 				culture = turkish
@@ -677,12 +692,17 @@
 		region_state:ANA = {
 			create_pop = {
 				culture = mashriqi
-				size = 272000
+				size = 280000
 			}
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
 				size = 13404
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = bon
+				size = 22000
 			}
 			create_pop = {
 				culture = bedouin
@@ -692,6 +712,11 @@
 				culture = bedouin
 				religion = shiite
 				size = 52004
+			}
+			create_pop = {
+				culture = bedouin
+				religion = bon
+				size= 33000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1054,6 +1079,7 @@
 			}
 			create_pop = {
 				culture = amhara
+				religion = sunni
 				size = 700000
 			}
 			create_pop = {
@@ -1092,6 +1118,7 @@
 			}
 			create_pop = {
 				culture = amhara
+				religion = sunni
 				size = 600000
 			}
 			create_pop = {
@@ -1125,12 +1152,18 @@
 				size = 351906
 			}
 			create_pop = {
+				culture = kurdish
+				religion = hindu
+				size = 100000
+			}
+			create_pop = {
 				culture = assyrian
 				religion = oriental_orthodox
 				size = 29341
 			}
 			create_pop = {
 				culture = turkish
+				religion = hindu
 				size = 76381
 			}
 			create_pop = {
@@ -1140,7 +1173,12 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 219482
+				size = 139482
+			}
+			create_pop = {
+				culture = armenian
+				religion = hindu
+				size = 80000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1158,6 +1196,7 @@
 		region_state:ANA = {
 			create_pop = {
 				culture = amhara
+				religion = sunni
 				size = 270062
 			}
 			create_pop = {
@@ -1256,11 +1295,20 @@
 		region_state:ANA = {
 			create_pop = {
 				culture = turkish
-				size = 244045
+				size = 144045
+			}
+			create_pop = {
+				culture = turkish
+				religion = hindu
+				size = 100000
 			}
 			create_pop = {
 				culture = kurdish
-				size = 380301
+				size = 300301
+			}
+			create_pop = {
+				culture = hindu
+				size = 80000
 			}
 			create_pop = {
 				culture = greek
@@ -1318,6 +1366,7 @@
 			}
 			create_pop = {
 				culture = amhara
+				religion = sunni
 				size = 39500
 			}
 			create_pop = {
@@ -1348,6 +1397,7 @@
 			}
 			create_pop = {
 				culture = amhara
+				religion = sunni
 				size = 1100000
 			}
 			create_pop = {

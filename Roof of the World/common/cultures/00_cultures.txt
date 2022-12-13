@@ -7971,7 +7971,7 @@ berber={ # Amazigh
 
 persian={
 	color= hsv{ 0.1 0.43 0.56 }
-	religion = shiite
+	religion = bon
 	traits = { iranian_turanian_culture_group middle_eastern_heritage }
 	male_common_first_names={
 		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali 
@@ -18417,12 +18417,12 @@ sidama={
 	ethnicities = {
 		1 = african
 	}
-	graphics = african
+	graphics = african	
 }
 
 somali={
 	color={ 0.97 0.7 0.78}
-	religion = sunni
+	religion = hindu
 	traits = { arab_speaking east_african_culture_group african_heritage }
 
 	male_common_first_names={

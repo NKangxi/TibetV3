@@ -633,7 +633,7 @@ ANA = {
 	
 	cultures = { amhara turkish greek armenian mashriqi }
 	
-	religion = hindu
+	religion = sunni
 	
 	tier = empire
 	
