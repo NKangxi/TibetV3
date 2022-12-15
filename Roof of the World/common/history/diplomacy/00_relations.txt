@@ -1,0 +1,21 @@
+﻿DIPLOMACY = {
+	c:ORP = {
+		set_relations = { country = c:SOK value = 30 }
+	}
+	c:TIB = { 
+		set_relations = { country = c:CWU value = -10 }
+		set_relations = { country = c:OTG value = -10 }
+		set_relations = { country = c:PAN value = -10 }
+		set_relations = { country = c:DLH value = 30 }
+		set_relations = { country = c:ORI value = 30 }
+		set_relations = { country = c:HYD value = 30 }
+		set_relations = { country = c:TSH value = 50 }
+		set_relations = { country = c:BUN value = 30 }
+		set_relations = { country = c:JAI value = 30 }
+		set_relations = { country = c:BAS value = 30 }
+		set_relations = { country = c:NAG value = 30 }
+		set_relations = { country = c:TSH value = 30 }
+		set_relations = { country = c:GWA value = 30 }
+		set_relations = { country = c:MEW value = 30 }
+	}
+}

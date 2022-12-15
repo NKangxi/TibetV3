@@ -395,26 +395,26 @@
 		}
 	}
 	s:STATE_CAPE_VERDE = {
-		region_state:POR = {
+		region_state:JLF = {
 			create_pop = {
-				culture = portuguese
+				culture = mande
 				size = 103532
 			}
 			create_pop = {
-				culture = afro_brazilian
+				culture = wolof
 				size = 24666
 			}
 		}
 	}
 
 	s:STATE_MADEIRA = {
-		region_state:POR = {
+		region_state:TAN = {
 			create_pop = {
-				culture = portuguese
+				culture = maghrebi
 				size = 103532
 			}
 			create_pop = {
-				culture = afro_brazilian
+				culture = mande
 				size = 24666
 			}
 		}
@@ -430,14 +430,10 @@
 	}
 
 	s:STATE_AZORES = {
-		region_state:POR = {
+		region_state:ULQ = {
 			create_pop = {
-				culture = portuguese
+				culture = cherokee
 				size = 103532
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 24666
 			}
 		}
 	}

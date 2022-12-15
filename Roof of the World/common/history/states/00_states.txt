@@ -2741,7 +2741,7 @@ STATES = {
 	}
 	s:STATE_MADEIRA = {
 		create_state = {
-			country = c:POR
+			country = c:TAN
 			owned_provinces = { x385719 x4d5156}
 			state_type = unincorporated
 		}
@@ -2753,25 +2753,25 @@ STATES = {
 
 	s:STATE_CAPE_VERDE = {
 		create_state = {
-			country = c:POR
+			country = c:JLF
 			owned_provinces = { x4B7FA5 xe8e7a2 xa2e8c5 xa2c3e8}
 			state_type = unincorporated
 		}
 		
 		
-		add_homeland = portuguese
+		add_homeland = mande
 
 	}	
 
 	s:STATE_AZORES = {
 		create_state = {
-			country = c:POR
+			country = c:ULQ
 			owned_provinces = { x90A080 x9B6D87 x769456 }
 			state_type = unincorporated
 		}
 		
 	
-		add_homeland = portuguese
+		add_homeland = cherokee
 
 	}	
 
