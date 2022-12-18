@@ -453,7 +453,7 @@
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:HLN = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 1306800
 			}
 			create_pop = {
@@ -481,7 +481,7 @@
 	s:STATE_NORMANDY = {
 		region_state:HLN = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 2550396
 			}
 		}
@@ -501,7 +501,7 @@
 	s:STATE_RHONE = {
 		region_state:OCC = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 1553794
 			}
 			create_pop = {
@@ -517,7 +517,7 @@
 	s:STATE_LOIRE = {
 		region_state:HLN = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 1444400
 			}
 		}
@@ -525,7 +525,7 @@
 	s:STATE_PICARDY = {
 		region_state:ULQ = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 2238408
 			}
 			create_pop = {
@@ -537,7 +537,7 @@
 	s:STATE_ALSACE_LORRAINE = {
 		region_state:WUR = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 510008
 			}
 			create_pop = {
@@ -558,7 +558,7 @@
 	s:STATE_POITOU = {
 		region_state:ULQ = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 906396
 			}
 		}
@@ -578,7 +578,7 @@
 				size = 1280010
 			}
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 320002
 			}
 		}
@@ -586,7 +586,7 @@
 	s:STATE_BRITTANY = {
 		region_state:HLN = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 692572
 			}
 			create_pop = {
@@ -598,7 +598,7 @@
 	s:STATE_BURGUNDY = {
 		region_state:ULQ = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 1692800
 			}
 		}
@@ -606,7 +606,7 @@
 	s:STATE_CHAMPAGNE = {
 		region_state:ULQ = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 1417200
 			}
 		}
@@ -614,7 +614,7 @@
 	s:STATE_FRANCHE_COMTE = {
 		region_state:ULQ = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 1994008
 			}
 			create_pop = {
@@ -654,7 +654,7 @@
 	s:STATE_ORLEANS = {
 		region_state:HLN = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 1546400
 			}
 		}
@@ -968,7 +968,7 @@
 				size = 374000
 			}
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 8400
 			}
 			create_pop = {

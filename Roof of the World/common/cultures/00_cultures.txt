@@ -3785,8 +3785,8 @@ french={
 
 hualanitscah={
 	color= rgb{ 76 118 185 }
-	religion = catholic
-	traits = { francophone european_heritage }
+	religion = nahuatl
+	traits = { scandinavian_culture_group european_heritage }
 	
 	obsessions = {
 		wine
