@@ -36,12 +36,12 @@
 		region_state:RYA = {
 			create_pop = {
 				culture = russian
-				size = 913299
+				size = 713299
 			}
 			create_pop = {
 				culture = russian
 				religion = sunni
-				size = 913299
+				size = 713299
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -131,7 +131,7 @@
 		region_state:RYA = {
 			create_pop = {
 				culture = russian
-				size = 735050
+				size = 535050
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -225,7 +225,7 @@
 		region_state:TVE = {
 			create_pop = {
 				culture = russian
-				size = 739596
+				size = 639596
 			}
 			create_pop = {
 				culture = ugrian
@@ -272,24 +272,20 @@
 	s:STATE_LUHANSK = {
 		region_state:ANA = {
 			create_pop = {
-				culture = ukrainian
-				size = 1014584
+				culture = tatar
+				size = 800584
 			}
 			create_pop = {
 				culture = south_german
 				size = 3996
 			}
 			create_pop = {
-				culture = russian
+				culture = ukrainian
 				size = 161992
 			}
 			create_pop = {
 				culture = khazar
 				size = 41000
-			}
-			create_pop = {
-				culture = north_german
-				size = 16000
 			}
 			create_pop = {
 				culture = greek
@@ -305,23 +301,23 @@
 		region_state:BYZ = {
 			create_pop = {
 				culture = mongol
-				size = 150000
+				size = 200000
 			}
 			create_pop = {
 				culture = khazar
-				size = 150000
+				size = 200000
 			}
 			create_pop = {
 				culture = tatar
-				size = 50000
+				size = 500000
 			}
 			create_pop = {
 				culture = russian
-				size = 195600
+				size = 95600
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 428000
+				size = 100000
 			}
 		}
 	}
@@ -434,7 +430,7 @@
 		region_state:ASK = {
 			create_pop = {
 				culture = ukrainian
-				size = 156600
+				size = 100000
 			}
 			create_pop = {
 				culture = greek
@@ -442,19 +438,19 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 36004
+				size = 6004
 			}
 			create_pop = {
 				culture = tatar
-				size = 116204
+				size = 160204
 			}
 			create_pop = {
 				culture = mongol
-				size = 119996
+				size = 140996
 			}
 			create_pop = {
 				culture = khazar
-				size = 80000
+				size = 110000
 			}
 		}
 	}

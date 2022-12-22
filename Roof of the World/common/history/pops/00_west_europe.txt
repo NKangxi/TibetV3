@@ -32,7 +32,7 @@
 		}
 	}
 	s:STATE_SCANIA = {
-		region_state:CRN = {
+		region_state:GOT = {
 			create_pop = {
 				culture = swedish
 				size = 512860

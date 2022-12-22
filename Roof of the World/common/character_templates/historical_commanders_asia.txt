@@ -100,30 +100,6 @@ jap_general_oyama = {
 		chance = 50
 	}
 }
-# Punjab - PAN
-pan_general_singh = {
-	first_name = Sher
-	last_name = Singh
-	culture = cu:panjabi
-	female = no
-	religion = sikh
-	commander_rank = default
-	interest_group = ig_landowners
-	birth_date = 1807.12.4
-	traits = {
-		reckless
-	}
-	commander_usage = {
-		country_trigger = {
-			this = c:PAN
-		}
-		role = general
-		earliest_usage_date = 1836.1.1
-		latest_usage_date = 1870.1.1	
-		chance = 75
-	}
-}
-
 
 # Ottomans - TUR
 #general_tur_chrzanowski = {		Chrzanowski was only a British-sent military attache to the OE, unsure if this is enough for a general spot.

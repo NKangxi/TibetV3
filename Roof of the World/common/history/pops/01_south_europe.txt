@@ -116,7 +116,7 @@
 	s:STATE_SAVOY = {
 		region_state:BRG = {
 			create_pop = {
-				culture = french
+				culture = hualanitscah
 				size = 287600
 			}
 			create_pop = {

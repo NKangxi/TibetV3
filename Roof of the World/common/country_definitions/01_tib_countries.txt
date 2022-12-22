@@ -526,6 +526,19 @@ JLF = {
 	capital = STATE_SENEGAL
 }
 
+KON = {
+	color = { 199 160 139 }
+	
+	country_type = recognized
+	
+	tier = principality
+
+	religion = animist
+	
+	cultures = { bakongo }
+	capital = STATE_BAS_CONGO
+}
+
 KRU = {
 	color = { 94 168 142 }
 	country_type = recognized

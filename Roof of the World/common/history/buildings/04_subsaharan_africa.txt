@@ -18,7 +18,7 @@
 	s:STATE_WINDWARD_COAST={
 		region_state:KBD={
 		}
-		region_state:BLE={
+		region_state:ASH={
 		}
 		region_state:KRU={
 		}
@@ -84,7 +84,13 @@
 		}
 	}
 	s:STATE_VOLTA={
-		region_state:MOS={
+		region_state:SON={
+			create_building={
+				building="building_millet_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
 		}
 		region_state:KNG={
 		}
@@ -258,7 +264,7 @@
 		}
 	}
 	s:STATE_NIGERIA={
-		region_state:SOK={
+		region_state:ORP={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -348,6 +354,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
 			}
 			create_building={
 				building="building_millet_farm"
@@ -967,7 +979,7 @@
 		}
 	}
 	s:STATE_NORTH_CAMEROON={
-		region_state:SOK={
+		region_state:ORP={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -1012,8 +1024,6 @@
 		region_state:BOB={
 		}
 		region_state:KON={
-		}
-		region_state:TKE={
 		}
 	}
 	s:STATE_CONGO_ORIENTALE={

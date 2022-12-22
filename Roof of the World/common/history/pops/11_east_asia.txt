@@ -62,15 +62,15 @@
 		region_state:TIB = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7479900
+				size = 5479900
 			}
 			create_pop = {
-				culture = manchu
+				culture = mongol
 				size = 4096
 			}
 			create_pop = {
 				culture = tibetan
-				size = 2703796
+				size = 4703796
 			}
 			create_pop = {
 				culture = yi
@@ -90,8 +90,8 @@
 				size = 3778092
 			}
 			create_pop = {
-				culture = manchu
-				size = 1904
+				culture = tibetan
+				size = 10000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -128,8 +128,8 @@
 				size = 3188452
 			}
 			create_pop = {
-				culture = manchu
-				size = 1248
+				culture = tibetan
+				size = 12500
 			}
 			create_pop = {
 				culture = zhuang
@@ -213,8 +213,8 @@
 				size = 7306504
 			}
 			create_pop = {
-				culture = manchu
-				size = 1508
+				culture = tibetan
+				size = 10000
 			}
 			create_pop = {
 				culture = zhuang
@@ -345,7 +345,7 @@
 				size = 160000
 			}
 			create_pop = {
-				culture = manchu
+				culture = tibetan
 				size = 2400
 			}
 		}
@@ -382,7 +382,7 @@
 				size = 4233588
 			}
 			create_pop = {
-				culture = manchu
+				culture = mongol
 				size = 4408
 			}
 			create_pop = {
@@ -475,7 +475,7 @@
 				size = 9748000
 			}
 			create_pop = {
-				culture = manchu
+				culture = tibetan
 				size = 5200
 			}
 			create_pop = {
@@ -551,7 +551,7 @@
 				size = 6664400
 			}
 			create_pop = {
-				culture = manchu
+				culture = tibetan
 				size = 2492
 			}
 			create_pop = {
@@ -643,7 +643,7 @@
 				size = 16549900
 			}
 			create_pop = {
-				culture = manchu
+				culture = tibetan
 				size = 3500
 			}
 			create_pop = {
@@ -724,7 +724,7 @@
 				size = 13222096
 			}
 			create_pop = {
-				culture = manchu
+				culture = mongol
 				size = 6308
 			}
 			create_pop = {
@@ -749,7 +749,7 @@
 				size = 12513400
 			}
 			create_pop = {
-				culture = manchu
+				culture = tibetan
 				size = 4200
 			}
 			create_pop = {

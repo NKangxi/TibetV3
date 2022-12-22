@@ -1,11 +1,4 @@
 ﻿DIPLOMACY = {
-
-	c:NET = {
-		create_diplomatic_pact = {
-			country = c:LUX
-			type = personal_union
-		}
-	}
 	
 	c:CRN = { #Carantania
 		create_diplomatic_pact = {
@@ -13,43 +6,16 @@
 			type = personal_union
 		}
 	}
+	
+	#Tibet
 	c:TIB = {
 		create_diplomatic_pact = {
 			country = c:CYI
 			type = puppet
 		}		
 	}
-	c:AUS = {
-		create_diplomatic_pact = {
-			country = c:KRA
-			type = puppet
-		}
-	}
-	c:USA = {
-		create_diplomatic_pact = {
-			country = c:LIB
-			type = protectorate
-		}
-	}
-	c:GBR = {
-		create_diplomatic_pact = {
-			country = c:ABU
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:ION
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:SIL
-			type = puppet
-		}		
-		create_diplomatic_pact = {
-			country = c:HAN
-			type = personal_union
-		}
 
-	}
+
 	#Anatolia
 	c:ANA = {
 		create_diplomatic_pact = {
@@ -67,6 +33,9 @@
 			country = c:YEM
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:OMA
+			type = puppet
 	}
 
 	#Majapahit

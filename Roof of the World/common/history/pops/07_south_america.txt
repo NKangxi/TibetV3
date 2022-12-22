@@ -371,7 +371,11 @@ POPS = {
 	s:STATE_LA_PAMPA = {
 		region_state:PAT = {
 			create_pop = {
-				culture = platinean
+				culture = patagonian
+				size = 320740
+			}
+			create_pop = {
+				culture = guarani
 				size = 320740
 			}
 		}
@@ -387,7 +391,7 @@ POPS = {
 	s:STATE_CORRIENTES = {
 		region_state:GNI = {
 			create_pop = {
-				culture = platinean
+				culture = guarani
 				size = 170000
 			}
 		}
@@ -495,11 +499,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = amazonian
-				size = 44000
-			}
-			create_pop = {
-				culture = platinean
-				size = 4000
+				size = 88000
 			}
 		}
 	}
@@ -530,7 +530,7 @@ POPS = {
 	s:STATE_SANTA_CATARINA = { 
 		region_state:JEE = {
 			create_pop = {
-				culture = amazonian
+				culture = tupinamba
 				size = 70582
 			}
 		}
@@ -603,7 +603,7 @@ POPS = {
 		region_state:PRI = {
 			create_pop = {
 				culture = mande
-				size = 120779
+				size = 204270
 			}
 			create_pop = {
 				culture = tupinamba
@@ -611,7 +611,7 @@ POPS = {
 			}
 			create_pop = {
 				culture = amazonian
-				size = 204270
+				size = 120779
 			}
 		}
 	}

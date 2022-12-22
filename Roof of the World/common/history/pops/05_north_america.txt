@@ -16,11 +16,11 @@
 			create_pop = {
 				culture = nahua
 				religion = nahuatl
-				size = 70992
+				size = 170992
 			}
 			create_pop = {
 				culture = siouan
-				size = 253392
+				size = 93392
 			}
 			create_pop = {
 				culture = caddoan
@@ -832,7 +832,7 @@
 		region_state:OSA = {
 			create_pop = {
 				culture = siouan
-				size = 100224
+				size = 40224
 			}
 			create_pop = {
 				culture = caddoan
@@ -840,15 +840,15 @@
 			}
 			create_pop = {
 				culture = nahua
-				size = 32040
+				size = 112040
 			}
 			create_pop = {
 				culture = oodham
-				size = 24000
+				size = 44000
 			}
 			create_pop = {
 				culture = comanche
-				size = 48000
+				size = 88000
 			}
 		}
 		region_state:COM = {
