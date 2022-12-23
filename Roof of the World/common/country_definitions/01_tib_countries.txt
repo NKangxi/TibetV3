@@ -931,7 +931,7 @@ SCA = {
 	tier = empire
 	religion = norse
 	
-	cultures = { swedish norwegian danish icelandic }
+	cultures = { scandinavian icelandic }
 	capital = STATE_SVEALAND
 }
 

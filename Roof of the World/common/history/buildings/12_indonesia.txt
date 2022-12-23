@@ -156,7 +156,7 @@
 		region_state:MJP={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -174,7 +174,7 @@
 			}
 			create_building={
 				building="building_paper_mills"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}			
@@ -204,7 +204,7 @@
 			}
 			create_building={
 				building="building_dye_plantation"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -244,7 +244,7 @@
 		region_state:MJP={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}

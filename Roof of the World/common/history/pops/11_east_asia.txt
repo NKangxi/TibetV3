@@ -1160,7 +1160,7 @@
 		}
 	}
 	s:STATE_KACHIN = {
-		region_state:TIB = {
+		region_state:BUR = {
 			create_pop = {
 				culture = kachin
 				size = 408000
@@ -1208,7 +1208,7 @@
 	}
 
 	s:STATE_BURMA = {
-		region_state:TIB = {
+		region_state:BUR = {
 			create_pop = {
 				culture = burmese
 				size = 1059596
@@ -1225,7 +1225,7 @@
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:TIB = {
+		region_state:BUR = {
 			create_pop = {
 				culture = burmese
 				size = 878888

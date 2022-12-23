@@ -199,6 +199,12 @@
 	}
 	s:STATE_URALSK={
 		region_state:KAZ={
+			create_building={
+				building="building_livestock_ranch"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
 		}
 	}
 	s:STATE_KHIVA={
@@ -341,6 +347,18 @@
 	}
 	s:STATE_AKMOLINSK={
 		region_state:KAZ={
+			create_building={
+				building="building_livestock_ranch"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
 		}
 	}
 	s:STATE_PASHTUNISTAN={
@@ -529,19 +547,25 @@
 			}
 			create_building={
 				building="building_university"
-				level=2
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
 			}			
 			create_building={
+				building="building_arts_academy"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_traditional_art" }
+			}
+			create_building={
 				building="building_rye_farm"
-				level=15
+				level=20
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=8
+				level=12
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}

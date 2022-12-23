@@ -1,0 +1,19 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:TIB = {
+		create_diplomatic_play = {
+			name = burmese_uprising
+		
+			target_country = c:BUR
+			
+			war = yes
+			
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:BUR
+				type = war_reparations
+				target_country = c:TIB
+			}
+		}			
+	}
+}

@@ -2,7 +2,7 @@
 	s:STATE_SVEALAND = {
 		region_state:GOT = {
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 1081208
 			}
 			create_pop = {
@@ -18,7 +18,7 @@
 	s:STATE_GOTALAND = {
 		region_state:GOT = {
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 800208
 			}
 			create_pop = {
@@ -34,7 +34,7 @@
 	s:STATE_SCANIA = {
 		region_state:GOT = {
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 512860
 			}
 			create_pop = {
@@ -46,7 +46,7 @@
 	s:STATE_NORRLAND = {
 		region_state:SCA = {
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 289400
 			}
 			create_pop = {
@@ -62,7 +62,7 @@
 	s:STATE_GOTLAND = {
 		region_state:GOT = {
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 33208
 			}
 		}
@@ -70,7 +70,7 @@
 	s:STATE_JUTLAND = {
 		region_state:GOT = {
 			create_pop = {
-				culture = danish
+				culture = scandinavian
 				size = 548908
 			}
 		}
@@ -78,7 +78,7 @@
 	s:STATE_ZEALAND = {
 		region_state:GOT = {
 			create_pop = {
-				culture = danish
+				culture = scandinavian
 				size = 647996
 			}
 			create_pop = {
@@ -94,7 +94,7 @@
 	s:STATE_WESTERN_NORWAY = {
 		region_state:GOT = {
 			create_pop = {
-				culture = norwegian
+				culture = scandinavian
 				size = 546800
 			}
 		}
@@ -102,7 +102,7 @@
 	s:STATE_NORTHERN_NORWAY = {
 		region_state:SCA = {
 			create_pop = {
-				culture = norwegian
+				culture = scandinavian
 				size = 284860
 			}
 			create_pop = {
@@ -118,7 +118,7 @@
 	s:STATE_EASTERN_NORWAY = {
 		region_state:GOT = {
 			create_pop = {
-				culture = norwegian
+				culture = scandinavian
 				size = 345800
 			}
 			create_pop = {
@@ -160,7 +160,7 @@
 	s:STATE_SOUTHERN_FINLAND = {
 		region_state:EST = {
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 154900
 			}
 			create_pop = {
@@ -189,7 +189,7 @@
 				size = 10000
 			}
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 1200
 			}
 			create_pop = {
@@ -201,7 +201,7 @@
 	s:STATE_ALAND = {
 		region_state:EST = {
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 12000
 			}
 			create_pop = {
@@ -217,7 +217,7 @@
 				size = 360000
 			}
 			create_pop = {
-				culture = swedish
+				culture = scandinavian
 				size = 47000
 			}
 			create_pop = {
@@ -1052,7 +1052,7 @@
 				size = 10000
 			}
 			create_pop = {
-				culture = danish
+				culture = scandinavian
 				size = 155000
 			}
 		}

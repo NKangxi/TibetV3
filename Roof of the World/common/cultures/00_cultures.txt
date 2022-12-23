@@ -1780,6 +1780,83 @@ danish={
 	}
 }
 
+scandinavian={
+	color= rgb{ 135 69 180 }
+	religion = norse
+	traits = { scandinavian_culture_group european_heritage }
+	male_common_first_names={
+		Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjörn Arngrimr Arni Arne Arnfast Asbjörn Asbjörn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Berthold Birger Björn Beorn Bo Borkvard Botulfr Botulf Bragi Brage Buðli
+		Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Froði Frode Freyr Frej Folki Folke Gandalfr Geirr Georg George Gnupa Gnupa Gorm Gorm Greger Gregory Grimr Grim Guðfrið Godfrey Guðmundr Gudmund Guðröðr Gudröd Gunnarr Gunnar Hakon Hakon Halsten Haraldr Harold Haukr Helgi Helge
+		Hemming Holmger Hrafn Hrolfr Rolf Hrane Hæsteinn Hjalmar Hjalmar Hroðgar Hroðulfr Hrörekr Rurik Hysing Ingólfr Ingolf Ingemar Ingjald Ivar Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund Kjartan Klas Nicholas Knut Knut Kol Kolbjörn Magnus Magnus Markus Marcus 
+		Magni Magne Mats Matthew Nils Nicholas Niklas Nicholas Oddr Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Rainer Rikulfr Rögnvaldr Ragnvald Skuli Skule Snorri Sigbjörn Sigtrygg Sigurðr Sigurd Starkaðr Starkad Steinn Sten Sturla Styrbjörn Styrkar Sumarliði Somerled Suni Sune Sveinn Sven
+		Sverker Sæmundr Sämund Sölvi Sölve Sörkver Tjudmund Tjudmund Toke Toke Tolir Þorbjörn Torbjörn Þorfinn Torfinn Þorbrandr Torbrand Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf Vagn Valdemar Vladimir Åke Yngvar Ingvar Örvar Orvar Öysteinn Eysteinn
+	}
+	female_common_first_names = {
+		Aleta Alfhildr Alfhild Alfrið Alfridh Alvör Anna Anna Asa Åsa Aslaug Asta Asta Astrid Astrid Beata Birgitta Brigid Björg Bodil Bothildr Bothild Cecilia Cecilia
+		Edla Elin Elisabet Elizabeth Freyja Freja Gerðr Gloð Grima Gunnhildr Gunhild Gurli Guðrun Gudrun Gyla Gyrið Gyða Gytha Hafrid Halla Helena Helen Holmfrid
+		Iliana Inga Inge Ingfrid Ingibjörg Ingeborg Ingjerðr Ingegerd Ingrid Ingrid Karin Catherine Katarina Catherine Kraka Kristina Christina Linda Maer
+		Malmfrið Malmfrid Margareta Margaret Maria Maria Rikissa Rögnfrið Ragnfrid Rögnhildr Ragnhild Saga Sara Sarah Sif Sigrid Sigrid Skuld Sofia Sophia
+		Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Ylva Yrsa Ursula Þora Thora Þordis Thordis Þyra Thyra
+	}	
+	noble_last_names = {
+		Anker
+		Bagge Benkestok Bjelke Brodtkorb
+		Cappelen Cloumann Collett
+		Darre de_Tonsberg
+		Gyldenkrantz
+		Haslum Holck
+		Kane Knagenhjelm Kollerud Konow Krohg
+		Lovenskiold
+		Mellebye Meltzer Midelfart Morgenstierne Motzfeldt
+		Prydz
+		Rosenvinge
+		Skanke Stabell Steenstrup Stoltenberg Sverdrup
+		von_Holstein-Glucksburg von_Klenow von_Westen_Sylow_Koren
+		Wedel-Jarlsberg Werenskiold Wergeland
+		Zeiner-Gundersen Zwilgmeyer
+	}
+	common_last_names={
+		Hvide Galen Due Saltensee Urup Neb Brahe Gøye Trolle Rantzau
+		Friis Gyllenstierna 
+		Bille Adeler Arenstorff Brockenhuus
+		Beck Brock Grubbe Holck Huitfeldt Juel Kaas Krabbe
+		Lindenov Lykke Marsvin Mule Munk Oxe Reedtz Rodsteen
+		Rosenkrantz Skeel Skram Urne Vind Ahlefeldt
+		Frille Rønnow
+		Porse Glysing Banner Thott Ulfstand Grøn Daa
+		Reventlow Juul Ulfeldt Bang
+	}
+	male_regal_first_names = {
+		Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjörn Arngrimr Arni Arne Arnfast Asbjörn Asbjörn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Berthold Birger Björn Beorn Bo Borkvard Botulfr Botulf Bragi Brage Buðli
+		Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Froði Frode Freyr Frej Folki Folke Gandalfr Geirr Georg George Gnupa Gnupa Gorm Gorm Greger Gregory Grimr Grim Guðfrið Godfrey Guðmundr Gudmund Guðröðr Gudröd Gunnarr Gunnar Hakon Hakon Halsten Haraldr Harold Haukr Helgi Helge
+		Hemming Holmger Hrafn Hrolfr Rolf Hrane Hæsteinn Hjalmar Hjalmar Hroðgar Hroðulfr Hrörekr Rurik Hysing Ingólfr Ingolf Ingemar Ingjald Ivar Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund Kjartan Klas Nicholas Knut Knut Kol Kolbjörn Magnus Magnus Markus Marcus 
+		Magni Magne Mats Matthew Nils Nicholas Niklas Nicholas Oddr Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Rainer Rikulfr Rögnvaldr Ragnvald Skuli Skule Snorri Sigbjörn Sigtrygg Sigurðr Sigurd Starkaðr Starkad Steinn Sten Sturla Styrbjörn Styrkar Sumarliði Somerled Suni Sune Sveinn Sven
+		Sverker Sæmundr Sämund Sölvi Sölve Sörkver Tjudmund Tjudmund Toke Toke Tolir Þorbjörn Torbjörn Þorfinn Torfinn Þorbrandr Torbrand Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf Vagn Valdemar Vladimir Åke Yngvar Ingvar Örvar Orvar Öysteinn Eysteinn
+	}
+	female_regal_first_names = {
+		Aleta Alfhildr Alfhild Alfrið Alfridh Alvör Anna Anna Asa Åsa Aslaug Asta Asta Astrid Astrid Beata Birgitta Brigid Björg Bodil Bothildr Bothild Cecilia Cecilia
+		Edla Elin Elisabet Elizabeth Freyja Freja Gerðr Gloð Grima Gunnhildr Gunhild Gurli Guðrun Gudrun Gyla Gyrið Gyða Gytha Hafrid Halla Helena Helen Holmfrid
+		Iliana Inga Inge Ingfrid Ingibjörg Ingeborg Ingjerðr Ingegerd Ingrid Ingrid Karin Catherine Katarina Catherine Kraka Kristina Christina Linda Maer
+		Malmfrið Malmfrid Margareta Margaret Maria Maria Rikissa Rögnfrið Ragnfrid Rögnhildr Ragnhild Saga Sara Sarah Sif Sigrid Sigrid Skuld Sofia Sophia
+		Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Ylva Yrsa Ursula Þora Thora Þordis Thordis Þyra Thyra
+	}
+	regal_last_names = {
+		Hvide Galen Due Saltensee Urup Neb Brahe Gøye Trolle Rantzau
+		Friis Gyllenstierna 
+		Bille Adeler Arenstorff Brockenhuus
+		Beck Brock Grubbe Holck Huitfeldt Juel Kaas Krabbe
+		Lindenov Lykke Marsvin Mule Munk Oxe Reedtz Rodsteen
+		Rosenkrantz Skeel Skram Urne Vind Ahlefeldt
+		Frille Rønnow
+		Porse Glysing Banner Thott Ulfstand Grøn Daa
+		Reventlow Juul Ulfeldt Bang
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 norwegian={
 	color= rgb{ 135 69 100 }
 	religion = protestant
@@ -2115,7 +2192,7 @@ finnish={
 
 sami={
 	color= hsv{ 0.40 0.36 0.70 }
-	religion = protestant
+	religion = norse
 	traits = { finnic european_heritage }
 	# could have scandinavian_culture_group but that would make them ahistorically non-discriminated
 	male_common_first_names={
