@@ -432,6 +432,19 @@ MJP = {
 
 ##Australia/Oceania/New Zealand
 
+GML = { # Gamilaraay
+
+	color = { 91 191 83 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { aborigine }
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+
 LAA = { #Luca Antara
 	color = { 114 165 203 }
 	
@@ -441,6 +454,18 @@ LAA = { #Luca Antara
 	
 	capital = STATE_NEW_SOUTH_WALES
 	cultures = { lucaantaran }
+}
+
+LUT = { # Lutruwita
+
+	color = { 209 100 107 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { aborigine }
+	capital = STATE_TASMANIA
 }
 
 
@@ -453,6 +478,18 @@ MGD = { # Maguindanao
 	
 	cultures = { moro }
 	capital = STATE_MINDANAO
+}
+
+NNG = { # Noongar
+
+	color = { 209 160 107 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { aborigine }
+	capital = STATE_WESTERN_AUSTRALIA
 }
 
 SUL = { # Sulu
@@ -481,6 +518,28 @@ TAI = {
 
 ## Africa
 
+ACH = {
+	color = { 166 225 217 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { luo lacustrine_bantu }
+	capital = STATE_UGANDA
+}
+
+ANK = {
+	color = { 126 162 98 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { baganda lacustrine_bantu }
+	capital = STATE_UGANDA
+}
+
 ASH = {
 	color = { 97 98 195 }
 	
@@ -490,6 +549,39 @@ ASH = {
 	
 	cultures = { akan }
 	capital = STATE_GHANA
+}
+
+BNY = {
+	color = { 174 24 66 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { baganda lacustrine_bantu }
+	capital = STATE_UGANDA
+}
+
+BRD = {
+	color = { 21 191 16 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { rundi }
+	capital = STATE_TANGANYIKA
+}
+
+BUG = {
+	color = { 21 21 227 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { baganda }
+	capital = STATE_UGANDA
 }
 
 CTS = {
@@ -550,6 +642,17 @@ KON = {
 	capital = STATE_BAS_CONGO
 }
 
+KRG = {
+	color = { 48 177 169 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { lacustrine_bantu baganda }
+	capital = STATE_TANGANYIKA
+}
+
 KRU = {
 	color = { 94 168 142 }
 	country_type = recognized
@@ -565,7 +668,7 @@ ORP = {
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = colonial
 	
 	cultures = { muisca }
 	capital = STATE_NIGER_DELTA
@@ -591,6 +694,17 @@ OYO = {
 	
 	cultures = { yoruba }
 	capital = STATE_YORUBA_STATES
+}
+
+RWD = {
+	color = { 213 160 18 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { ruanda }
+	capital = STATE_TANGANYIKA
 }
 
 RZW = {

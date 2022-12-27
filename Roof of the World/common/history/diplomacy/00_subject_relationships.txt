@@ -54,6 +54,17 @@
 		}
 	}
 	
+	#Luca Antara
+	c:LAA = {
+		create_diplomatic_pact = {
+			country = c:LUT
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:NNG
+			type = protectorate
+		}		
+	}
 	#Punjab
 	c:PAN = {
 		create_diplomatic_pact = {

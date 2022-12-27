@@ -29,10 +29,10 @@
 	}
 
 	s:STATE_TASMANIA = {
-		region_state:LAA = {
+		region_state:LUT = {
 			create_pop = {
 				culture = aborigine
-				size = 12208
+				size = 22208
 			}
 			create_pop = {
 				culture = lucaantaran

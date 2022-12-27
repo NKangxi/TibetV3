@@ -9,6 +9,9 @@
  PAN_FLAVOR_TEXT:0 "The Punjabi Republic is one of the greatest of the states that arose after the disintegration of the Sacred Tibetan Empire. But what does the future hold?"
 
  MJP_FLAVOR_TEXT:0 "The Majapahit empire continues to enjoy dominion over southeast Asia, bolstered by its strong navy. But with Aotearoa breaking away in 1830, will this mean the empire will lose other territories?"
+ 
+ #Southeast Asia
+ BUR_FLAVOR_TEXT:0 "After many centuries of Tibetan rule, the Bamar people have once again risen up against foreign dominion. Will this revolt succeed?"
 
  FRA_FLAVOR_TEXT:0 "It has been six years since Charles X was tossed from the throne in favor of Louis Phillipe. The constant threats to the crown cause Louis Phillipe to rule with an ever tightening grip. Will France embrace a more liberal future?"
 
@@ -50,7 +53,6 @@
  JOH_FLAVOR_TEXT:0 "Johor occupies a precarious position as both the British and the Dutch greedily eye their territory. Will Johor manage to retain what little sovereignty it has left?"
  SIA_FLAVOR_TEXT:0 "Siam has established itself as the dominant regional power in South-East Asia under the Rattanakosin dynasty. But will Siam manage to reform its economy and society for the modern age?"
  DAI_FLAVOR_TEXT:0 "A newly reunited Vietnam emerges from centuries of division and strife. Will Dai Nam consolidate itself and build a great nation, or is it destined to be divided once more?"
- BUR_FLAVOR_TEXT:0 "It took many bloody conflicts to establish the Third Burmese Empire, and it seems that the struggle is far from over as the British Empire makes its ambitions known. Will Burma become yet another British colony, or will it stand strong against the foreign invaders?"
  CAM_FLAVOR_TEXT:0 "Cambodia has fallen far since the golden age of the Khmer Empire. Can the Khmer state rise once more, or will this dark age last forever?"
  LUA_FLAVOR_TEXT:0 "Once the seat of the mighty Kingdom of Lan Xang, Luang Prabang is a shadow of its former self. Split between the regional powers of Dai Nam and Siam, can the Lao people emerge strong and independent?"
   
