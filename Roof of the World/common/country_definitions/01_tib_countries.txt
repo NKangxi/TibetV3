@@ -1330,6 +1330,18 @@ TPI = { # Tupinamba
 	capital = STATE_BAHIA
 }
 
+TWT = { # Tawantinsuyu
+	color = { 125 92 110 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { quechua aimara chachapoya }
+	
+	capital = STATE_LIMA
+}
+
 XIU = {
 	color = { 94  240  94 }
 	

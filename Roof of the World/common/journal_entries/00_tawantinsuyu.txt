@@ -20,7 +20,7 @@
 			has_variable = je_unification_progress
 		}
 		calc_true_if = {
-			amount > 15
+			amount > 12
 			owns_entire_state_region = STATE_CAUCA
 			owns_entire_state_region = STATE_ECUADOR
 			owns_entire_state_region = STATE_PASTAZA
