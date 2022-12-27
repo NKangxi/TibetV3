@@ -96,10 +96,6 @@
 			country = c:SOK
 			type = puppet
 		}
-		create_diplomatic_pact = {
-			country = c:BEN
-			type = puppet
-		}
 	}
 	
 	#Cherokee/Tsalagi

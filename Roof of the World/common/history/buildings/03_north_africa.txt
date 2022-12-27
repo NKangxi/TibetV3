@@ -221,7 +221,7 @@
 		}
 	}
 	s:STATE_KORDOFAN={
-		region_state:ETH={
+		region_state:FNJ={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -237,7 +237,7 @@
 		}
 	}
 	s:STATE_DARFUR={
-		region_state:DFR={
+		region_state:FNJ={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -253,7 +253,7 @@
 		}
 	}
 	s:STATE_BLUE_NILE={
-		region_state:ETH={
+		region_state:FNJ={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -706,7 +706,13 @@
 		}
 	}
 	s:STATE_WESTERN_MALI={
-		region_state:SGU={
+		region_state:JLF={
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -720,7 +726,9 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:JLF={
+	}
+	s:STATE_TIMBUKTU={
+		region_state:SON={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -729,16 +737,10 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-	}
-	s:STATE_TIMBUKTU={
-		region_state:ADG={
-		}
-		region_state:SON={
 		}
 	}
 	s:STATE_NIGER={
@@ -746,7 +748,7 @@
 		}
 	}
 	s:STATE_CHAD={
-		region_state:WAD={
+		region_state:FNJ={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

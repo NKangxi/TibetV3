@@ -516,6 +516,17 @@ ETH = {
 	capital = STATE_GONDER
 }
 
+FNJ = { # Funj
+	color = { 189 159 69 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { sudanese beja bedouin }
+	capital = STATE_BLUE_NILE
+}
+
 JLF = {
 	color = { 215  215  125 }
 	country_type = recognized

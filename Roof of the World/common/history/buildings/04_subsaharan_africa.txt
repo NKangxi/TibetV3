@@ -16,9 +16,19 @@
 		}
 	}
 	s:STATE_WINDWARD_COAST={
-		region_state:KBD={
-		}
 		region_state:ASH={
+			create_building={
+				building="building_iron_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
+			}
+			create_building={
+				building="building_millet_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}			
 		}
 		region_state:KRU={
 		}
@@ -92,7 +102,7 @@
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
-		region_state:KNG={
+		region_state:ASH={
 		}
 	}
 	s:STATE_LIBERIA={
@@ -224,7 +234,7 @@
 		}
 	}
 	s:STATE_OUTER_HAUSALAND={
-		region_state:HAU={
+		region_state:SON={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -320,14 +330,10 @@
 		}
 	}
 	s:STATE_GUINEA={
-		region_state:MDK={
-		}
-		region_state:SSU={
-		}
 		region_state:JLF={
 			create_building={
 				building="building_millet_farm"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -362,6 +368,12 @@
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
 			create_building={
+				building="building_coffee_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_millet_farm"
 				level=2
 				reserves=1
@@ -390,6 +402,12 @@
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
+				building="building_cotton_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_dye_plantation"
 				level=1
 				reserves=1
@@ -412,6 +430,12 @@
 	s:STATE_DAHOMEY={
 		region_state:DAH={
 			create_building={
+				building="building_coffee_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_millet_farm"
 				level=1
 				reserves=1
@@ -419,7 +443,7 @@
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
@@ -955,7 +979,7 @@
 		}
 	}
 	s:STATE_WADDAI={
-		region_state:WAD={
+		region_state:BOR={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -968,14 +992,6 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:BGI={
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_irregular_infantry" }
-			}		
 		}
 	}
 	s:STATE_NORTH_CAMEROON={

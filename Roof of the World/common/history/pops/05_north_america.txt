@@ -1134,16 +1134,11 @@
 			}
 		}
 	}
-	# Jalisco: 656881 in 1830, 691397 in 1840, so averaging out to 674139
-	# Michoacan: 435281 in 1830, 497537 in 1840, so averaging out to 466409
-	# Colima: 45838 in 1830, 53389 in 1840, so averaging out to 49614
-	# working total of 1190162
-	# 1.5858
 	s:STATE_JALISCO = {
 		region_state:PRP = {
 			create_pop = {
 				culture = purepecha
-				size = 2011710
+				size = 1911710
 			}
 			create_pop = {
 				culture = oodham

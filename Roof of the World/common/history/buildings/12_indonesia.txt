@@ -117,7 +117,7 @@
 		region_state:MJP={
 			create_building={
 				building="building_rice_farm"
-				level=3
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
@@ -135,19 +135,19 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_dye_plantation"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_banana_plantation"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -165,6 +165,12 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
+			}
+			create_building={
+				building="building_furniture_manufacturies"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
 			}
 			create_building={
 				building="building_textile_mills"
@@ -402,7 +408,7 @@
 			}
 			create_building={
 				building="building_coal_mine"
-				level=4
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
 			}
@@ -420,13 +426,13 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 			create_building={
 				building="building_sugar_plantation"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -456,7 +462,7 @@
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
