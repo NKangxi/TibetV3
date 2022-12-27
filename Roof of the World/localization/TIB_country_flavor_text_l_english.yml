@@ -1,5 +1,14 @@
 ﻿l_english:
+#Great Powers
  TIB_FLAVOR_TEXT:0 "The second Tibetan Republic is just under a century old. Will it continue to rule from the roof of the world, or will it finally fall?"
+ 
+ ANA_FLAVOR_TEXT:0 "The Anatolian Republic has enjoyed a period of prestige and global reach for decades. The legacy of the Abateid administration has left a long shadow over the later republic. However, it has recently suffered a humiliating loss in an 'anti-monarchical' war against the kingdom of the Kongo. What does the future hold for the republic?"
+ 
+ CWU_FLAVOR_TEXT:0 "The Wu Republic is one of the foremost candidates for unifying all of the lands of the old kingdoms. It has also enjoyed a victory against the Tibetan occupation, and none of its other neighbors are a threat to it. Will it continue to reclaim the territories held by the empire long ago, or will it stumble?"
+ 
+ PAN_FLAVOR_TEXT:0 "The Punjabi Republic is one of the greatest of the states that arose after the disintegration of the Sacred Tibetan Empire. But what does the future hold?"
+
+ MJP_FLAVOR_TEXT:0 "The Majapahit empire continues to enjoy dominion over southeast Asia, bolstered by its strong navy. But with Aotearoa breaking away in 1830, will this mean the empire will lose other territories?"
 
  FRA_FLAVOR_TEXT:0 "It has been six years since Charles X was tossed from the throne in favor of Louis Phillipe. The constant threats to the crown cause Louis Phillipe to rule with an ever tightening grip. Will France embrace a more liberal future?"
 
@@ -29,7 +38,6 @@
 
  SAR_FLAVOR_TEXT:0 "In Sardinia-Piedmont reactionary anti-French monarchs have led the country for the past thirty years, encouraging the return of the nobility and the church while disbanding the Napoleonic reforms. Will this trend continue? Or will a more liberal nation emerge?"
 
- PAN_FLAVOR_TEXT:0 "The Sikh Empire is in a period of conquest, winning engagement after engagement. But what does the future hold for this empire?"
 
  DEN_FLAVOR_TEXT:0 "Across Denmark new liberal and national pushes are changing the face of politics. Meanwhile they are also undergoing a golden age of art, literature and philosophy. What will the rest of the century bring?"
 
