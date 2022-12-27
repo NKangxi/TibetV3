@@ -782,6 +782,21 @@
 		}
 	}
 	s:STATE_TIMBUKTU = {
+		region_state:ADG = {
+			create_pop = {
+				culture = tuareg
+				size = 48396
+			}
+			create_pop = {
+				culture = fulbe
+				size = 15000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fulbe
+				size = 5000
+			}
+		}
 		region_state:SON = {
 			create_pop = {
 				culture = songhai
@@ -793,22 +808,14 @@
 			}
 			create_pop = {
 				culture = fulbe
-				size = 35000
+				size = 20000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = songhai
 				size = 18000
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = fulbe
-				size = 5000
-			}
-			create_pop = {
-				culture = tuareg
-				size = 48396
-			}
+
 		}
 	}
 	s:STATE_NIGER = {

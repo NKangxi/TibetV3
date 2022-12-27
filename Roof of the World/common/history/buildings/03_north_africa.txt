@@ -728,6 +728,8 @@
 		}
 	}
 	s:STATE_TIMBUKTU={
+		region_state:ADG={
+		}
 		region_state:SON={
 			create_building={
 				building="building_livestock_ranch"
