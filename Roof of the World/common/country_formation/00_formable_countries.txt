@@ -24,6 +24,25 @@
 	ai_will_do = { always = yes }
 }
 
+MGL = {
+	states = {
+		STATE_TOMSK
+		STATE_DZUNGARIA
+		STATE_TUVA
+		STATE_IRKUTSK
+		STATE_ULIASTAI
+		STATE_URGA
+		STATE_ALXA
+		STATE_HINGGAN
+		STATE_GANSU
+		STATE_TRANS_BAIKAL
+	}
+	
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
 ENG = {
 	states = {
 		STATE_HOME_COUNTIES
