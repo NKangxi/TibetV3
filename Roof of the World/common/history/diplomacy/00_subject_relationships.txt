@@ -23,6 +23,14 @@
 			type = puppet
 		}			
 	}
+	#Estonia
+	c:EST = {
+		create_diplomatic_pact = {
+			country = c:UKR
+			type = puppet
+		}	
+	}
+	
 	#Ethiopia
 	c:ETH = {
 		create_diplomatic_pact = {

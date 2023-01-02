@@ -669,7 +669,15 @@
 			create_pop = {
 				culture = han # nanfaren
 				religion = animist
-				size = 100000
+				size = 20000
+			}
+			create_pop = {
+				culture = xibei
+				size = 40000
+			}
+			create_pop = {
+				culture = sichuanese
+				size = 40000
 			}
 			create_pop = {
 				culture = mongol
@@ -692,9 +700,13 @@
 				size = 824000
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = xibei # nanfaren
 				religion = animist
-				size = 42000
+				size = 22000
+			}
+			create_pop = {
+				culture = sichuanese
+				size = 20000
 			}
 			create_pop = {
 				culture = kachin

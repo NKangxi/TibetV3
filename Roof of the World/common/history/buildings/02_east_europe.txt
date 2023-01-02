@@ -82,7 +82,7 @@
 		}
 	}
 	s:STATE_VOLHYNIA={
-		region_state:EST={
+		region_state:UKR={
 			create_building={
 				building="building_logging_camp"
 				level=6
@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_KIEV={
-		region_state:EST={
+		region_state:UKR={
 			create_building={
 				building="building_government_administration"
 				level=1

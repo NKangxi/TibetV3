@@ -126,7 +126,7 @@
 		}
 	}
 	s:STATE_BAHAMAS = {
-		region_state:CHE = {
+		region_state:MCA = {
 			create_pop = {
 				culture = cherokee
 				size = 19200

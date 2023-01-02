@@ -1,5 +1,13 @@
 ﻿##East Asia
 
+AHU = { #Anhui
+	color = { 187 126 224 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { jianghuai }
+	capital = STATE_SOUTHERN_ANHUI
+}
+
 AIN = { # Ainu Mosir
 	color = { 201 197 124 }
 	
@@ -23,6 +31,17 @@ CHH = {
 	capital = STATE_URGA
 }
 
+CHI = {
+	color = { 252 185 61 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { zhili shandong jianghuai wu gan jin sichuanese yue xiang min hubei zhongyuan xibei } 
+	capital = STATE_BEIJING
+}
+
 CMO = {
 	color = { 50  96  168 }
 
@@ -41,7 +60,7 @@ CSH = {
 	
 	tier = principality
 	
-	cultures = { han mongol }
+	cultures = { xibei mongol }
 	capital = STATE_HINGGAN
 }
 
@@ -52,7 +71,7 @@ CWU = {
 	
 	tier = empire
 
-	cultures = { han }
+	cultures = { jianghuai wu }
 	capital = STATE_NANJING
 }
 
@@ -63,7 +82,7 @@ CXI = {
 	
 	tier = principality
 
-	cultures = { han }
+	cultures = { jin }
 	capital = STATE_XIAN
 }
 
@@ -85,8 +104,16 @@ JIN = {
 	
 	religion = vajrayana
 	
-	cultures = { han tibetan }
+	cultures = { shandong tibetan }
 	capital = STATE_ZHILI
+}
+
+HNA = { #Hunan	
+	color = { 126 164 224 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { xiang }
+	capital = STATE_HUNAN
 }
 
 KOR = {
@@ -107,7 +134,7 @@ NIN = {
 
 	tier = principality
 
-	cultures = { han }
+	cultures = { gan }
 
 	capital = STATE_JIANGXI
 }
@@ -121,6 +148,30 @@ OTG = {
 
 	cultures = { mongol tuvan }
 	capital = STATE_IRKUTSK
+}
+
+SIH = { #Sichuan
+	color = { 42 189 68 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { sichuanese }
+	capital = STATE_SICHUAN
+}
+
+SHA = { #Shandong
+	color = { 189 113 42 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { shandong }
+	capital = STATE_SHANDONG
+}
+
+SHN = { #Shanxi
+	color = { 94 209 94 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { jin }
+	capital = STATE_SHANXI
 }
 
 SOO = {
@@ -171,6 +222,14 @@ TTI = {
 	capital = STATE_KANSAI
 }
 
+XIB = {
+	color = { 68 144 212 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { xibei tibetan }
+	capital = STATE_NINGXIA
+}
+
 YUE = { # Yue
 	color = { 89 113 223 }
 
@@ -179,6 +238,27 @@ YUE = { # Yue
 	cultures = { yue }
 	
 	capital = STATE_GUANGDONG
+}
+
+YUN = { # Yunnan
+	color = { 245 245 220 }
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { yi }
+	
+	capital = STATE_YUNNAN
+	is_named_from_capital = yes
+}
+
+
+ZHI = { #Zhili
+	color = { 207 64 88 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { zhili }
+	capital = STATE_ZHILI
 }
 
 ## India
@@ -1492,7 +1572,7 @@ IUS = {
 KAZ = {
 	color = { 60 80 140 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
