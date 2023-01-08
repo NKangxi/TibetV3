@@ -664,11 +664,11 @@
 		region_state:TIB = {
 			create_pop = {
 				culture = tibetan
-				size = 3640000
+				size = 2500000
 			}
 			create_pop = {
-				culture = han # nanfaren
-				religion = animist
+				culture = sichuanese
+				religion = bon
 				size = 20000
 			}
 			create_pop = {

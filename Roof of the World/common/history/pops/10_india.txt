@@ -42,7 +42,7 @@
 			}
 			create_pop = {
 				culture = tibetan
-				size = 250096
+				size = 850096
 			}
 			create_pop = {
 				culture = thai
@@ -825,7 +825,7 @@
 				size = 124000
 			}
 			create_pop = {
-				culture = han
+				culture = yue
 				size = 40000 #the Ming Dynasty
 			}
 		}

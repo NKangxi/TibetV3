@@ -1,0 +1,367 @@
+﻿ANA = { #Anatolia
+	flag_definition = {
+		coa = ANA
+		subject_canton = ANA
+		priority = 100
+	}
+	flag_definition = {
+		coa = ANA_republic
+		subject_canton = ANA_republic
+		priority = 1500
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANA_socialist
+		subject_canton = ANA_socialist
+		priority = 1500
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = ANA_fascist
+		subject_canton = ANA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+
+BYZ = { #Byzantium
+	flag_definition = {
+		coa = BYZ
+		subject_canton = BYZ
+		priority = 100
+	}
+}
+
+CRN = { #Carantania
+	flag_definition = {
+		coa = CRN
+		subject_canton = CRN
+		priority = 100
+	}	
+	flag_definition = {
+		coa = CRN_monarchy
+		subject_canton = CRN_monarchy
+		priority = 150
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CRN_republic
+		subject_canton = CRN_republic
+		priority = 150
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CRN_socialist
+		subject_canton = CRN_socialist
+		priority = 150
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CRN_fascist
+		subject_canton = CRN_fascist
+		priority = 150
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+
+CWU = { #Wu
+	flag_definition = {
+		coa = CWU
+		subject_canton = CWU
+		priority = 100
+	}	
+	flag_definition = {
+		coa = CWU_monarchy
+		subject_canton = CWU_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CWU_republic
+		subject_canton = CWU_republic
+		priority = 1500
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CWU_socialist
+		subject_canton = CWU_socialist
+		priority = 1500
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = CWU_fascist
+		subject_canton = CWU_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+
+CYA = { #Purepecha
+	flag_definition = {
+		coa = CYA
+		subject_canton = CYA
+		priority = 100
+	}
+}
+
+EGY = { #Egypt
+	flag_definition = {
+		coa = EGY
+		subject_canton = EGY
+		priority = 100
+	}
+}
+
+HLN = { #Hualanitstlan
+	flag_definition = {
+		coa = HLN
+		subject_canton = HLN
+		priority = 100
+	}
+}
+
+IRE = { #Ireland
+	flag_definition = {
+		coa = IRE
+		subject_canton = IRE
+		priority = 100
+	}
+}
+
+MCA = { #Muisca
+	flag_definition = {
+		coa = MCA
+		subject_canton = MCA
+		priority = 100
+	}	
+	flag_definition = {
+		coa = MCA_monarchy
+		subject_canton = MCA_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MCA_republic
+		subject_canton = MCA_republic
+		priority = 1500
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MCA_socialist
+		subject_canton = MCA_socialist
+		priority = 1500
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MCA_fascist
+		subject_canton = MCA_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+
+MJP = { #Majapahit
+	flag_definition = {
+		coa = MJP
+		subject_canton = MJP
+		priority = 100
+	}	
+	flag_definition = {
+		coa = MJP_monarchy
+		subject_canton = MJP_monarchy
+		priority = 100
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MJP_republic
+		subject_canton = MJP_republic
+		priority = 1500
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MJP_socialist
+		subject_canton = MJP_socialist
+		priority = 100
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = MJP_fascist
+		subject_canton = MJP_fascist
+		priority = 10
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+
+PRP = { #Purepecha
+	flag_definition = {
+		coa = PRP
+		subject_canton = PRP
+		priority = 100
+	}
+}
+
+SCA = { #Scandinavia
+	flag_definition = {
+		coa = SCA
+		subject_canton = SCA
+		priority = 100
+	}
+}
+
+SHP = { #Tamil South Africa
+	flag_definition = {
+		coa = SHP
+		subject_canton = SHP
+		priority = 100
+	}
+}
+
+SOO = { #Soo
+	flag_definition = {
+		coa = SOO
+		subject_canton = SOO
+		priority = 100
+	}	
+	flag_definition = {
+		coa = SOO_monarchy
+		subject_canton = SOO_monarchy
+		priority = 150
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SOO_republic
+		subject_canton = SOO_republic
+		priority = 150
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SOO_socialist
+		subject_canton = SOO_socialist
+		priority = 100
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = SOO_dictatorship
+		subject_canton = SOO_dictatorship
+		priority = 150
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+
+TAM = { #Tamilakam
+	flag_definition = {
+		coa = TAM
+		subject_canton = TAM
+		priority = 100
+	}	
+	flag_definition = {
+		coa = TAM_monarchy
+		subject_canton = TAM_monarchy
+		priority = 150
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TAM_republic
+		subject_canton = TAM_republic
+		priority = 150
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TAM_socialist
+		subject_canton = TAM_socialist
+		priority = 100
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TAM_dictatorship
+		subject_canton = TAM_dictatorship
+		priority = 150
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}
+
+TIB = { #Tibet
+	flag_definition = {
+		coa = TIB
+		subject_canton = TIB
+		priority = 100
+	}
+	flag_definition = {
+		coa = TIB_republic
+		subject_canton = TIB_republic
+		priority = 1500
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TIB_socialist
+		subject_canton = TIB_socialist
+		priority = 1500
+		trigger = {
+			coa_def_socialism_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = TIB_fascist
+		subject_canton = TIB_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}	
+}

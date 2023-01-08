@@ -213,7 +213,7 @@
 		region_state:MJP = {
 			create_pop = {
 				culture = sumatran
-				size = 3980123
+				size = 390123
 			}
 			create_pop = {
 				pop_type = slaves
@@ -546,17 +546,15 @@
 				size = 1862796
 			}
 			create_pop = {
-				culture = han # nanfaren
-				religion = catholic
+				culture = min 
 				size = 8000
 			}
 			create_pop = {
-				culture = spanish
+				culture = yue
 				size = 8000
 			}
 			create_pop = {
 				culture = bornean
-				religion = catholic
 				size = 112400
 			}
 			create_pop = {
