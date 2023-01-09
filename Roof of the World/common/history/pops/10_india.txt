@@ -283,26 +283,6 @@
 				size = 3000 
 			}
 		}
-		region_state:GWA = {
-			create_pop = {
-				culture = marathi
-				size = 1060992
-			}
-			create_pop = {
-				culture = avadhi
-				size = 55002
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 63000 
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 5002
-			}
-		}
 		region_state:BHO = {
 			create_pop = {
 				culture = marathi
@@ -326,7 +306,7 @@
 		region_state:TSH = {
 			create_pop = {
 				culture = marathi
-				size = 4239096
+				size = 5239096
 			}
 			create_pop = {
 				culture = tibetan
@@ -334,12 +314,12 @@
 			}
 			create_pop = {
 				culture = avadhi
-				size = 170908
+				size = 230908
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = marathi
-				size = 100900 
+				size = 170900 
 			}
 			create_pop = {
 				pop_type = slaves
@@ -406,28 +386,6 @@
 		}
 	}
 	s:STATE_NAGPUR = {
-		region_state:BUN = {
-			create_pop = {
-				culture = kanauji
-				size = 480220
-			}
-			create_pop = {
-				culture = kanauji
-				religion = animist
-				size = 144737
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kanauji
-				size = 20020
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kanauji
-				religion = animist
-				size = 11000
-			}
-		}
 		region_state:HYD = {
 			create_pop = {
 				culture = marathi
@@ -459,8 +417,12 @@
 			}
 			create_pop = {
 				culture = kanauji
+				size = 480220
+			}
+			create_pop = {
+				culture = kanauji
 				religion = animist
-				size = 1214700
+				size = 1364700
 			}
 			create_pop = {
 				pop_type = slaves
@@ -475,8 +437,13 @@
 			create_pop = {
 				pop_type = slaves
 				culture = kanauji
+				size = 20020
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kanauji
 				religion = animist
-				size = 50071
+				size = 61071
 			}
 		}
 		region_state:BAS = {
@@ -614,10 +581,6 @@
 				size = 461052
 			}
 			create_pop = {
-				culture = british
-				size = 48
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = rajput
 				size = 22000
@@ -730,7 +693,7 @@
 		region_state:TAM = {
 			create_pop = {
 				culture = telegu
-				size = 7712168
+				size = 6612168
 			}
 			create_pop = {
 				culture = tamil
@@ -738,15 +701,15 @@
 			}
 			create_pop = {
 				culture = tibetan
-				size = 300000
-			}
+				size = 100000
+			}	
 			create_pop = {
 				culture = kannada
 				size = 326095
 			}
 			create_pop = {
 				culture = oriya
-				size = 500000
+				size = 100000
 			}
 			create_pop = {
 				culture = telegu
@@ -768,6 +731,20 @@
 				culture = kannada
 				size = 10000
 			}
+		}
+		region_state:ORI = {
+			create_pop = {
+				culture = oriya
+				size = 550000
+			}
+			create_pop = {
+				culture = tibetan
+				size = 200000
+			}
+			create_pop = {
+				culture = telegu
+				size = 1012168
+			}			
 		}
 	}
 	s:STATE_MYSORE = {

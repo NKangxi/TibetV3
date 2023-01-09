@@ -986,7 +986,7 @@
 		}
 	}
 	s:STATE_KAZEMBE = {
-		region_state:RZW = {
+		region_state:ETH = {
 			create_pop = {
 				culture = lunda
 				size = 127204

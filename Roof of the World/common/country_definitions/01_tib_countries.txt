@@ -102,7 +102,7 @@ JIN = {
 	country_type = recognized
 	tier = kingdom
 	
-	religion = vajrayana
+	religion = mahayana
 	
 	cultures = { shandong tibetan }
 	capital = STATE_ZHILI
@@ -512,6 +512,18 @@ MJP = {
 
 ##Australia/Oceania/New Zealand
 
+
+AOT = { # Aotearoa
+	color = { 47 140 191 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { maori }
+	capital = STATE_NORTH_ISLAND
+}
+
 GML = { # Gamilaraay
 
 	color = { 91 191 83 }
@@ -572,6 +584,17 @@ NNG = { # Noongar
 	capital = STATE_WESTERN_AUSTRALIA
 }
 
+PPU = {
+	color = { 81 97 170 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { melanesian }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+
 SUL = { # Sulu
 	color = { 89  164  144 }
 	
@@ -584,6 +607,18 @@ SUL = { # Sulu
 }
 
 ## Siberia
+
+NVK = { # Nivkh
+	color = { 47 48 78 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { siberian }
+	
+	capital = STATE_TRANS_BAIKAL
+}
 
 TAI = {
 	color = { 60 80 140 }

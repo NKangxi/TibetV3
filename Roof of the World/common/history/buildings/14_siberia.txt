@@ -98,7 +98,7 @@
 		}
 	}
 	s:STATE_TRANS_BAIKAL={
-		region_state:TAI={
+		region_state:NVK={
 		}
 	}
 	s:STATE_IRKUTSK={

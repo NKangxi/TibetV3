@@ -309,7 +309,7 @@
 		}
 	}
 	s:STATE_COLORADO={
-		region_state:ARP={
+		region_state:ASI={
 		}
 		region_state:PUE={
 		}
@@ -374,10 +374,30 @@
 	}
 	s:STATE_NEBRASKA={
 		region_state:ASI={
+			create_building={
+				building="building_maize_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards_building_maize_farm" }
+			}
 		}
 	}
 	s:STATE_KANSAS={
 		region_state:ASI={
+			create_building={
+				building="building_wheat_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_privately_owned" "pm_soil_enriching_farming" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+		}
+		region_state:COM={
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}	
 		}
 	}
 	s:STATE_OKLAHOMA={
@@ -390,6 +410,8 @@
 			}
 		}
 		region_state:COM={
+		}
+		region_state:ASI={
 		}
 	}
 	s:STATE_ARKANSAS={
@@ -408,10 +430,18 @@
 			}	
 			create_building={
 				building="building_livestock_ranch"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
+		}
+		region_state:ASI={
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}		
 		}
 	}
 	s:STATE_MISSOURI={
@@ -457,6 +487,12 @@
 				activate_production_methods={ "pm_simple_organization" }
 			}	
 			create_building={
+				building="building_livestock_ranch"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_maize_farm"
 				level=3
 				reserves=1
@@ -480,7 +516,7 @@
 			}	
 			create_building={
 				building="building_iron_mine"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
 			}
@@ -1902,8 +1938,6 @@
 		region_state:NVJ={
 		}
 		region_state:COM={
-		}
-		region_state:APC={
 		}
 	}
 	s:STATE_CALIFORNIA={

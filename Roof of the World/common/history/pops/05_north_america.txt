@@ -120,12 +120,6 @@
 				size = 15000
 			}
 		}
-		region_state:ARP = {
-			create_pop = {
-				culture = siouan
-				size = 150000
-			}
-		}
 		region_state:UTE = {
 			create_pop = {
 				culture = paiute
@@ -139,11 +133,11 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 25000
+				size = 175000
 			}
 			create_pop = {
 				culture = comanche
-				size = 15000
+				size = 45000
 			}
 		}
 	}
@@ -155,11 +149,11 @@
 			}
 			create_pop = {
 				culture = siouan
-				size = 360000
+				size = 120000
 			}
 			create_pop = {
 				culture = comanche
-				size = 120000
+				size = 240000
 			}
 		}
 	}
@@ -226,6 +220,12 @@
 				size = 150000
 			}
 		}
+		region_state:COM = {
+			create_pop = {
+				culture = comanche
+				size = 50000
+			}	
+		}
 	}
 	s:STATE_OKLAHOMA = {
 		region_state:OSA = {
@@ -248,6 +248,12 @@
 				size = 55000
 			}
 		}
+		region_state:ASI = {
+			create_pop = {
+				culture = siouan
+				size = 2000
+			}
+		}
 	}
 	s:STATE_ARKANSAS = {
 		region_state:OSA = {
@@ -256,16 +262,18 @@
 				size = 12635
 			}
 			create_pop = {
-				culture = siouan
-				size = 33857
-			}
-			create_pop = {
 				culture = cherokee
 				size = 30136
 			}
 			create_pop = {
 				culture = nahua
 				size = 8000
+			}
+		}
+		region_state:ASI = {
+			create_pop = {
+				culture = siouan
+				size = 33857
 			}
 		}
 	}
@@ -886,17 +894,11 @@
 			}
 			create_pop = {
 				culture = pueblo
-				size = 12000
+				size = 20000
 			}
-		}
-		region_state:APC = {
 			create_pop = {
 				culture = apache
 				size = 22000
-			}
-			create_pop = {
-				culture = pueblo
-				size = 8000
 			}
 		}
 	}
@@ -916,17 +918,15 @@
 				culture = paiute
 				size = 8000
 			}
+			create_pop = {
+				culture = apache
+				size = 22000
+			}
 		}
 		region_state:COM = {
 			create_pop = {
 				culture = comanche
 				size = 12000
-			}
-		}
-		region_state:APC = {
-			create_pop = {
-				culture = apache
-				size = 22000
 			}
 		}
 	}

@@ -198,10 +198,10 @@
 
 
 	s:STATE_TRANS_BAIKAL = {
-		region_state:TAI = {
+		region_state:NVK = {
 			create_pop = {
 				culture = hokushinjin
-				size = 122000
+				size = 22000
 			}
 			create_pop = {
 				culture = yakut
@@ -217,7 +217,7 @@
 			}
 			create_pop = {
 				culture = siberian
-				size = 17996
+				size = 117996
 			}
 		}
 	}

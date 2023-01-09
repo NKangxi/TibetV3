@@ -38,6 +38,10 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:HDJ
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:YEM
 			type = puppet
 		}
