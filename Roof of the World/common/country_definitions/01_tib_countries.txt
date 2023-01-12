@@ -147,7 +147,7 @@ OTG = {
 	tier = principality
 
 	cultures = { mongol tuvan }
-	capital = STATE_IRKUTSK
+	capital = STATE_ULIASTAI
 }
 
 SIH = { #Sichuan
@@ -1266,7 +1266,7 @@ CRN = { #Carantania
 	religion = bogomilist
 	
 	cultures = { slovene south_german }
-	capital = STATE_SLOVENIA
+	capital = STATE_AUSTRIA
 	is_named_from_capital = yes
 }
 
@@ -1292,7 +1292,7 @@ ASI = { #Assiniboine/Nakota
 	tier = empire
 	
 	cultures = { siouan cree caddoan }
-	capital = STATE_ONTARIO
+	capital = STATE_MINNESOTA
 
 }
 
@@ -1339,7 +1339,7 @@ OSA = { #Osage/Nuikonska
 	
 	cultures = { siouan }
 
-	capital = STATE_MISSOURI
+	capital = STATE_LOUISIANA
 }
 
 NVJ = {
@@ -1372,7 +1372,7 @@ PRP = {
 	tier = kingdom
 	
 	cultures = { purepecha }
-	capital = STATE_JALISCO
+	capital = STATE_BAJIO
 }
 
 PUE = { # Pueblo/Hisatsinom
@@ -1450,7 +1450,7 @@ CCQ = { #Calchaqui
 	religion = inti
 	
 	cultures = { diaguita }
-	capital = STATE_JUJUY
+	capital = STATE_ANTOFAGASTA
 	
 }
 
@@ -1476,7 +1476,7 @@ CYA = { #Chachapoya
 	religion = inti
 	
 	cultures = { chachapoya quechua }
-	capital = STATE_LIMA
+	capital = STATE_ICA
 	
 }
 
@@ -1568,7 +1568,7 @@ TWT = { # Tawantinsuyu
 	
 	cultures = { quechua aimara chachapoya }
 	
-	capital = STATE_LIMA
+	capital = STATE_ICA
 }
 
 XIU = {
@@ -1635,7 +1635,7 @@ SIB = { # Siberia
 
 	tier = kingdom
 	cultures = { ugrian yakut siberian }
-	capital = STATE_TOBOLOSK
+	capital = STATE_TOBOLSK
 	
 }
 

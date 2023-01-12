@@ -714,14 +714,20 @@
 	s:STATE_WESTERN_MALI={
 		region_state:JLF={
 			create_building={
+				building="building_cotton_plantation"
+				level=5
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_livestock_ranch"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_millet_farm"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -738,8 +744,14 @@
 		}
 		region_state:SON={
 			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_livestock_ranch"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}

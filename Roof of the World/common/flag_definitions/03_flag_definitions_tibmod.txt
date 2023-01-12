@@ -38,6 +38,14 @@ ANA = { #Anatolia
 	}	
 }
 
+ASI = { #Assiniboine/Nakota
+	flag_definition = {
+		coa = ASI
+		subject_canton = ASI
+		priority = 100
+	}
+}
+
 BYZ = { #Byzantium
 	flag_definition = {
 		coa = BYZ
@@ -100,6 +108,14 @@ CHE = { #Cherokee/Tsalagi
 			coa_def_fascist_flag_trigger = yes
 		}
 	}	
+}
+
+CHH = { #Chahar
+	flag_definition = {
+		coa = CHH
+		subject_canton = CHH
+		priority = 100
+	}
 }
 
 CRN = { #Carantania
@@ -800,7 +816,7 @@ XIU = { #Xiu
 }
 
 
-YUE = { #Wu
+YUE = { #Yue
 	flag_definition = {
 		coa = YUE
 		subject_canton = YUE
@@ -825,7 +841,7 @@ YUE = { #Wu
 	flag_definition = {
 		coa = YUE_socialist
 		subject_canton = YUE_socialist
-		priority = 150
+		priority = 100
 		trigger = {
 			coa_def_socialism_flag_trigger = yes
 		}

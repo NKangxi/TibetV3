@@ -321,7 +321,11 @@
 			}
 			create_pop = {
 				culture = siouan
-				size = 90000
+				size = 330000
+			}
+			create_pop = {
+				culture = cree
+				size = 190000
 			}
 		}
 	}
@@ -885,10 +889,6 @@
 				size = 100000
 			}
 			create_pop = {
-				culture = oodham
-				size = 16000
-			}
-			create_pop = {
 				culture = paiute
 				size = 16000
 			}
@@ -901,12 +901,22 @@
 				size = 22000
 			}
 		}
+		region_state:PRP = {
+			create_pop = {
+				culture = oodham
+				size = 16000
+			}
+			create_pop = {
+				culture = purepecha
+				size = 2000
+			}
+		}
 	}
 	s:STATE_NEW_MEXICO = {
 		region_state:PUE = {
 			create_pop = {
 				culture = pueblo
-				size = 112000
+				size = 110000
 			}
 		}
 		region_state:NVJ = {
@@ -927,6 +937,16 @@
 			create_pop = {
 				culture = comanche
 				size = 12000
+			}
+		}
+		region_state:PRP = {
+			create_pop = {
+				culture = purepecha
+				size = 1500
+			}
+			create_pop = {
+				culture = pueblo
+				size = 2000
 			}
 		}
 	}
@@ -1036,14 +1056,14 @@
 	# Queretaro:		114437 in 1830, 122962 in 1840, so averaging out to 118699
 	# working total number of 950333
 	s:STATE_BAJIO = {
-		region_state:TLX = {
+		region_state:PRP = {
 			create_pop = {
 				culture = nahua
-				size = 1606461
+				size = 606461
 			}
 			create_pop = {
 				culture = purepecha
-				size = 190162
+				size = 1190162
 			}
 			create_pop = {
 				culture = cherokee
@@ -1138,7 +1158,7 @@
 		region_state:PRP = {
 			create_pop = {
 				culture = purepecha
-				size = 1911710
+				size = 1111710
 			}
 			create_pop = {
 				culture = oodham

@@ -1360,6 +1360,12 @@
 	s:STATE_ULIASTAI={
 		region_state:OTG={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				level=4
 				reserves=1
@@ -1381,6 +1387,18 @@
 	}
 	s:STATE_URGA={
 		region_state:CHH={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
+			}
 			create_building={
 				building="building_livestock_ranch"
 				level=6

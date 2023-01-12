@@ -248,7 +248,7 @@
  STATE_AUVERGNE:0 "Auvergne"
  STATE_AQUITAINE:0 "Aquitaine"
  STATE_ORLEANS:0 "Orléans"
- STATE_ILE_DE_FRANCE:1 "Île-de-France"
+ STATE_ILE_DE_FRANCE:1 "Gallitlalpan" #Ile-de-France
  STATE_ELBE:0 "Elbe"
  STATE_BEIRA:0 "Beira"
  STATE_ESTREMADURA:0 "Estremadura"
