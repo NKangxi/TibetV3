@@ -593,7 +593,7 @@
 		region_state:CRN = {
 			create_pop = {
 				culture = north_german
-				size = 1319008
+				size = 1019008
 			}
 			create_pop = {
 				culture = slovene
@@ -726,7 +726,7 @@
 		region_state:CRN = {
 			create_pop = {
 				culture = north_german
-				size = 520400
+				size = 320400
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -734,7 +734,7 @@
 			}
 			create_pop = {
 				culture = polish
-				size = 871204
+				size = 771204
 			}
 			create_pop = {
 				culture = north_german

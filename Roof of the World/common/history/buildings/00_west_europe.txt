@@ -964,12 +964,6 @@
 				activate_production_methods={ "pm_scholastic_education" }
 			}
 			create_building={
-				building="building_lead_mine"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
-			}
-			create_building={
 				building="building_food_industry"
 				level=1
 				reserves=1
@@ -2602,16 +2596,10 @@
 		}
 	}
 	s:STATE_BAVARIA={
-		region_state:BAV={
-			create_building={
-				building="building_government_administration"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}			
+		region_state:BAV={	
 			create_building={
 				building="building_wheat_farm"
-				level=10
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -2644,13 +2632,6 @@
 	s:STATE_FRANCONIA={
 		region_state:BAV={
 			create_building={
-				building="building_government_administration"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			}
-			create_building={
 				building="building_wheat_farm"
 				level=8
 				reserves=1
@@ -2670,7 +2651,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}

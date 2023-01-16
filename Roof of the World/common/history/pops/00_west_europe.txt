@@ -230,7 +230,7 @@
 		region_state:TLX = {
 			create_pop = {
 				culture = anglosaxon
-				size = 1657596
+				size = 1457596
 			}
 			create_pop = {
 				culture = anglosaxon
@@ -256,7 +256,7 @@
 		region_state:GLW = {
 			create_pop = {
 				culture = scottish
-				size = 986404
+				size = 786404
 			}
 			create_pop = {
 				culture = anglosaxon
@@ -273,11 +273,11 @@
 		region_state:CMB = {
 			create_pop = {
 				culture = welsh
-				size = 778557
+				size = 728557
 			}
 			create_pop = {
 				culture = anglosaxon
-				size = 194639
+				size = 144639
 			}
 		}
 	}
@@ -315,7 +315,7 @@
 		region_state:GLW = {
 			create_pop = {
 				culture = anglosaxon
-				size = 2543604
+				size = 1543604
 			}
 			create_pop = {
 				culture = anglosaxon
@@ -349,7 +349,7 @@
 		region_state:TLX = {
 			create_pop = {
 				culture = anglosaxon
-				size = 969600
+				size = 769600
 			}
 			create_pop = {
 				culture = anglosaxon
@@ -567,7 +567,7 @@
 		region_state:ULQ = {
 			create_pop = {
 				culture = occitan
-				size = 1564400
+				size = 1164400
 			}
 		}
 	}
@@ -639,7 +639,7 @@
 		region_state:ULQ = {
 			create_pop = {
 				culture = occitan
-				size = 1546844
+				size = 1146844
 			}
 			create_pop = {
 				culture = basque
@@ -786,7 +786,7 @@
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 2574808
+				size = 2074808
 			}
 			create_pop = {
 				culture = south_german
@@ -867,12 +867,12 @@
 		region_state:CRN = {
 			create_pop = {
 				culture = north_german
-				size = 1000800
+				size = 800800
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 100000
+				size = 800000
 			}
 			create_pop = {
 				culture = slovene
@@ -1015,7 +1015,7 @@
 		region_state:CRN = {
 			create_pop = {
 				culture = north_german
-				size = 1508704
+				size = 1308704
 			}
 			create_pop = {
 				culture = slovene

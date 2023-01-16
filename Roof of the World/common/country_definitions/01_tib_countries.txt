@@ -1396,7 +1396,7 @@ SLS = { #Salish
 	tier = kingdom
 	
 	cultures = { salish }
-	capital = STATE_BRITISH_COLUMBIA
+	capital = STATE_WASHINGTON
 
 }
 

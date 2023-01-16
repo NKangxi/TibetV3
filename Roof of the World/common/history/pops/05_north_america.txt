@@ -72,11 +72,11 @@
 		region_state:SLS = {	
 			create_pop = {
 				culture = nez_perce
-				size = 20000
+				size = 120000
 			}
 			create_pop = {
 				culture = salish
-				size = 100000
+				size = 300000
 			}
 		}
 	}
@@ -479,6 +479,12 @@
 			create_pop = {
 				culture = cherokee
 				size = 108000
+			}
+		}
+		region_state:SWN = {
+			create_pop = {
+				culture = algonquian
+				size = 50000
 			}
 		}
 	}

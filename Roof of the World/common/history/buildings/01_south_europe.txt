@@ -1676,6 +1676,12 @@
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
 			}
 			create_building={
+				building="building_iron_mine"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
+			}
+			create_building={
 				building="building_textile_mills"
 				level=2
 				reserves=1
@@ -1868,10 +1874,10 @@
 	s:STATE_ISTRIA={
 		region_state:CRN={
 			create_building={
-				building="building_tooling_workshops"
-				level=3
+				building="building_government_administration"
+				level=1
 				reserves=1
-				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
 				building="building_shipyards"
@@ -1918,6 +1924,18 @@
 	s:STATE_NORTHERN_SERBIA={
 		region_state:ANA={
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_coal_mine"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				level=2
 				reserves=1
@@ -1961,6 +1979,12 @@
 	}
 	s:STATE_CRETE={
 		region_state:CYP={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -2076,6 +2100,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_merchant_guilds_building_food_industry" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
 				building="building_cotton_plantation"

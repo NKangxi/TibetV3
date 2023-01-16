@@ -294,6 +294,12 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
+			}	
+			create_building={
+				building="building_lead_mine"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
 			}			
 			create_building={
 				building="building_tooling_workshops"
@@ -369,9 +375,15 @@
 			}
 			create_building={
 				building="building_iron_mine"
-				level=3
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
+			}
+			create_building={
+				building="building_lead_mine"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -1575,6 +1587,12 @@
 	}
 	s:STATE_MEKONG={
 		region_state:CHA={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
 			create_building={
 				building="building_rice_farm"
 				level=2

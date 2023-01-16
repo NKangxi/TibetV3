@@ -242,7 +242,7 @@
 		region_state:ULQ = {
 			create_pop = {
 				culture = spanish
-				size = 1230808
+				size = 1030808
 			}
 			create_pop = {
 				culture = basque
@@ -370,7 +370,7 @@
 		region_state:ULQ = {
 			create_pop = {
 				culture = portuguese
-				size = 820800
+				size = 620800
 			}
 		}
 	}

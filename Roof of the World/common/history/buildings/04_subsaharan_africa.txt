@@ -298,7 +298,7 @@
 		}
 	}
 	s:STATE_NIGERIA={
-		region_state:ORP={
+		region_state:SOK={
 			create_building={
 				building="building_millet_farm"
 				level=2
