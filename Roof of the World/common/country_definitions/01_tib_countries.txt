@@ -68,7 +68,7 @@ CWU = {
 	color = { 178  51  222 }
 
 	country_type = recognized
-	
+
 	tier = empire
 
 	cultures = { jianghuai wu }
@@ -182,7 +182,7 @@ SOO = {
 	tier = empire
 	
 	cultures = { japanese }
-	capital = STATE_KANSAI
+	capital = STATE_CHUGOKU
 }
 
 TIB = {
@@ -191,10 +191,9 @@ TIB = {
 	country_type = recognized
 	
 	tier = empire
-
 	religion = bon
 	
-	cultures = { tibetan nepali bengali }
+	cultures = { tibetan nepali }
 	capital = STATE_LHASA
 }
 

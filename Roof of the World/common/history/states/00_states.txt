@@ -534,10 +534,15 @@ STATES = {
 	s:STATE_MARYLAND = {
 		create_state = {
 			country = c:CHE
-			owned_provinces = { x708080 x0E3435 xAEB9F5 xF08000 x16482D x5E6C0F x888194 x576240 x3CC08F }
+			owned_provinces = { x708080 x0E3435 x5E6C0F x888194 x576240 x3CC08F }
+		}
+		create_state = {
+			country = c:PEQ
+			owned_provinces = { xAEB9F5 x16482D xF08000 }
 		}
 		
-		add_homeland = dixie	
+		add_homeland = cherokee	
+		add_homeland = algonquian
 	}
 
 	s:STATE_DELAWARE = {
@@ -1209,12 +1214,8 @@ STATES = {
 			owned_provinces = { x4D3B30 xD12977 x723F1D xFF7473 x28D126 xC9472E xE8E0A4 xA9240B x65A581 x70D020 x8C6854 x1830A7 x631F32 x69B568 xF0D021 }
 		}
 		create_state = {
-			country = c:OMA
-			owned_provinces = { x0DC972 }
-		}
-		create_state = {
-			country = c:BHN
-			owned_provinces = { x505AE0 x2768F8 xEF5020 }
+			country = c:ETH
+			owned_provinces = { x0DC972 x505AE0 x2768F8 xEF5020 }
 		}
 		
 		add_homeland = bedouin
@@ -4235,7 +4236,7 @@ STATES = {
 			owned_provinces = { x2F832B xB80596 xAFE8A5 x8070A0 xE816BC x3FA81D xC83D18 xB2B395 x9DF415 x1BC9CB xF58FBD x20B506 xA54E11 xB67223 x01F020 xCC1B0F xE9C86A x901598 xF8EBE8 x6DDC3B x5D2CF2 x80F020 xAFF45C x648853 xFF73DA xCCDD76 x75B934 x2E57B1 xB0513F xF6D834 xD73959 xCBE9C4 xF24BDE xCACC49 x0D4D86 xEB9357 x6796CE x922EDA xF14D58 x2E09CE x7FB23D x9869E8 x99F186 x177599 x5293C9 xE862E9 x159AB3 x407020 x83424B x5E1734 x8D0125 xF4E18B x124E6F }
 		}
 		create_state = {
-			country = c:OMA
+			country = c:GUJ
 			owned_provinces = { xAAA21C x876E91 x0170A0 x350DED x75B0BE x36F270 x42FC41 }
 		}
 		

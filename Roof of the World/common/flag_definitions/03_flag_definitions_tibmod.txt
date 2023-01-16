@@ -807,6 +807,14 @@ ULQ = { #Ulaqui
 	}
 }
 
+VIJ = { #Vijayanagar
+	flag_definition = {
+		coa = VIJ
+		subject_canton = VIJ
+		priority = 100
+	}
+}
+
 XIU = { #Xiu
 	flag_definition = {
 		coa = XIU

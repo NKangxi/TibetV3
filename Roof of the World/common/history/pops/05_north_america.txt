@@ -492,11 +492,17 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = algonquian
-				size = 701997
+				size = 601997
 			}
 			create_pop = {
 				culture = cherokee
 				size = 200000
+			}
+		}
+		region_state:PEQ = {
+			create_pop = {
+				culture = algonquian
+				size = 100000
 			}
 		}
 	}

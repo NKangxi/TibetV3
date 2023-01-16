@@ -287,12 +287,12 @@
 				size = 5210800
 			}
 			create_pop = {
-				culture = han # nanfaren
-				size = 3011992
+				culture = zhili # nanfaren
+				size = 1011992
 			}
 			create_pop = {
 				culture = korean
-				size = 504000
+				size = 2504000
 			}
 			create_pop = {
 				culture = mongol

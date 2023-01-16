@@ -90,21 +90,29 @@
 				size = 120
 			}
 		}
-		region_state:OMA = {
+		region_state:ETH = {
+			create_pop = { 
+				culture = amhara
+				size = 5000
+			}
+			create_pop = {
+				culture = oromo
+				size = 3000
+			}
 			create_pop = {
 				culture = bedouin
 				religion = shiite
-				size = 1600
+				size = 13600
 			}
 			create_pop = {
 				culture = bedouin
 				religion = sunni
-				size = 2800
+				size = 13200
 			}
 			create_pop = {
 				culture = persian
 				religion = shiite
-				size = 100
+				size = 5300
 			}
 			create_pop = {
 				culture = baluchi
@@ -115,30 +123,7 @@
 				pop_type = slaves
 				culture = sudanese
 				religion = animist
-				size = 100
-			}
-		}
-		region_state:BHN = {
-			create_pop = {
-				culture = bedouin
-				religion = shiite
-				size = 12000
-			}
-			create_pop = {
-				culture = bedouin
-				religion = sunni
-				size = 9400
-			}
-			create_pop = {
-				culture = persian
-				religion = shiite
-				size = 5200
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sudanese
-				religion = animist
-				size = 2430
+				size = 2530
 			}
 			create_pop = {
 				culture = bedouin
@@ -772,7 +757,7 @@
 				pop_type = slaves
 			}
 		}
-		region_state:OMA = {
+		region_state:GUJ = {
 			create_pop = {
 				culture = persian
 				size = 33100

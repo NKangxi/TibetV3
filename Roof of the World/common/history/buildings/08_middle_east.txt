@@ -70,6 +70,14 @@
 				activate_production_methods={ "pm_anchorage" }
 			}			
 		}
+		region_state:ETH={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}			
+		}
 	}
 	s:STATE_YEMEN={
 		region_state:YEM={
@@ -108,7 +116,13 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
-			}	
+			}
+			create_building={
+				building="building_naval_base"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
+			}			
 		}
 		region_state:HDJ={
 			create_building={
@@ -468,7 +482,7 @@
 				building= "building_argebam"
 			}
 		}
-		region_state:OMA={
+		region_state:GUJ={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
