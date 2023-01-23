@@ -386,34 +386,14 @@
 		}
 	}
 	s:STATE_NAGPUR = {
-		region_state:HYD = {
-			create_pop = {
-				culture = marathi
-				size = 1351630
-			}
-			create_pop = {
-				culture = avadhi
-				size = 88386
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = marathi
-				size = 50000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 6000
-			}
-		}
 		region_state:NAG = {
 			create_pop = {
 				culture = marathi
-				size = 2404314
+				size = 3804314
 			}
 			create_pop = {
 				culture = avadhi
-				size = 135037
+				size = 225037
 			}
 			create_pop = {
 				culture = kanauji
@@ -421,18 +401,32 @@
 			}
 			create_pop = {
 				culture = kanauji
-				religion = animist
+				religion = bon
 				size = 1364700
+			}
+			create_pop = {
+				culture = telegu
+				size = 310070
+			}
+			create_pop = {
+				culture = telegu
+				religion = bon
+				size = 26552
+			}
+			create_pop = {
+				culture = telegu
+				religion = animist
+				size = 150301
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = marathi
-				size = 50200
+				size = 100200
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = avadhi
-				size = 20700
+				size = 26700
 			}
 			create_pop = {
 				pop_type = slaves
@@ -443,29 +437,7 @@
 				pop_type = slaves
 				culture = kanauji
 				religion = animist
-				size = 61071
-			}
-		}
-		region_state:BAS = {
-			create_pop = {
-				culture = telegu
-				size = 310070
-			}
-			create_pop = {
-				culture = telegu
-				religion = sunni
-				size = 26552
-			}
-			create_pop = {
-				culture = telegu
-				religion = animist
-				size = 150301
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				religion = animist
-				size = 20070
+				size = 81071
 			}
 			create_pop = {
 				pop_type = slaves
@@ -534,21 +506,21 @@
 		region_state:PAN = {
 			create_pop = {
 				culture = rajput
-				size = 3087096
+				size = 5387096
 			}
 			create_pop = {
 				culture = avadhi
-				size = 140000
+				size = 600000
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = rajput
-				size = 100900
+				size = 122900
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = avadhi
-				size = 8000
+				size = 41000
 			}
 		}
 		region_state:MEW = {
@@ -569,26 +541,6 @@
 				pop_type = slaves
 				culture = avadhi
 				size = 2100
-			}
-		}
-		region_state:JAI = {
-			create_pop = {
-				culture = rajput
-				size = 2300217
-			}
-			create_pop = {
-				culture = avadhi
-				size = 461052
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = rajput
-				size = 22000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = avadhi
-				size = 30010
 			}
 		}
 	}

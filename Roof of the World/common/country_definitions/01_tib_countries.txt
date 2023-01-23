@@ -453,7 +453,7 @@ TAM = {
 	
 	tier = kingdom
 	
-	cultures = { tamil sinhala }
+	cultures = { tamil telugu sinhala }
 	capital = STATE_MADRAS
 	
 }
@@ -464,6 +464,7 @@ VIJ = {
 	country_type = recognized
 
 	tier = kingdom
+	religion = hindu
 
 	cultures = { kannada }
 	capital = STATE_BOMBAY
@@ -1245,7 +1246,7 @@ VLU = { # Veliky Ustug
 }
 
 EST = { #Estonia
-	color = { 179  29  100 }
+	color = { 120  29  100 }
 	
 	country_type = recognized
 

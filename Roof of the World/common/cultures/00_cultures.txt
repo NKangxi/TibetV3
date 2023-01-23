@@ -7701,7 +7701,7 @@ maghrebi={
 
 misri={
 	color= rgb{ 226 218 112 }
-	religion = sunni
+	religion = theravada
 	obsessions = {
 		coffee
 	}
@@ -9057,7 +9057,14 @@ tibetan={
 	male_common_first_names={
 		Andruk
 		Chamba
+		Chodha
+		Choden
+		Chodron
+		Choegyal
+		Daod
+		Dawang
 		Gendun
+		Dralha
 		Jamphel
 		Mipham
 		Namgang
@@ -9066,22 +9073,40 @@ tibetan={
 		Trimon
 		Tsarong
 		Tsepon
+		Wangchuk
+		Wangpo 
+		Woser
 	}
 	female_common_first_names = {
+		Cholha
+		Daod
+		Dolma
+		Dralha	
 		Jamyang
 		Lhakpa
+		Lhamo
+		Lobsang
 		Ngawang
+		Ngodup
+		Nima
 		Phuntsog
+		Rinchen
+		Suklha
 		Tsewang
+		Wangchuk
+		Wangmo 
 		Lasya
 		Gyalyum
+		Yama
+		Youdron
+		Zopa
 	}	
 	noble_last_names = {
 		Purygal
 		Ngapoi
 		Se Rmu Ldong Stong Dbra Dru Nyang Sbas Gnon Chespong Thonmi Mgar Bri Mong Zhang Mchims Bal Lang Cogro Bro Dbas 
 		Shudpu Gnyags Mgus Mjang Snang Sgro Rma Snyiba Khu Khun Mkar Rlangs Rinspungs Zhingshag Phjongsrgjas Nganlam Sba Lig 
-		Khjungpo Dbas Mnyammed
+		Khjungpo Dbas Mnyammed Pakmodru
 	}
 	common_last_names={
 		Chophel
@@ -9145,23 +9170,30 @@ bengali={
 	religion = bon
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
-		Ahmad
-		Alauddin
-		Alivardi
-		Hasan
-		Mansur
-		Mir_Muhammad
-		Mubarak
 		Murshid
-		Najimuddin
 		Quli
 		Reza
-		Saifuddaula
-		Shujauddin
-		Sirajuddaula
 		Waris
 		Wasif
 		Zainul
+		Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran 
+		Bhagadatta Bhairabendranarayan Bhatta Bhavashankari Bhimsingha Birnayaran 
+		Chandrasen Chandranarayan Chaturanan Chilarai 
+		Danujmadhava Dasharathadeva Devakhadga Devapala Devendranarayan 
+		Dhairjendranayaran Dharendranarayan Dharmapala Dhirsingha 
+		Gajnarayan Gopala Govindachandra Govindapala 
+		Hajo Harendranarayan Haridevnarayan Hariyamandal Hemantasen Indranarayan 
+		Jadu Jagaddipendranarayan Jatakhadga Jayanarayan Jayapala Jitendranarayan 
+		Kalyanachandra Kamalnarayan Keshabsen Khadgodyama Krishanmishra Krishnaroy 
+		Kumarapala Kumudnarayan Ladahachandra Lakshmansen Lakshmichandra Lakshminarayan Lomapada 
+		Madanapala Mahendrapala Mahendrasingha Mahindranarayan Mahipala Manava Mukundanarayan 
+		Naranarayan Narasingha Narayanapala Narendranarayan Nayapala Nripendranarayan 
+		Parikshitnayaran Prananarayan Prannath Pratapnarayan Pratapnarayanroy Pushkaranadhipa 
+		Raghudev Rajabhata Rajadinaj Rajaganesha Rajendranarayan Rajrajendranarayan Rajyapala 
+		Ramapala Ramnath Ranasura Ranjitsingha Roopnarayan Rudranarayan 
+		Samudrasen Shanibhangar Shashanka Shivanarayan Shivendranarayan Shukladhwaj Shurapala 
+		Srichandra Srimanta Subarnachandra Sukhdev Suryanarayan Traillokyachandra 
+		Udirnakhadga Uditanarayan Upendranayaran Vakapala Vapyata Vigrahapala 
 	}
 	female_common_first_names = {
 		Iffat
@@ -9174,6 +9206,8 @@ bengali={
 		Syeda
 		Tarana
 		Zohra
+		Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
+		Syamadevi Vijnayavati Vina Yajnavati
 	}
 	noble_last_names = {
 		Bahadur
@@ -10561,7 +10595,7 @@ lucaantaran={
 
 moluccan={
 	color= hsv{ 0.29 0.22 0.51 }
-	religion = sunni
+	religion = hindu
 	traits = { southeast_asian_heritage malay_culture }
 	male_common_first_names={
 		Denny
@@ -14683,10 +14717,10 @@ cherokee={
 		Salali Tsistunagiska Tsula Tayanita Yona
 	}	
 	noble_last_names = {
-		Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Adahy Atagulkalu
+		Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Atagulkalu
 	}
 	common_last_names={
-		Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Adahy Atagulkalu
+		Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Atagulkalu
 	}
 	ethnicities = {
 		1 = native_american
