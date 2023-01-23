@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:ULQ = {
+		create_character = {
+			first_name = "Amokontakona"
+			last_name = "Sasadeehee"
+			culture = cu:cherokee
+			ruler = yes
+			age = 48
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				imperious
+			}
+		}
+	}
+}

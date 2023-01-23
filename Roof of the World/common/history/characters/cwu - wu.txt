@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:CWU = {
+		create_character = {
+			first_name = "Shanlan"
+			last_name = "Qi"
+			culture = cu:wu
+			ruler = yes
+			female = yes
+			age = 55
+			interest_group = ig_landowners
+			ideology = ideology_radical
+			traits = {
+				direct
+			}
+		}
+	}
+}

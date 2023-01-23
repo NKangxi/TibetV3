@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:ETH = {
+		create_character = {
+			first_name = "yasovarman_petros"
+			last_name = "Yasovarmanid"
+			ruler = yes
+			noble = yes
+			age = 41
+			culture = cu:amhara
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				arrogant
+			}
+		}	
+	
+		create_character = {
+			first_name = "essayas_yasovarman"
+			last_name = "Yasovarmanid"
+			heir = yes
+			noble = yes
+			female = yes
+			age = 19
+			culture = cu:amhara
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+	}
+}

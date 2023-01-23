@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KOR = {
+		create_character = {
+			first_name = "Eon-jeok"
+			last_name = "Song"
+			culture = cu:korean
+			ruler = yes
+			age = 50
+			interest_group = ig_landowners
+			ideology = ideology_radical
+			traits = {
+				tactful
+			}
+		}
+	}
+}

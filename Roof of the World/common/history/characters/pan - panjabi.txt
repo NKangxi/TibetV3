@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:PAN = {
+		create_character = {
+			first_name = "Tenzin"
+			last_name = "Bahadur"
+			culture = cu:panjabi
+			ruler = yes
+			age = 62
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				ambitious
+			}
+		}
+	}
+}

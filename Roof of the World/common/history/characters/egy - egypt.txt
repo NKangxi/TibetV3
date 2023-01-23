@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:EGY = {
+		create_character = {
+			first_name = "Agathonikos"
+			last_name = "Suryavansha"
+			ruler = yes
+			culture = cu:misri
+			religion = theravada
+			age = 57
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			traits = {
+				ambitious
+			}
+		}	
+
+		create_character = {
+			first_name = "Agathonikos"
+			last_name = "Suryavansha"
+			heir = yes
+			culture = cu:misri
+			religion = theravada
+			age = 47
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			traits = {
+				persistent
+			}
+		}
+	}
+}

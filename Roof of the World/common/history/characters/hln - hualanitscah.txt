@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HLN = {
+		create_character = {
+			first_name = "Axacaya"
+			last_name = "Harispe"
+			culture = cu:hualanitscah
+			ruler = yes
+			age = 49
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				reckless
+			}
+		}
+	}
+}

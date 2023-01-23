@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SOO = {
+		create_character = {
+			first_name = "Takayoshi"
+			last_name = "Arisugawa"
+			culture = cu:japanese
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				innovative
+			}
+		}
+	}
+}

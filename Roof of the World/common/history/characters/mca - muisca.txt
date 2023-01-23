@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:MCA = {
+		create_character = {
+			first_name = "Saguamanchica"
+			last_name = "Aguazuque"
+			culture = cu:muisca
+			ruler = yes
+			age = 52
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				brave
+			}
+		}
+	}
+}

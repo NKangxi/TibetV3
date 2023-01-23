@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:JIN = {
+		create_character = {
+			first_name = "Changxun"
+			last_name = "Purgyal"
+			ruler = yes
+			culture = tibetan
+			age = 50
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				imperious
+			}
+		}	
+
+		create_character = {
+			first_name = "Changfang"
+			last_name = "Purgyal"
+			culture = tibetan
+			heir = yes
+			age = 29
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				arrogant
+			}
+		}
+	}
+}

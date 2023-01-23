@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:CYA = {
+		create_character = {
+			first_name = "Qorihillpay"
+			last_name = "Chachapoya"
+			culture = cu:chachapoya
+			ruler = yes
+			female = yes
+			age = 46
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				ambitious
+			}
+		}
+
+		create_character = {
+			first_name = "Huachuri"
+			last_name = "Chachapoya"
+			culture = cu:chachapoya
+			interest_group = ig_landowners
+			age = 27
+			traits = {
+				arrogant
+			}
+		}
+	}
+}

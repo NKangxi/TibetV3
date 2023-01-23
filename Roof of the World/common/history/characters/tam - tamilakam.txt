@@ -1,0 +1,31 @@
+CHARACTERS = {
+	c:TAM = {
+		create_character = {
+			first_name = "Dolma"
+			last_name = "Sangama"
+			ruler = yes
+			female = yes
+			age = 60
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Gemasranglod"
+			last_name = "Sangama"
+			heir = yes
+			age = 25
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				imperious
+			}
+		}
+	}
+}

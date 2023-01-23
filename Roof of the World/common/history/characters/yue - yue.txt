@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:YUE = {
+		create_character = {
+			first_name = "Houjue"
+			last_name = "Sun"
+			culture = cu:yue
+			ruler = yes
+			age = 60
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				persistent
+			}
+		}
+	}
+}

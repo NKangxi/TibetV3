@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:PRP = {
+		create_character = {
+			first_name = "Tzimtzincha"
+			last_name = "Uacusecha"
+			ruler = yes
+			female = yes
+			age = 57
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				romantic
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Yoloxochitl"
+			last_name = "Uacusecha"
+			heir = yes
+			female = yes
+			age = 29
+			interest_group = ig_landowners
+			ideology = ideology_jingoist_leader
+			traits = {
+				tactful
+			}
+		}
+	}
+}
