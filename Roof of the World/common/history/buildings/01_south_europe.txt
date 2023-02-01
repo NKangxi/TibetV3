@@ -2041,7 +2041,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
@@ -2053,7 +2053,7 @@
 			}
 			create_building={
 				building="building_cotton_plantation"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -2069,7 +2069,7 @@
 		region_state:ANA={
 			create_building={
 				building="building_iron_mine"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
 			}
@@ -2081,7 +2081,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -2109,7 +2109,7 @@
 			}
 			create_building={
 				building="building_cotton_plantation"
-				level=1
+				level=5
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -2121,7 +2121,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -2161,9 +2161,9 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=2
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"

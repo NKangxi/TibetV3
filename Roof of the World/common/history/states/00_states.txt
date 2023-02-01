@@ -17,6 +17,7 @@ STATES = {
 			owned_provinces = { x39D7A2 xC51912 x9A7554 x13B0C7 x4FA3C4 x86BC13 xC1273E x371B1B xC0F080 x0CF7A4 x68C793 x216122 x1BF244 x9E96B6 xC62139 xBF79F5 xAC4818 x18D465 xC07080 x131940 x71BEC1 xEE0FAA x7EF4B8 x403095 xEFB99C x2BEBAE xD658E7 xA4EE3C }
 		}
 		
+		add_claim = c:ASI
 		add_homeland = siouan
 		add_homeland = caddoan
 		add_homeland = nahua
@@ -651,6 +652,7 @@ STATES = {
 			}
 		}
 		
+		add_claim = c:ASI
 		add_homeland = nahua
 		add_homeland = siouan
 		add_homeland = comanche
@@ -1020,6 +1022,7 @@ STATES = {
 			owned_provinces = { x48868C x702080 x10E0C0 xABE0B3 xAC1425 x9EC9B8 xCB3245 }
 		}
 		
+		add_claim = c:NAV
 		add_homeland = spanish
 		add_homeland = basque
 	}
@@ -1752,7 +1755,8 @@ STATES = {
         		xCD65EB x3C43BC x1F2DE0 xB60E46 xBDAF9D xA04111 xBA338A x8C8A64 x3FA31D xAF6776 xA85C4A xCDB699 xA970CF x960A35 xFC8C93 x4B0F3A xE8BA13 x4F98A6 xB8B087 x90594E xDC49C1 x21F625 xF777F8 x96700F xC413AA x981656 x888CDB x4A40A2 x1182FD xD72252 xD14114 xAADF4E xBD503D x1D7FD2 x082621 xDF31C8 x6C1217 x47DD6F x819B9B x755A1F xF41AB0 x26A1DE x16E6AD x7E0544 x62AEF6 xC5474F x550071 xBF92E8 xC98FE7 x873D0C xE1C40F x80F241 x49320F x6EAF9A xE336EF x5ABF5A xC3E90E x430FED x8F3A3A x33102C x680C6A x74A192 xC92518 xDBF44B xCFC6EC x999716 x0D770E x69EDA5 x4F76AF xF1FE8F x10871C xD29F39 x35641E xDD2CE1 x9D57CD xFF265C x5E1149 x72000B xDC0EE4 x28B30B x650BF7 x32B46C x8AB059 xBCAD33 xD318FE xD809FC x0FDD9C x4D0F16 xE5DCAD x3E918E x70E7F2 x8647C7 xC6D926 x288CA0 
 			}
 		}
-
+		
+		add_claim = c:JEE
 		add_homeland = amazonian
 
 	}
@@ -1789,6 +1793,7 @@ STATES = {
 			}
 			state_type = unincorporated
 		}
+		add_claim = c:JEE
 		add_homeland = amazonian
 	}
 	s:STATE_ACRE = {
@@ -2604,7 +2609,7 @@ STATES = {
 			country = c:ULQ
 			owned_provinces = { xD0854D xA0A080 xE0A0C0 x106000 xE0A624 x10A0C0 xCF1F6D xC4C61A }
 		}
-		
+		add_claim = c:HLN
 		add_homeland = hualanitscah
 	}
 	s:STATE_ALSACE_LORRAINE = {
@@ -2656,7 +2661,7 @@ STATES = {
 			country = c:ULQ
 			owned_provinces = { x8C3297 xF08060 x79B85C xC69235 x7000E0 x380D42 x6D7896 x8329EC x3FE149 x09BB96 xF080E0 xA8AE71 x07BCC1 x708060 }
 		}
-		
+		add_claim = c:HLN
 		add_homeland = hualanitscah
 	}
 	s:STATE_CHAMPAGNE = {
@@ -2664,7 +2669,7 @@ STATES = {
 			country = c:ULQ
 			owned_provinces = { x5362AC x70C020 x075199 x7040A0 xEFBF20 x669027 xE280FC x999D4B x8AE8D1 xEF00DF x5FEA2F xEF40A0 xD6A06D }
 		}
-		
+		add_claim = c:HLN
 		add_homeland = hualanitscah
 	}
 	s:STATE_FRANCHE_COMTE = {
@@ -2672,7 +2677,7 @@ STATES = {
 			country = c:ULQ
 			owned_provinces = { x4B7684 x282DCC xB080E0 xC5F13A x70BFA0 x700060 x7FC1E6 x600883 x3080E0 x3D8EF9 xA9D961 xF00060 xCF46D1 }
 		}
-		
+		add_claim = c:HLN
 		add_homeland = hualanitscah
 	}
 	s:STATE_AUVERGNE = {

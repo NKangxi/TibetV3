@@ -9170,12 +9170,6 @@ bengali={
 	religion = bon
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
-		Murshid
-		Quli
-		Reza
-		Waris
-		Wasif
-		Zainul
 		Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran 
 		Bhagadatta Bhairabendranarayan Bhatta Bhavashankari Bhimsingha Birnayaran 
 		Chandrasen Chandranarayan Chaturanan Chilarai 

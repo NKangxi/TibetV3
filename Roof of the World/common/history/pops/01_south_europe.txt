@@ -440,8 +440,12 @@
 	s:STATE_EASTERN_THRACE = {
 		region_state:ANA = {
 			create_pop = {
+				culture = amhara
+				size = 700000
+			}
+			create_pop = {
 				culture = turkish
-				size = 832996
+				size = 232996
 			}
 			create_pop = {
 				culture = greek

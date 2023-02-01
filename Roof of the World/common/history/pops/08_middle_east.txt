@@ -977,8 +977,16 @@
 	s:STATE_HUDAVENDIGAR = {
 		region_state:ANA = {
 			create_pop = {
+				culture = amhara
+				size = 800000
+			}
+			create_pop = {
 				culture = turkish
-				size = 838494
+				size = 50000
+			}
+			create_pop = {
+				culture = mongol
+				size = 10000
 			}
 			create_pop = {
 				culture = sephardic
@@ -1016,8 +1024,16 @@
 	s:STATE_AYDIN = {
 		region_state:ANA = {
 			create_pop = {
+				culture = amhara
+				size = 300000
+			}
+			create_pop = {
+				culture = oromo
+				size = 100000
+			}
+			create_pop = {
 				culture = turkish
-				size = 598129
+				size = 298129
 			}
 			create_pop = {
 				culture = armenian
@@ -1238,8 +1254,12 @@
 	s:STATE_TRABZON = {
 		region_state:ANA = {
 			create_pop = {
+				culture = amhara
+				size = 600000
+			}
+			create_pop = {
 				culture = turkish
-				size = 678712
+				size = 478712
 			}
 			create_pop = {
 				culture = armenian
@@ -1280,7 +1300,7 @@
 		region_state:ANA = {
 			create_pop = {
 				culture = turkish
-				size = 144045
+				size = 104045
 			}
 			create_pop = {
 				culture = turkish
@@ -1305,7 +1325,7 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 255800
+				size = 305800
 			}
 			create_pop = {
 				culture = armenian

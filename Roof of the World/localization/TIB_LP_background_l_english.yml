@@ -26,3 +26,8 @@
   je_tawantinsuyu:0 "Inca Unification"
   je_tawantinsuyu_reason:0 "The people of the four realms are divided. Petty city-states and foreign powers vie for control of a people who are calling out for unity. We must lead the charge."
   je_tawantinsuyu_status:0 "Minor nations within our Customs Union and with high mutual relations may unify with us."
+  
+  #Tibetan Bengali JE
+  ideology_tibetan_hegemony:0 "Plateau Hegemony"
+  tibetan_aristocracy:0 "Plateau Aristocracy"
+  je_tibetan_southerners:0 "Southern Integration"

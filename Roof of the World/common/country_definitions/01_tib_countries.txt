@@ -884,7 +884,7 @@ ANA = {
 	
 	country_type = recognized
 	
-	cultures = { amhara turkish greek armenian mashriqi }
+	cultures = { amhara turkish greek armenian mashriqi sephardim }
 	
 	religion = sunni
 	

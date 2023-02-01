@@ -19,7 +19,6 @@
 			last_name = "Yasovarmanid"
 			heir = yes
 			noble = yes
-			female = yes
 			age = 19
 			culture = cu:amhara
 			interest_group = ig_landowners
