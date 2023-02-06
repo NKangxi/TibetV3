@@ -338,7 +338,7 @@ POPS = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 483000
+				size = 583000
 			}		
 		}
 	}
@@ -352,7 +352,7 @@ POPS = {
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size = 61100
+				size = 111100
 			}
 			create_pop = {
 				culture = platinean

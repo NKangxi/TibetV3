@@ -31,3 +31,6 @@
   ideology_tibetan_hegemony:0 "Plateau Hegemony"
   tibetan_aristocracy:0 "Plateau Aristocracy"
   je_tibetan_southerners:0 "Southern Integration"
+  
+  #State Traits
+  state_trait_red_river_delta:0 "Hong River Delta"
