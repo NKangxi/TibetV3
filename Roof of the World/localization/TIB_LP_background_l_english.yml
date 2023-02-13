@@ -30,7 +30,13 @@
   #Tibetan Bengali JE
   ideology_tibetan_hegemony:0 "Plateau Hegemony"
   tibetan_aristocracy:0 "Plateau Aristocracy"
+  ideology_reformed_bon:0 "Restorationist Bön"
   je_tibetan_southerners:0 "Southern Integration"
   
   #State Traits
   state_trait_red_river_delta:0 "Hong River Delta"
+  state_trait_yungui_plateau:0 "Yungui Plateau"
+  state_trait_grand_canal:0 "Grand Canal"
+  
+  #cultural traits
+  tibetic_group:0 "Tibetic"

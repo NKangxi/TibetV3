@@ -9053,7 +9053,7 @@ tibetan={
 		tea
 	}
 	
-	traits = { tibetan_language himalayan east_asian_heritage }
+	traits = { tibetan_language himalayan east_asian_heritage tibetic_group }
 	male_common_first_names={
 		Andruk
 		Chamba
@@ -10021,7 +10021,7 @@ telegu={
 vietnamese={
 	color= hsv{ 0.31 0.37 0.48 }
 	religion = mahayana
-	traits = { sinosphere southeast_asian_heritage }
+	traits = { sinosphere khmer_language east_asian_heritage southeast_asian_heritage }
 	male_common_first_names={
 		Bui_An
 		Nguyen
@@ -10482,6 +10482,9 @@ javan={
 	religion = hindu
 	traits = { southeast_asian_heritage malay_culture }
 	male_common_first_names={
+		Girindrawardhana Girishawardhana Kertabumi Kertawijaya Rajasawardhana Suraprabhawa 
+		Wikramawardhana Hayam_Wuruk Kalagamet Raden_Wijaya Kertawardhana Raden_Sotor Raden_Sumirat 
+		Singhawardhana
 		Abul Abdurrahman Ahmad Amir Anom Arifin
 		Bambang
 		Cirebon
@@ -10494,7 +10497,7 @@ javan={
 		Zainul
 	}
 	female_common_first_names = {
-		Megawati
+		Megawati Sri_Gitarja
 		Siti Soimah Sunarti Soepiah
 		Tatiek
 		Yayuk
@@ -11359,7 +11362,7 @@ han={
 sichuanese={
 	color= rgb{ 170 80 90 }
 	religion = bon
-	traits = { sinosphere han_chinese east_asian_heritage }
+	traits = { sinosphere han_chinese east_asian_heritage tibetic_group }
 	obsessions = {
 		opium
 	}

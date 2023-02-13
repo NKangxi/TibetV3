@@ -539,6 +539,12 @@
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
 			create_building={
+				building="building_furniture_manufacturies"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_lathe" "pm_privately_owned_building_furniture_manufacturies" "pm_automation_disabled" "pm_no_luxuries" }
+			}
+			create_building={
 				building="building_food_industry"
 				level=5
 				reserves=1
@@ -1789,7 +1795,7 @@
 			}
 			create_building={
 				building="building_iron_mine"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
 			}

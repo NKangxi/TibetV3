@@ -26,6 +26,17 @@
 			add_ideology = ideology_tibetan_hegemony
 			set_interest_group_name = tibetan_aristocracy
 		}
+		
+		ig:ig_devout = {
+			set_interest_group_name = ig_trizin_council
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_reformed_bon
+		}
+		
+		ig:ig_intelligentsia = {
+			remove_ideology = ideology_anti_clerical
+		}
+
 		ig:ig_armed_forces = {
 			add_ruling_interest_group = yes
 		}

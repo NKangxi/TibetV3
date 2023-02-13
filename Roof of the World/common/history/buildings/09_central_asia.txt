@@ -550,6 +550,12 @@
 				activate_production_methods={ "pm_traditional_art" }
 			}
 			create_building={
+				building="building_arms_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_cannons" "pm_merchant_guilds_building_arms_industry" }
+			}
+			create_building={
 				building="building_furniture_manufacturies"
 				level=6
 				reserves=1
