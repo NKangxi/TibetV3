@@ -90,6 +90,12 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
+				building="building_university"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
 				building="building_logging_camp"
 				level=5
 				reserves=1
@@ -1482,6 +1488,12 @@
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
+				building="building_rice_farm"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
+			}
+			create_building={
 				building="building_cotton_plantation"
 				level=2
 				reserves=1
@@ -1517,7 +1529,7 @@
 			}
 			create_building={
 				building="building_university"
-				level=3
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
 			}
@@ -1526,7 +1538,13 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
-			}	
+			}
+			create_building={
+				building="building_rice_farm"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
+			}			
 			create_building={
 				building="building_logging_camp"
 				level=4

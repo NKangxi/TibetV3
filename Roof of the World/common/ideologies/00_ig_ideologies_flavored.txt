@@ -492,7 +492,14 @@ ideology_tibetan_hegemony = {
 
 ideology_reformed_bon = {
 	icon = "gfx/interface/icons/ideology_icons/confucian.dds"
-	
+
+	lawgroup_citizenship = {
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = strongly_approve
+		law_multicultural = strongly_approve	
+	}	
 	lawgroup_church_and_state = {
 		law_state_religion = approve
 		law_freedom_of_conscience = approve
