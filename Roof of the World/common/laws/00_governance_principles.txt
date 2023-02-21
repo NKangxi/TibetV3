@@ -19,21 +19,11 @@ law_chiefdom = {
 	
 	modifier = {
 		country_legitimacy_headofstate_add = 20
+		country_authority_add = 100
 	}
 	
 	pop_support = {
 		value = 0
-		
-		add = {
-			desc = "POP_PEASANTS"
-			if = {
-				limit = { 
-					is_pop_type = peasants
-					owner = { has_law = law_type:law_chiefdom }
-				}
-				value = 1.0
-			}
-		}		
 	}
 }
 
@@ -50,8 +40,9 @@ law_monarchy = {
 
 	modifier = {
 		country_legitimacy_headofstate_add = 20
-		country_legitimacy_govt_total_clout_add = 0.10
+		country_legitimacy_ideological_incoherence_mult = 0.1
 		interest_group_ig_landowners_pol_str_mult = 0.25
+		country_authority_add = 200
 	}
 	
 	possible_political_movements = {
@@ -61,18 +52,16 @@ law_monarchy = {
 	}
 	
 	pop_support = {
-		value = 0
-		
+		value = 0	
 		add = {
-			desc = "POP_PEASANTS"
+			desc = "POP_ARISTOCRATS"
 			if = {
 				limit = { 
-					is_pop_type = peasants
-					owner = { has_law = law_type:law_monarchy }
+					is_pop_type = aristocrats
 				}
-				value = 1.0
+				value = 0.33
 			}
-		}		
+		}
 	}
 	
 	ai_will_do = {
@@ -95,13 +84,26 @@ law_presidential_republic = {
 	}
 	
 	modifier = {
-		country_legitimacy_headofstate_add = 15
-		country_legitimacy_govt_total_clout_add = 0.20
-		country_legitimacy_govt_size_mult = -0.10
+		country_legitimacy_govt_total_votes_add = 20
+		country_legitimacy_ideological_incoherence_mult = 0.2
+		country_authority_add = 100
 	}
 	
 	possible_political_movements = {
 		law_council_republic
+	}
+
+	pop_support = {
+		value = 0
+		add = {
+			desc = "POP_MIDDLE_STRATA"
+			if = {
+				limit = { 
+					strata = middle
+				}
+				value = 0.05
+			}
+		}
 	}
 	
 	ai_will_do = {
@@ -124,13 +126,25 @@ law_parliamentary_republic = {
 	}
 	
 	modifier = {
-		country_legitimacy_headofstate_add = 10
-		country_legitimacy_govt_total_clout_add = 0.20
-		country_legitimacy_govt_size_mult = -0.25
+		country_legitimacy_govt_total_votes_add = 20
+		country_legitimacy_govt_size_add = 1
 	}
 	
 	possible_political_movements = {
 		law_council_republic
+	}
+
+	pop_support = {
+		value = 0
+		add = {
+			desc = "POP_MIDDLE_STRATA"
+			if = {
+				limit = { 
+					strata = middle
+				}
+				value = 0.05
+			}
+		}
 	}
 	
 	ai_will_do = {
@@ -148,10 +162,15 @@ law_theocracy = {
 	
 	progressiveness = -50
 
+	disallowing_laws = {
+		law_total_separation 
+	}
+
 	modifier = {
 		country_legitimacy_headofstate_add = 20
-		country_legitimacy_govt_total_clout_add = 0.15
+		country_legitimacy_ideological_incoherence_mult = 0.1
 		interest_group_ig_devout_pol_str_mult = 0.25
+		country_authority_add = 200
 	}
 	
 	possible_political_movements = {
@@ -159,6 +178,20 @@ law_theocracy = {
 		law_presidential_republic
 		law_parliamentary_republic
 		law_council_republic
+	}
+
+	pop_support = {
+		value = 0
+		
+		add = {
+			desc = "POP_CLERGYMEN"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+				}
+				value = 0.33
+			}
+		}
 	}
 	
 	ai_will_do = {
@@ -185,14 +218,27 @@ law_council_republic = {
 	}
 
 	modifier = {
-		country_machinists_pol_str_mult = 0.25
-		country_farmers_pol_str_mult = 0.25
-		country_legitimacy_govt_total_clout_add = 0.4
+		country_legitimacy_govt_size_add = 1
+		country_legitimacy_ideological_incoherence_mult = -0.1
+		interest_group_ig_trade_unions_pol_str_mult = 0.25
 	}
 	
 	possible_political_movements = {
 		law_presidential_republic
 		law_parliamentary_republic
+	}
+
+	pop_support = {
+		value = 0
+		add = {
+			desc = "POP_LOWER_STRATA"
+			if = {
+				limit = { 
+					strata = poor
+				}
+				value = 0.05
+			}
+		}
 	}
 	
 	ai_will_do = {

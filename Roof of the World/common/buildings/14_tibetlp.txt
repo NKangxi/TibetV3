@@ -1,0 +1,33 @@
+﻿building_pyramid_of_lasya = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/lasya_pyramid.dds"
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "lhasa_pyramid_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_constructed = { "wonder_giza_necropolis_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 9
+	}
+	
+	production_method_groups = {
+		pm_base_building_lasya_pyramid
+	}
+	
+	possible = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_LHASA
+			}
+		}
+	}
+	
+	required_construction = construction_cost_monument
+}

@@ -88,6 +88,7 @@
  party_democratic_party:0 "Democratic Party"
  party_the_right:0 "Right"
  party_russian_party:0 "Russian Party"
+ party_red_mountain_party:0 "Red Mountain Party"
 
 #free_trade_party
  party_historic_party:0 "Historic Party"
@@ -131,6 +132,7 @@
  party_legitimist_party:0 "Legitimist Party"
  party_russian_assembly:0 "Russian Assembly"
  party_russian_all_military_union:0 "Russian All-Military Union"
+ party_golden_grasp_party:0 "Golden Grasp Party"
 
 #radical_party
  party_democratic_progressive_party:0 "Democratic Progressive Party"

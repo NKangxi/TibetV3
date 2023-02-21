@@ -34,6 +34,13 @@ conservative_party = {
 				}
 			}
 			triggered_desc = {
+				desc = party_red_mountain_party
+				trigger = {
+					exists = c:TIB
+					THIS = c:TIB
+				}
+			}
+			triggered_desc = {
 				desc = party_us_democrats
 				trigger = {
 					exists = c:USA

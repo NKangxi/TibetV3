@@ -24,11 +24,17 @@ law_ethnostate = {
 	
 	modifier = {
 		country_authority_add = 200
+		state_radicals_from_sol_change_accepted_culture_mult = -0.2
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.2			
 	}
 	
 	possible_political_movements = {
 		law_racial_segregation
 		law_cultural_exclusion
+	}
+
+	pop_support = {
+		value = 0
 	}
 }
 
@@ -51,12 +57,18 @@ law_national_supremacy = {
 	}
 	
 	modifier = {
-		country_authority_add = 200
+		country_authority_add = 150
+		state_radicals_from_sol_change_accepted_culture_mult = -0.15
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.15			
 	}
 	
 	possible_political_movements = {
 		law_racial_segregation
 		law_cultural_exclusion
+	}
+
+	pop_support = {
+		value = 0
 	}
 }
 
@@ -77,6 +89,8 @@ law_racial_segregation = {
 	
 	modifier = {
 		country_authority_add = 100
+		state_radicals_from_sol_change_accepted_culture_mult = -0.1
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.1		
 	}
 	
 	possible_political_movements = {
@@ -94,15 +108,14 @@ law_racial_segregation = {
 					culture_accepted = no
 					owner = { has_law = law_type:law_national_supremacy }
 				}
-				value = 0.5				
-			}
-			if = {
-				limit = { 
-					culture_accepted = no
-					owner = { has_law = law_type:law_national_supremacy }
-					standard_of_living <= 10 
-				}
-				value = 0.5				
+				add = 0.5
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
 			}			
 		}
 	}
@@ -130,6 +143,8 @@ law_cultural_exclusion = {
 	
 	modifier = {
 		country_authority_add = 50
+		state_radicals_from_sol_change_accepted_culture_mult = -0.05
+		state_loyalists_from_sol_change_accepted_culture_mult = 0.05		
 	}
 	
 	possible_political_movements = {
@@ -147,15 +162,14 @@ law_cultural_exclusion = {
 					culture_accepted = no
 					owner = { NOT = { has_law = law_type:law_multicultural } }
 				}
-				value = 0.5				
-			}
-			if = {
-				limit = { 
-					culture_accepted = no
-					owner = { NOT = { has_law = law_type:law_multicultural } }
-					standard_of_living <= 10 
-				}
-				value = 0.5				
+				add = 0.5				
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
 			}			
 		}
 	}
@@ -173,7 +187,7 @@ law_multicultural = {
 	}
 	
 	unlocking_technologies = {
-		egalitarianism
+		human_rights
 	}
 	
 	on_enact = {
@@ -197,14 +211,14 @@ law_multicultural = {
 				limit = { 
 					culture_accepted = no
 				}
-				value = 0.5				
-			}
-			if = {
-				limit = { 
-					culture_accepted = no
-					standard_of_living <= 10 
-				}
-				value = 0.5				
+				add = 0.5
+				
+				if = {
+					limit = { 
+						standard_of_living <= 10
+					}
+					add = 0.5
+				}	
 			}			
 		}
 	}

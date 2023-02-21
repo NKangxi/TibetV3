@@ -27,7 +27,7 @@
  state_trait_pyrenees_mountains:0 "The Pyrenees Mountain Range"
  state_trait_scottish_highlands:0 "Scottish Highlands"
  state_trait_black_forest:0 "The Black Forest"
- state_trait_russian_forest:0 "Russian Taiga Forests"
+ state_trait_russian_forest:0 "Taiga Forests"
  state_trait_congo_forest:0 "Congolian Rainforest"
  state_trait_volga_river:0 "Volga River"
  state_trait_british_coal_mines:0 "British Coal Deposits"
@@ -47,7 +47,7 @@
  state_trait_australian_desert:0 "Australian Desert"
  state_trait_great_dividing_range:0 "Great Dividing Range"
  state_trait_indus_river:0 "Indus River"
- state_trait_brahmaputra_river:0 "Brahmaputra River"
+ state_trait_brahmaputra_river:0 "Yarlung-Brahmaputra River" #brahmaputra
  state_trait_borneo_rainforest:0 "Borneo Rainforest"
  state_trait_indochinese_forest:0 "Indochinese Forests"
  state_trait_mekong_river:0 "Mekong River"

@@ -27,6 +27,13 @@ military_party = {
 				}
 			}
 			triggered_desc = {
+				desc = party_golden_grasp_party
+				trigger = {
+					exists = c:TIB
+					THIS = c:TIB
+				}
+			}
+			triggered_desc = {
 				desc = party_imperial_clan_party
 				trigger = {
 					exists = c:CHI
