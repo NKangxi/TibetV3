@@ -376,21 +376,21 @@
  HUB_NAME_STATE_ARAGON_mine:0 "Calatayud"
  HUB_NAME_STATE_ARAGON_farm:0 "Lleida"
  HUB_NAME_STATE_ARAGON_wood:0 "Huesca"
- HUB_NAME_STATE_TOLEDO_city:0 "Madrid"
+ HUB_NAME_STATE_TOLEDO_city:0 "Magara" #Madrid, Cherokee/Tsalagi
  HUB_NAME_STATE_TOLEDO_mine:0 "Ciudad Real"
  HUB_NAME_STATE_TOLEDO_farm:0 "Toledo"
  HUB_NAME_STATE_TOLEDO_wood:0 "Cuenca"
- HUB_NAME_STATE_BADAJOZ_city:0 "Badajoz"
+ HUB_NAME_STATE_BADAJOZ_city:0 "Quadahatsi" #Badagoz, Cherokee/Tsalagi
  HUB_NAME_STATE_BADAJOZ_mine:0 "Plasencia"
  HUB_NAME_STATE_BADAJOZ_farm:0 "Mérida"
  HUB_NAME_STATE_BADAJOZ_wood:0 "Cáceres"
- HUB_NAME_STATE_ANDALUSIA_city:0 "Seville"
- HUB_NAME_STATE_ANDALUSIA_port:1 "Cádiz"
+ HUB_NAME_STATE_ANDALUSIA_city:0 "Isbiliya " #Seville
+ HUB_NAME_STATE_ANDALUSIA_port:1 "Qadis" #Cadiz
  HUB_NAME_STATE_ANDALUSIA_mine:1 "Huelva"
  HUB_NAME_STATE_ANDALUSIA_farm:0 "Córdoba"
  HUB_NAME_STATE_ANDALUSIA_wood:1 "Écija"
- HUB_NAME_STATE_GRANADA_city:0 "Granada"
- HUB_NAME_STATE_GRANADA_port:0 "Gibraltar"
+ HUB_NAME_STATE_GRANADA_city:0 "Garnata" #Granada
+ HUB_NAME_STATE_GRANADA_port:0 "Jabal Tariq" #Gibraltar
  HUB_NAME_STATE_GRANADA_mine:0 "Almería"
  HUB_NAME_STATE_GRANADA_farm:0 "Malaga"
  HUB_NAME_STATE_GRANADA_wood:0 "Jaén"
@@ -509,9 +509,9 @@
  HUB_NAME_STATE_STYRIA_farm:0 "Klagenfurt"
  HUB_NAME_STATE_STYRIA_wood:0 "Hartberg"
  HUB_NAME_STATE_AUSTRIA_city:0 "Dunaj" #Vienna
- HUB_NAME_STATE_AUSTRIA_mine:1 "Freistadt"
- HUB_NAME_STATE_AUSTRIA_farm:0 "Linz"
- HUB_NAME_STATE_AUSTRIA_wood:1 "St. Pölten"
+ HUB_NAME_STATE_AUSTRIA_mine:1 "Freistadt" 
+ HUB_NAME_STATE_AUSTRIA_farm:0 "Linec" #Linz
+ HUB_NAME_STATE_AUSTRIA_wood:1 "Sveti Bogomil" #St. Polten
 
   #Czech Repbulic
  HUB_NAME_STATE_BOHEMIA_city:0 "Praha" #Prague
@@ -530,7 +530,7 @@
  HUB_NAME_STATE_EAST_SLOVAKIA_mine:0 "Uzhhorod"
  HUB_NAME_STATE_EAST_SLOVAKIA_farm:0 "Mukachevo"
  HUB_NAME_STATE_EAST_SLOVAKIA_wood:0 "Poprad"
- HUB_NAME_STATE_CENTRAL_HUNGARY_city:0 "Budapest"
+ HUB_NAME_STATE_CENTRAL_HUNGARY_city:0 "Buda" #Budapest
  HUB_NAME_STATE_CENTRAL_HUNGARY_mine:0 "Miskolc"
  HUB_NAME_STATE_CENTRAL_HUNGARY_farm:0 "Szolnok"
  HUB_NAME_STATE_CENTRAL_HUNGARY_wood:0 "Debrecen"

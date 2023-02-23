@@ -3,7 +3,7 @@
 		region_state:ASH = {
 			create_pop = {
 				culture = akan
-				size = 270004
+				size = 470004
 			}
 			create_pop = {
 				culture = senufo
@@ -562,7 +562,7 @@
 		region_state:ASH = {
 			create_pop = {
 				culture = akan
-				size = 436308
+				size = 836308
 			}
 			create_pop = {
 				culture = mossi

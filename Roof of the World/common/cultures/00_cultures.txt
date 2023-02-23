@@ -11160,7 +11160,7 @@ japanese={
 manchu={
 	color= rgb{ 233 207 84 }
 	religion = mahayana
-	traits = { sinosphere north_asian_heritage }
+	traits = { north_asian_heritage tungusophone }
 	male_common_first_names={
 		Changlin
 		Deng
@@ -11217,6 +11217,64 @@ manchu={
 		Zhon
 		Zhuang
 		Guan
+	}
+	common_last_names={
+		Kang_an
+		Linge
+		Shangzhi
+		Tiemei
+		Xiangying
+		Xingde
+		Zhanshan
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+tungus={
+	color= rgb{ 133 107 184 }
+	religion = tengrism
+	traits = { tungusophone north_asian_heritage }
+	male_common_first_names={
+		Fu
+		Hesehn
+		Mingzhu
+		Nalan
+		Oboi
+		Songgotu
+		Sonin
+		Suksaha
+		Tong
+	}
+	female_common_first_names = {
+		Abahai
+		Huixing
+		Linggui
+		Quejing
+		Wanrong
+		Wengjing
+		Xingzhen
+	}	
+	noble_last_names = { # Qing princely peerages
+		Jingjin
+		Keqin
+		LiLu
+		Ning
+		Qian
+		Rong
+		Rui
+		Shen
+		Shuncheng
+		Su
+		Wen
+		Xian
+		Xun
+		Yi
+		Ying
+		Yu
+		Zheng
 	}
 	common_last_names={
 		Kang_an
