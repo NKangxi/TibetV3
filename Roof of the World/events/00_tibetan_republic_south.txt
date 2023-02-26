@@ -35,7 +35,7 @@ tib_bengali_integration.1 = {
 	duration = 3
 
 	trigger = {
-		# triggered by dual monarchy JE
+		# triggered by bengali integration JE
 	}
 
 	immediate = {
@@ -57,7 +57,7 @@ tib_bengali_integration.1 = {
 			value = 0.2
 		}
 		ig:ig_landowners = {
-			remove_ideology = ideology_austrian_hegemony
+			remove_ideology = ideology_tibetan_hegemony
 			hidden_effect = {
 				set_interest_group_name = ig_landowners
 			}
@@ -66,12 +66,12 @@ tib_bengali_integration.1 = {
 	option = { # accept compromise
 		name = tib_bengali_integration.1.b
 		trigger = {
-			has_variable = dual_monarchy_fail
+			has_variable = bengali_integration_fail
 		}
 		custom_tooltip = tibet_bengal_tt
 		add_primary_culture = cu:bengali
 		ig:ig_landowners = {
-			remove_ideology = ideology_austrian_hegemony
+			remove_ideology = ideology_tibetan_hegemony
 			hidden_effect = {
 				set_interest_group_name = ig_landowners
 			}
@@ -90,7 +90,7 @@ tib_bengali_integration.1 = {
 	option = { #reject compromise
 		name = tib_bengali_integration.1.c
 		trigger = {
-			has_variable = dual_monarchy_fail
+			has_variable = bengali_integration_fail
 		}
 		add_radicals = {
 			value = very_large_radicals

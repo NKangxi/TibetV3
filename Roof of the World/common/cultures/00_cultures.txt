@@ -3746,7 +3746,7 @@ portuguese={
 
 french={
 	color= rgb{ 76 118 155 }
-	religion = catholic
+	religion = cathar
 	traits = { francophone european_heritage }
 	
 	obsessions = {
@@ -4094,7 +4094,7 @@ hualanitscah={
 
 occitan={
 	color= rgb{ 164 193 223 }
-	religion = catholic
+	religion = cathar
 	traits = { francophone european_heritage }
 
 	# the best wine is from Occitania, of course.
@@ -4163,7 +4163,7 @@ occitan={
 
 breton={
 	color= hsv{ 0.16 0.39 0.95 }
-	religion = catholic
+	religion = norse
 	traits = { francophone celtic_people european_heritage }
 	male_common_first_names={
 		Aimery
@@ -5547,7 +5547,7 @@ polish={
 
 lithuanian={
 	color= hsv{ 0.42 0.48 0.83 }
-	religion = catholic
+	religion = monothelite
 	traits = { baltic_culture_group european_heritage }
 	male_common_first_names={
 		Adolfas
@@ -6425,7 +6425,7 @@ ugrian={
 
 latvian={
 	color= hsv{ 0.96 0.59 0.63 }
-	religion = protestant
+	religion = monothelite
 	traits = { baltic_culture_group european_heritage }
 	male_common_first_names={
 		Aaron
@@ -6573,7 +6573,7 @@ latvian={
 
 estonian={
 	color= hsv{ 0.72 0.25 0.28 }
-	religion = protestant
+	religion = monothelite
 	traits = { finnic baltic_culture_group european_heritage }
 	male_common_first_names={
 		Aadu
@@ -9318,7 +9318,7 @@ manipuri={
 nepali={
 	color= hsv{ 0.79 0.25 0.74 }
 	religion = bon
-	traits = { himalayan south_asian_heritage }
+	traits = { himalayan tibetan_language }
 	
 	obsessions = {
 		tea
@@ -9455,7 +9455,7 @@ sinhala={
 
 avadhi={
 	color= hsv{ 0.10 0.44 0.35 }
-	religion = sunni
+	religion = bon
 	traits = { south_asian_heritage hindustani }
 	male_common_first_names={
 		Ishvari
@@ -14012,7 +14012,7 @@ zapotec={
 
 mayan={
 	color= hsv{ 0.69 0.08 0.55 }
-	religion = catholic
+	religion = mayan_religion
 	traits = { native_mesoamerican_culture_group indigenous_american_heritage }
 	male_common_first_names={
 		"Can Ek" "Balam Quitze" "Kan Boar" "Yax Kuk Mok" "Ah Can" "Vahxaqui Caam" "Ah Cacao" "Cham Bahlun" 

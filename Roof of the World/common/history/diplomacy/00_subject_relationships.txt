@@ -77,6 +77,14 @@
 			type = protectorate
 		}		
 	}
+	#Nakota
+	c:ASI = {
+		create_diplomatic_pact = {
+			country = c:NVJ
+			type = protectorate
+		}		
+	}
+
 	#Punjab
 	c:PAN = {
 		create_diplomatic_pact = {

@@ -33,14 +33,16 @@
  tibetan_aristocracy:0 "Plateau Aristocracy"
  ideology_reformed_bon:0 "Restorationist Bön"
  je_tibetan_southerners:0 "Southern Integration"
+ tib_bengali_integration.1.t:0 "Bengali Acceptance"
+ tib_bengali_integration.1.d:0 "After a series of legal and cultural reforms, the Tibetan Republic has finally made substantial moves towards legal and social equality with its other neighbors."
+ tib_bengali_integration.1.d2:0 "Either through neglect, malice, or sheer incompetence, the Tibetan Republic has rejected any overtures towards legal equality towards the Bengalis and possibly for the entire south."
+ tib_bengali_integration.1.f:0 "The Tibetan Republic, inheriting vast territories in the Indo-Gangetic Basin from the Tibetan Empire, retains substantial populations who have an eye towards legal equality and political representation. While some on the plateau resent any perceived loss of their own prestige, others feel the time has come to fulfill the promises set out in both modern and ancient law."
   
   #State Traits
  state_trait_red_river_delta:0 "Hong River Delta"
  state_trait_yungui_plateau:0 "Yungui Plateau"
  state_trait_grand_canal:0 "Grand Canal"
-  
-  #cultural traits
- tibetic_group:0 "Tibetic"
+ 
  
   #buidings
  building_pyramid_of_lasya:0 "Pyramid of Lasya"
