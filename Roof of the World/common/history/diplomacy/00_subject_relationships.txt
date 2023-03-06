@@ -132,10 +132,6 @@
 	#Cherokee/Tsalagi
 	c:CHE = {
 		create_diplomatic_pact = {
-			country = c:OYO
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:ULQ
 			type = dominion
 		}		
