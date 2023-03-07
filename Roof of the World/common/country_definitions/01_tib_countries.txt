@@ -1265,7 +1265,7 @@ CRN = { #Carantania
 	tier = empire
 	religion = bogomilist
 	
-	cultures = { slovene south_german }
+	cultures = { slovene hungarian }
 	capital = STATE_AUSTRIA
 	is_named_from_capital = yes
 }

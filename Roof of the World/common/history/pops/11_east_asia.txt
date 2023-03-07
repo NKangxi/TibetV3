@@ -1275,11 +1275,11 @@
 		region_state:AIN = {
 			create_pop = {
 				culture = ainu
-				size = 30004
+				size = 300004
 			}
 			create_pop = {
 				culture = siberian
-				size = 16000
+				size = 160000
 			}
 		}
 	}
