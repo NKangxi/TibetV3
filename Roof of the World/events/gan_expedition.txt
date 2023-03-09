@@ -1,0 +1,44 @@
+# Gan Expedition
+gan_expedition.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = gan_expedition.1.t
+	desc = gan_expedition.1.d
+	flavor = gan_expedition.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_military_parade.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/military_parade"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	option = {
+		name = gan_expedition.1.a
+		default_option = yes
+		ruler = {
+			add_modifier = {
+				name = gan_unifier_ruler
+			}
+		}
+	}
+	option = {
+		name = gan_expedition.1.b
+		add_loyalists = {
+			value = 0.1
+			culture = cu:zhongyuan
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:wu
+		}		
+	}
+}

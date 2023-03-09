@@ -1,0 +1,279 @@
+je_wu_gan_expedition = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	complete = {
+		exists = c:CWU
+		c:CWU = {
+			owns_entire_state_region = STATE_JIANGXI
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = gan_expedition_success
+			months = normal_modifier_time
+		}
+		trigger_event = { id = gan_expedition.1 }
+	}
+
+	weight = 200
+
+	inheritable = no
+}
+
+je_huabei_unification = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:sichuanese
+			country_has_primary_culture = cu:xibei
+			country_has_primary_culture = cu:zhongyuan
+			country_has_primary_culture = cu:xiang
+			country_has_primary_culture = cu:hubei
+			country_has_primary_culture = cu:shandong
+			country_has_primary_culture = cu:zhili
+			country_has_primary_culture = cu:wu
+			country_has_primary_culture = cu:jianghuai
+			country_has_primary_culture = cu:jin				
+		}
+		OR = {
+			country_tier = kingdom
+			country_tier = principality
+			country_tier = grand_principality
+			country_tier = city_state
+		}
+	}
+
+	possible = {
+		country_rank >= rank_value:major_power
+		has_technology_researched = nationalism
+		is_subject = no
+	}
+
+	complete = {
+		hidden_trigger = {
+			has_variable = je_unification_progress
+		}
+		calc_true_if = {
+			owns_entire_state_region = STATE_GANSU
+			owns_entire_state_region = STATE_QINGHAI
+			owns_entire_state_region = STATE_NINGXIA
+			owns_entire_state_region = STATE_XIAN
+			owns_entire_state_region = STATE_SICHUAN
+			owns_entire_state_region = STATE_CHONGQING
+			owns_entire_state_region = STATE_BEIJING
+			owns_entire_state_region = STATE_ZHILI
+			owns_entire_state_region = STATE_SHANDONG
+			owns_entire_state_region = STATE_SHANXI
+			owns_entire_state_region = STATE_HENAN
+			owns_entire_state_region = STATE_JIANGSU
+			owns_entire_state_region = STATE_NANJING
+			owns_entire_state_region = STATE_SUZHOU
+			owns_entire_state_region = STATE_SOUTHERN_ANHUI
+			owns_entire_state_region = STATE_NORTHERN_ANHUI
+			owns_entire_state_region = STATE_WESTERN_HUBEI
+			owns_entire_state_region = STATE_EASTERN_HUBEI
+			owns_entire_state_region = STATE_HUNAN
+			amount >= 12
+		}
+	}
+
+	on_monthly_pulse = {
+		events = {
+			huaxia_unification.2 # confederation
+			huaxia_unification.3 # zeng aoxiang
+		}
+		effect = {
+			if = { 
+				limit = { NOT = { has_variable = je_unification_progress } } 
+				set_variable = je_unification_progress
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = huaxia_unification.1 } # North German Confederation
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = { 
+				desc = je_huabei_status
+			}
+		}
+	}
+
+	weight = 100
+}
+
+je_huanan_unification = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:gan
+			country_has_primary_culture = cu:xiang
+			country_has_primary_culture = cu:yue
+			country_has_primary_culture = cu:hakka
+			country_has_primary_culture = cu:min				
+		}
+		OR = {
+			country_tier = kingdom
+			country_tier = principality
+			country_tier = grand_principality
+		}
+	}
+
+	possible = {
+		country_rank >= rank_value:major_power
+		has_technology_researched = nationalism
+		is_subject = no
+	}
+
+	complete = {
+		hidden_trigger = {
+			has_variable = je_unification_progress
+		}
+		calc_true_if = {
+			amount >= 4
+			owns_entire_state_region = STATE_GUIZHOU
+			owns_entire_state_region = STATE_GUANGXI
+			owns_entire_state_region = STATE_GUANGDONG
+			owns_entire_state_region = STATE_FUJIAN
+			owns_entire_state_region = STATE_JIANGXI
+			owns_entire_state_region = STATE_SHAOZHOU
+		}
+	}
+
+	on_monthly_pulse = {
+		events = {
+			german_unification.2 # confederation
+		}
+		effect = {
+			if = { 
+				limit = { NOT = { has_variable = je_unification_progress } } 
+				set_variable = je_unification_progress
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = huaxia_unification.1 } # Huanan Confederation
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_huanan_status
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	weight = 100
+}
+
+je_huaxia_unification = { #All-China
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:han
+			country_has_primary_culture = cu:sichuanese
+			country_has_primary_culture = cu:xibei
+			country_has_primary_culture = cu:gan
+			country_has_primary_culture = cu:zhongyuan
+			country_has_primary_culture = cu:xiang
+			country_has_primary_culture = cu:hubei
+			country_has_primary_culture = cu:shandong
+			country_has_primary_culture = cu:zhili
+			country_has_primary_culture = cu:wu
+			country_has_primary_culture = cu:jianghuai
+			country_has_primary_culture = cu:jin
+			country_has_primary_culture = cu:yue
+			country_has_primary_culture = cu:hakka
+			country_has_primary_culture = cu:min
+		}
+		NOT = { country_has_primary_culture = cu:tibetan }
+	}
+
+	possible = {
+		country_rank >= rank_value:major_power
+		has_technology_researched = pan-nationalism
+		is_subject = no
+	}
+	complete = {
+		hidden_trigger = {
+			has_variable = je_unification_progress
+		}
+		calc_true_if = {
+			amount >= 22
+			owns_entire_state_region = STATE_GANSU
+			owns_entire_state_region = STATE_QINGHAI
+			owns_entire_state_region = STATE_NINGXIA
+			owns_entire_state_region = STATE_XIAN
+			owns_entire_state_region = STATE_SICHUAN
+			owns_entire_state_region = STATE_CHONGQING
+			owns_entire_state_region = STATE_BEIJING
+			owns_entire_state_region = STATE_ZHILI
+			owns_entire_state_region = STATE_SHANDONG
+			owns_entire_state_region = STATE_SHANXI
+			owns_entire_state_region = STATE_HENAN
+			owns_entire_state_region = STATE_JIANGSU
+			owns_entire_state_region = STATE_NANJING
+			owns_entire_state_region = STATE_SUZHOU
+			owns_entire_state_region = STATE_SOUTHERN_ANHUI
+			owns_entire_state_region = STATE_NORTHERN_ANHUI
+			owns_entire_state_region = STATE_WESTERN_HUBEI
+			owns_entire_state_region = STATE_EASTERN_HUBEI
+			owns_entire_state_region = STATE_HUNAN
+			owns_entire_state_region = STATE_GUIZHOU
+			owns_entire_state_region = STATE_GUANGXI
+			owns_entire_state_region = STATE_GUANGDONG
+			owns_entire_state_region = STATE_FUJIAN
+			owns_entire_state_region = STATE_JIANGXI
+			owns_entire_state_region = STATE_SHAOZHOU
+		}
+	}
+
+	on_monthly_pulse = {
+		events = {
+			huaxia_unification.2 # confederation
+		}
+		effect = {
+			if = { 
+				limit = { NOT = { has_variable = je_unification_progress } } 
+				set_variable = je_unification_progress
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = huaxia_unification.4 } # All-Han Unification
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_chinese_status
+				trigger = {
+					OR = {
+						country_tier = kingdom
+						country_tier = principality
+					}
+				}
+			}
+		}
+	}
+
+	invalid = {
+		country_has_primary_culture = cu:tibetan
+	}
+
+	weight = 100
+}

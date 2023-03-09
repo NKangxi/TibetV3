@@ -38,7 +38,7 @@ CHI = {
 	
 	tier = empire
 	
-	cultures = { zhili shandong jianghuai wu gan jin sichuanese yue xiang min hubei zhongyuan xibei } 
+	cultures = { zhili shandong jianghuai wu gan jin sichuanese yue xiang min hubei zhongyuan xibei hakka } 
 	capital = STATE_BEIJING
 }
 
@@ -69,7 +69,7 @@ CWU = {
 
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 
 	cultures = { jianghuai wu }
 	capital = STATE_NANJING
@@ -258,6 +258,28 @@ ZHI = { #Zhili
 	tier = kingdom
 	cultures = { zhili }
 	capital = STATE_ZHILI
+}
+
+NZF = {
+	color = {41 37 37}
+	
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { zhili shandong jianghuai wu jin sichuanese hubei zhongyuan xibei }
+	capital = STATE_BEIJING
+}
+
+SZF = {
+	color = { 176 18 7}
+	
+	country_type = recognized
+
+	tier = kingdom
+
+	cultures = { gan yue xiang min hakka }
+	capital = STATE_GUANGDONG
 }
 
 ## India

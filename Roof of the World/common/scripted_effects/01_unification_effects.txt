@@ -1,0 +1,36 @@
+give_claims_on_china = {
+	every_state = {
+		limit = {
+			NOT = { owner = ROOT }
+			OR = {
+				owns_entire_state_region = STATE_GANSU
+				owns_entire_state_region = STATE_QINGHAI
+				owns_entire_state_region = STATE_NINGXIA
+				owns_entire_state_region = STATE_XIAN
+				owns_entire_state_region = STATE_SICHUAN
+				owns_entire_state_region = STATE_CHONGQING
+				owns_entire_state_region = STATE_BEIJING
+				owns_entire_state_region = STATE_ZHILI
+				owns_entire_state_region = STATE_SHANDONG
+				owns_entire_state_region = STATE_SHANXI
+				owns_entire_state_region = STATE_HENAN
+				owns_entire_state_region = STATE_JIANGSU
+				owns_entire_state_region = STATE_NANJING
+				owns_entire_state_region = STATE_SUZHOU
+				owns_entire_state_region = STATE_SOUTHERN_ANHUI
+				owns_entire_state_region = STATE_NORTHERN_ANHUI
+				owns_entire_state_region = STATE_WESTERN_HUBEI
+				owns_entire_state_region = STATE_EASTERN_HUBEI
+				owns_entire_state_region = STATE_HUNAN
+				owns_entire_state_region = STATE_GUIZHOU
+				owns_entire_state_region = STATE_GUANGXI
+				owns_entire_state_region = STATE_GUANGDONG
+				owns_entire_state_region = STATE_FUJIAN
+				owns_entire_state_region = STATE_JIANGXI
+				owns_entire_state_region = STATE_SHAOZHOU
+			}
+		}
+		
+		state_region = { add_claim = ROOT }
+	}
+}
