@@ -42,3 +42,23 @@
 			type = customs_union
 		}
 	}
+	#Greater Chinese Trading Union
+	c:CWU = {
+		create_diplomatic_pact = {
+			country = c:CSH
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:CXI
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:JIN
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:YUE
+			type = customs_union
+		}			
+	}
+}

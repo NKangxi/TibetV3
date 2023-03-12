@@ -96,3 +96,12 @@
  gan_unifier_ruler:0 "Unified Gan Province"
  china_aggressive_expansion:0 "Aggressive Expansion"
  xianshizhengzhi:0 "Xianshi Zhengzhi"
+ 
+  #ULQ Breakup
+  num_breakup.1.t:0 "The End of Tsalagi Rule?"
+ num_breakup.1.d:0 "Rudderless and without the support of its colonial overlord, the [ROOT.GetCountry.GetName] is on the verge of collapse. It seems that [SCOPE.sCulture('cherokee_culture').GetName] rule is at an end."
+ num_breakup.1.f:0 ""Abandoning our post? What post, what army? In a few hours this place will be swarming with northmen, or on fire, or both. Now stop complaining and pick up that sack. Take anything of value that isn't nailed down, and I'll secure passage to the Chesepiooc.""
+ num_breakup.1.a:0 "The local rulers will seize control."
+ num_breakup.1.b:0 "This is the birth a pan-Ulaqui nation."
+ num_breakup.1.c:0 "Tsalagi rule must be maintained at all costs."
+ india_princes_independent_tt:0 "All [concept_subject] countries will become independent, and our [Concept('concept_state', '$concept_states$')] will be divided between them."

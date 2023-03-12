@@ -1,0 +1,152 @@
+namespace = num_breakup
+
+# Independent British East India Company decides how to proceed
+num_breakup.1 = {
+	type = country_event
+	placement = root
+	
+	title = num_breakup.1.t
+	desc = num_breakup.1.d
+	flavor = num_breakup.1.f
+	
+	event_image = {
+		video = "gfx/event_pictures/asia_sepoy_mutiny.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/sepoy_mutiny"
+
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+	
+	duration = 3
+	
+	trigger = {
+		this = c:ULQ
+		is_subject = no
+		is_at_war = no
+	}
+
+	immediate = {
+		cu:cherokee = {
+			save_scope_as = cherokee_culture
+		}
+		set_variable = num_collapse_var
+	}
+
+	option = {
+		name = num_breakup.1.a
+		ai_chance = {
+			base = 8 # this is the default pick for the AI
+		}
+		while = {
+			limit = {
+				any_scope_state = { 
+					is_capital = no
+					NOT = {
+						state_region = {
+							is_homeland = cu:portuguese
+						}
+					}
+					any_neighbouring_state = {
+						owner = { is_subject_of = ROOT }
+					}
+				}
+			}
+			random_country = {
+				limit = {
+					is_subject_of = ROOT
+					any_scope_state = {
+						any_neighbouring_state = {
+							is_capital = no
+							NOT = {
+								state_region = {
+									is_homeland = cu:portuguese
+								}
+							}
+							owner = ROOT
+						}
+					}
+				}
+				save_scope_as = test_scope
+			}
+			random_scope_state = {
+				limit = {
+					is_capital = no
+					NOT = {
+						state_region = {
+							is_homeland = cu:portuguese
+						}
+					}
+					any_neighbouring_state = {
+						owner = scope:test_scope
+					}
+				}
+				set_state_owner = scope:test_scope
+			}
+			clear_saved_scope = test_scope
+		}
+		custom_tooltip = {
+			text = awiropa_independent_tt
+			every_country = {
+				limit = {
+					is_subject_of = ROOT
+				}
+				make_independent = yes
+			}
+		}
+		change_tag = BGL
+		hidden_effect = {
+			remove_primary_culture = cu:cherokee
+			add_primary_culture = cu:portuguese
+			set_state_religion = rel:norse
+			every_scope_character = {
+				limit = {
+					OR = {
+						culture = cu:cherokee
+					}
+				}
+				kill_character = yes
+			}
+		}
+	}
+
+	option = {
+		name = num_breakup.1.b
+		highlighted_option = yes
+		trigger = {
+			has_technology_researched = pan-nationalism
+		}
+		ai_chance = {
+			factor = 1 # this will be quite rare for the AI
+		}
+		change_tag = BHT
+		hidden_effect = {
+			remove_primary_culture = cu:cherokee
+			add_primary_culture = cu:hualanitscah
+			add_primary_culture = cu:spanish
+			add_primary_culture = cu:portuguese
+			add_primary_culture = cu:occitan
+			add_primary_culture = cu:basque
+			add_primary_culture = cu:flemish
+			add_primary_culture = cu:catalan
+			add_primary_culture = cu:south_german
+			set_state_religion = rel:nahuatl
+			every_scope_character = {
+				limit = {
+					culture = cu:cherokee
+				}
+				kill_character = yes
+			}
+		}
+	}
+	option = {
+		name = num_breakup.1.c
+		ai_chance = {
+			base = 0 # AI will never do this
+		}
+		default_option = yes
+		add_radicals = {
+			value = very_large_radicals
+		}
+	}
+}
