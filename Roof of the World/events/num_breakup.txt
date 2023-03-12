@@ -47,14 +47,10 @@ num_breakup.1 = {
 							is_homeland = cu:portuguese
 						}
 					}
-					any_neighbouring_state = {
-						owner = { is_subject_of = ROOT }
-					}
 				}
 			}
 			random_country = {
 				limit = {
-					is_subject_of = ROOT
 					any_scope_state = {
 						any_neighbouring_state = {
 							is_capital = no
@@ -94,7 +90,7 @@ num_breakup.1 = {
 				make_independent = yes
 			}
 		}
-		change_tag = BGL
+		change_tag = POR
 		hidden_effect = {
 			remove_primary_culture = cu:cherokee
 			add_primary_culture = cu:portuguese
