@@ -140,6 +140,16 @@ huaxia_unification.1 = {
 				}
 			}
 			change_tag = NZF
+			add_primary_culture = cu:sichuanese
+			add_primary_culture = cu:xibei
+			add_primary_culture = cu:zhongyuan
+			add_primary_culture = cu:xiang
+			add_primary_culture = cu:hubei
+			add_primary_culture = cu:shandong
+			add_primary_culture = cu:zhili
+			add_primary_culture = cu:wu
+			add_primary_culture = cu:jianghuai
+			add_primary_culture = cu:jin	
 		}
 		else_if = {
 			limit = {
@@ -157,6 +167,11 @@ huaxia_unification.1 = {
 				}
 			}
 			change_tag = SZF
+			add_primary_culture = cu:gan
+			add_primary_culture = cu:xiang
+			add_primary_culture = cu:yue
+			add_primary_culture = cu:hakka
+			add_primary_culture = cu:min
 		}
 	}
 }
@@ -281,25 +296,72 @@ huaxia_unification.2 = {
 						has_technology_researched = pan-nationalism
 					}
 					OR = {
-						country_has_primary_culture = cu:north_german
-						country_has_primary_culture = cu:south_german
+						country_has_primary_culture = cu:sichuanese
+						country_has_primary_culture = cu:xibei
+						country_has_primary_culture = cu:zhongyuan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:hubei
+						country_has_primary_culture = cu:shandong
+						country_has_primary_culture = cu:zhili
+						country_has_primary_culture = cu:wu
+						country_has_primary_culture = cu:jianghuai
+						country_has_primary_culture = cu:jin
+						country_has_primary_culture = cu:gan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:yue
+						country_has_primary_culture = cu:hakka
+						country_has_primary_culture = cu:min
 					}
 				}
 				trigger_else_if = {
 					limit = {
 						ROOT = {
-							country_has_primary_culture = cu:north_german
+							OR = {
+								country_has_primary_culture = cu:sichuanese
+								country_has_primary_culture = cu:xibei
+								country_has_primary_culture = cu:zhongyuan
+								country_has_primary_culture = cu:xiang
+								country_has_primary_culture = cu:hubei
+								country_has_primary_culture = cu:shandong
+								country_has_primary_culture = cu:zhili
+								country_has_primary_culture = cu:wu
+								country_has_primary_culture = cu:jianghuai
+								country_has_primary_culture = cu:jin
+							}
 						}
 					}
-					country_has_primary_culture = cu:north_german
+					OR = {
+						country_has_primary_culture = cu:sichuanese
+						country_has_primary_culture = cu:xibei
+						country_has_primary_culture = cu:zhongyuan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:hubei
+						country_has_primary_culture = cu:shandong
+						country_has_primary_culture = cu:zhili
+						country_has_primary_culture = cu:wu
+						country_has_primary_culture = cu:jianghuai
+						country_has_primary_culture = cu:jin
+					}
 				}
 				trigger_else_if = {
 					limit = {
 						ROOT = {
-							country_has_primary_culture = cu:south_german
+							OR = {
+								country_has_primary_culture = cu:gan
+								country_has_primary_culture = cu:xiang
+								country_has_primary_culture = cu:yue
+								country_has_primary_culture = cu:hakka
+								country_has_primary_culture = cu:min
+							}
 						}
 					}
-					country_has_primary_culture = cu:south_german
+					OR = {
+						country_has_primary_culture = cu:gan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:yue
+						country_has_primary_culture = cu:hakka
+						country_has_primary_culture = cu:min
+					}
 				}
 				OR = {
 					is_subject = no
@@ -340,7 +402,7 @@ huaxia_unification.2 = {
 	}
 }
 
-# Li Daiyu  李黛玉
+# Zeng Aoxiang  曾翱翔
 huaxia_unification.3 = {
 	type = country_event
 	placement = ROOT
@@ -372,7 +434,7 @@ huaxia_unification.3 = {
 	immediate = {
 		set_global_variable = aoxiang_variable
 		create_character = {
-			first_name = Daiyu
+			first_name = Aoxiang
 			last_name = Zeng
 			ig_leader = yes
 			interest_group = ig_landowners
@@ -397,7 +459,7 @@ huaxia_unification.3 = {
 		default_option = yes
 		show_as_tooltip = {
 			create_character = {
-				first_name = Daiyu
+				first_name = Aoxiang
 				last_name = Zeng
 				#role = politician # Remove this line
 				ig_leader = yes
@@ -451,7 +513,7 @@ huaxia_unification.3 = {
 	}
 }
 
-# German Unification
+# Chinese Unification
 huaxia_unification.4 = {
 	type = country_event
 	placement = ROOT

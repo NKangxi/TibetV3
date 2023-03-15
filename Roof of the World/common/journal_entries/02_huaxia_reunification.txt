@@ -149,7 +149,7 @@ je_huanan_unification = {
 
 	on_monthly_pulse = {
 		events = {
-			german_unification.2 # confederation
+			huaxia_unification.2 # confederation
 		}
 		effect = {
 			if = { 
