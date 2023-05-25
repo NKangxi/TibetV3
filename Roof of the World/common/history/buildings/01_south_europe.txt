@@ -299,7 +299,7 @@
 				building="building_silk_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -563,7 +563,7 @@
 				building="building_silk_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -705,7 +705,7 @@
 				building="building_silk_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -1249,7 +1249,7 @@
 				building="building_silk_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1551,7 +1551,7 @@
 				building="building_silk_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_wheat_farm"
