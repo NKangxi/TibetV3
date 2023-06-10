@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:IRO = {
+		create_character = {
+			first_name = "Tejonihokarawa"
+			last_name = "Kanienkehaka"
+			culture = cu:iroquoian
+			ruler = yes
+			age = 50
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				tactful
+			}
+		}
+	}
+}

@@ -1,0 +1,597 @@
+﻿namespace = huaxia_unification
+
+# North/South Huaxia League
+huaxia_unification.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = huaxia_unification.1.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = huaxia_unification.1.d1
+				trigger = {
+					OR = {
+						country_has_primary_culture = cu:sichuanese
+						country_has_primary_culture = cu:xibei
+						country_has_primary_culture = cu:zhongyuan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:hubei
+						country_has_primary_culture = cu:shandong
+						country_has_primary_culture = cu:zhili
+						country_has_primary_culture = cu:wu
+						country_has_primary_culture = cu:jianghuai
+						country_has_primary_culture = cu:jin
+
+					}
+				}
+			}
+			triggered_desc = {
+				desc = huaxia_unification.1.d2
+				trigger = {
+					OR = {
+						country_has_primary_culture = cu:gan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:yue
+						country_has_primary_culture = cu:hakka
+						country_has_primary_culture = cu:min
+					}
+				}
+			}
+		}
+	}
+	flavor = huaxia_unification.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = huaxia_unification.1.a
+		default_option = yes
+		every_interest_group = {
+			limit = {
+				is_in_government = yes
+			}
+			leader = {
+				add_modifier = {
+					name = huaxia_unification_popularity
+					months = long_modifier_time
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:sichuanese
+					country_has_primary_culture = cu:xibei
+					country_has_primary_culture = cu:zhongyuan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:hubei
+					country_has_primary_culture = cu:shandong
+					country_has_primary_culture = cu:zhili
+					country_has_primary_culture = cu:wu
+					country_has_primary_culture = cu:jianghuai
+					country_has_primary_culture = cu:jin				
+				}
+				NOT = { exists = c:NZF }
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+			change_tag = NZF
+		}
+		else_if = {
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:gan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:yue
+					country_has_primary_culture = cu:hakka
+					country_has_primary_culture = cu:min				
+				}
+				NOT = { exists = c:SZF }
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+			change_tag = SZF
+		}
+	}
+	option = {
+		name = huaxia_unification.1.b
+		add_modifier = {
+			name = partial_huaxia_unification_influence_prestige
+			months = normal_modifier_time
+		}
+		if = {
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:sichuanese
+					country_has_primary_culture = cu:xibei
+					country_has_primary_culture = cu:zhongyuan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:hubei
+					country_has_primary_culture = cu:shandong
+					country_has_primary_culture = cu:zhili
+					country_has_primary_culture = cu:wu
+					country_has_primary_culture = cu:jianghuai
+					country_has_primary_culture = cu:jin				
+				}
+				NOT = { exists = c:NZF }
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+			change_tag = NZF
+			add_primary_culture = cu:sichuanese
+			add_primary_culture = cu:xibei
+			add_primary_culture = cu:zhongyuan
+			add_primary_culture = cu:xiang
+			add_primary_culture = cu:hubei
+			add_primary_culture = cu:shandong
+			add_primary_culture = cu:zhili
+			add_primary_culture = cu:wu
+			add_primary_culture = cu:jianghuai
+			add_primary_culture = cu:jin	
+		}
+		else_if = {
+			limit = {
+				OR = {
+					country_has_primary_culture = cu:gan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:yue
+					country_has_primary_culture = cu:hakka
+					country_has_primary_culture = cu:min				
+				}
+				NOT = { exists = c:SZF }
+				OR = {
+					country_tier = kingdom
+					country_tier = principality
+				}
+			}
+			change_tag = SZF
+			add_primary_culture = cu:gan
+			add_primary_culture = cu:xiang
+			add_primary_culture = cu:yue
+			add_primary_culture = cu:hakka
+			add_primary_culture = cu:min
+		}
+	}
+}
+
+# Annex a Chinese country
+huaxia_unification.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = huaxia_unification.2.t
+	desc = huaxia_unification.2.d
+	flavor = huaxia_unification.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	cooldown = { months = 4 }
+
+	trigger = {
+		root.infamy < infamy_threshold:infamous
+		OR = {
+			country_tier = kingdom
+			country_tier = principality
+		}
+		any_country = {
+			trigger_if = {
+				limit = {
+					has_technology_researched = pan-nationalism
+				}
+				OR = {
+					country_has_primary_culture = cu:sichuanese
+					country_has_primary_culture = cu:xibei
+					country_has_primary_culture = cu:zhongyuan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:hubei
+					country_has_primary_culture = cu:shandong
+					country_has_primary_culture = cu:zhili
+					country_has_primary_culture = cu:wu
+					country_has_primary_culture = cu:jianghuai
+					country_has_primary_culture = cu:jin
+					country_has_primary_culture = cu:gan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:yue
+					country_has_primary_culture = cu:hakka
+					country_has_primary_culture = cu:min					
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					ROOT = {
+						OR = {
+							country_has_primary_culture = cu:sichuanese
+							country_has_primary_culture = cu:xibei
+							country_has_primary_culture = cu:zhongyuan
+							country_has_primary_culture = cu:xiang
+							country_has_primary_culture = cu:hubei
+							country_has_primary_culture = cu:shandong
+							country_has_primary_culture = cu:zhili
+							country_has_primary_culture = cu:wu
+							country_has_primary_culture = cu:jianghuai
+							country_has_primary_culture = cu:jin
+						}
+					}
+				}
+				OR = {
+					country_has_primary_culture = cu:sichuanese
+					country_has_primary_culture = cu:xibei
+					country_has_primary_culture = cu:zhongyuan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:hubei
+					country_has_primary_culture = cu:shandong
+					country_has_primary_culture = cu:zhili
+					country_has_primary_culture = cu:wu
+					country_has_primary_culture = cu:jianghuai
+					country_has_primary_culture = cu:jin
+				}
+			}
+			trigger_else_if = {
+				limit = {
+					ROOT = {
+						OR = {
+							country_has_primary_culture = cu:gan
+							country_has_primary_culture = cu:xiang
+							country_has_primary_culture = cu:yue
+							country_has_primary_culture = cu:hakka
+							country_has_primary_culture = cu:min
+						}
+					}
+				}
+				OR = {
+					country_has_primary_culture = cu:gan
+					country_has_primary_culture = cu:xiang
+					country_has_primary_culture = cu:yue
+					country_has_primary_culture = cu:hakka
+					country_has_primary_culture = cu:min
+				}
+			}
+			OR = {
+				is_subject = no
+				is_subject_of = ROOT
+			}
+			country_rank < rank_value:major_power
+			relations:root >= relations_threshold:amicable
+			is_player = no
+			NOT = { has_variable = chinese_minor_dont_annex }
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				trigger_if = {
+					limit = {
+						has_technology_researched = pan-nationalism
+					}
+					OR = {
+						country_has_primary_culture = cu:sichuanese
+						country_has_primary_culture = cu:xibei
+						country_has_primary_culture = cu:zhongyuan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:hubei
+						country_has_primary_culture = cu:shandong
+						country_has_primary_culture = cu:zhili
+						country_has_primary_culture = cu:wu
+						country_has_primary_culture = cu:jianghuai
+						country_has_primary_culture = cu:jin
+						country_has_primary_culture = cu:gan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:yue
+						country_has_primary_culture = cu:hakka
+						country_has_primary_culture = cu:min
+					}
+				}
+				trigger_else_if = {
+					limit = {
+						ROOT = {
+							OR = {
+								country_has_primary_culture = cu:sichuanese
+								country_has_primary_culture = cu:xibei
+								country_has_primary_culture = cu:zhongyuan
+								country_has_primary_culture = cu:xiang
+								country_has_primary_culture = cu:hubei
+								country_has_primary_culture = cu:shandong
+								country_has_primary_culture = cu:zhili
+								country_has_primary_culture = cu:wu
+								country_has_primary_culture = cu:jianghuai
+								country_has_primary_culture = cu:jin
+							}
+						}
+					}
+					OR = {
+						country_has_primary_culture = cu:sichuanese
+						country_has_primary_culture = cu:xibei
+						country_has_primary_culture = cu:zhongyuan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:hubei
+						country_has_primary_culture = cu:shandong
+						country_has_primary_culture = cu:zhili
+						country_has_primary_culture = cu:wu
+						country_has_primary_culture = cu:jianghuai
+						country_has_primary_culture = cu:jin
+					}
+				}
+				trigger_else_if = {
+					limit = {
+						ROOT = {
+							OR = {
+								country_has_primary_culture = cu:gan
+								country_has_primary_culture = cu:xiang
+								country_has_primary_culture = cu:yue
+								country_has_primary_culture = cu:hakka
+								country_has_primary_culture = cu:min
+							}
+						}
+					}
+					OR = {
+						country_has_primary_culture = cu:gan
+						country_has_primary_culture = cu:xiang
+						country_has_primary_culture = cu:yue
+						country_has_primary_culture = cu:hakka
+						country_has_primary_culture = cu:min
+					}
+				}
+				OR = {
+					is_subject = no
+					is_subject_of = ROOT
+				}
+				country_rank < rank_value:major_power
+				relations:root >= relations_threshold:amicable
+				is_player = no
+				NOT = { has_variable = chinese_minor_dont_annex }
+			}
+			save_scope_as = chinese_annex_country
+		}
+	}
+
+	option = {
+		name = huaxia_unification.2.a
+		default_option = yes
+		annex = scope:chinese_annex_country
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = huaxia_unification.2.b
+		change_relations = {
+			country = scope:chinese_annex_country
+			value = 20
+		}
+		scope:chinese_annex_country = {
+			set_variable = {
+				name = chinese_minor_dont_annex
+				days = 1825
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+# Zeng Aoxiang  曾翱翔
+huaxia_unification.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = huaxia_unification.3.t
+	desc = huaxia_unification.3.d
+	flavor = huaxia_unification.3.f
+
+	gui_window = event_window_1char_tabloid
+
+	left_icon = scope:aoxiang_scope
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+		NOT = { has_global_variable = aoxiang_variable }
+		ig:ig_landowners = {
+			is_powerful = yes
+			is_in_government = yes
+		}
+		game_date < 1898.1.1
+	}
+
+	immediate = {
+		set_global_variable = aoxiang_variable
+		create_character = {
+			first_name = Aoxiang
+			last_name = Zeng
+			ig_leader = yes
+			interest_group = ig_landowners
+			female = yes
+			birth_date = 1815.4.1
+			ideology = ideology_royalist
+			traits = {
+				direct
+				cautious
+			}
+		}
+		ig:ig_landowners = {
+			save_scope_as = dizhu
+			leader = {
+				save_scope_as = aoxiang_scope
+			}
+		}
+	}
+
+	option = {
+		name = huaxia_unification.3.a
+		default_option = yes
+		show_as_tooltip = {
+			create_character = {
+				first_name = Aoxiang
+				last_name = Zeng
+				#role = politician # Remove this line
+				ig_leader = yes
+				interest_group = ig_landowners
+				female = yes
+				birth_date = 1815.4.1
+				ideology = ideology_royalist
+				traits = {
+					direct
+					cautious
+				}
+			}
+		}
+		scope:bismarck_scope = {
+			add_modifier = {
+				name = aoxiang_popular
+			}
+		}
+		add_modifier = {
+			name = xianshizhengzhi
+			months = normal_modifier_time
+		}
+	}
+	option = {
+		name = huaxia_unification.3.b
+		default_option = yes
+		show_as_tooltip = {
+			create_character = {
+				first_name = Aoxiang
+				last_name = Zeng
+				ig_leader = yes
+				interest_group = ig_landowners
+				female = yes
+				birth_date = 1815.4.1
+				ideology = ideology_royalist
+				traits = {
+					direct
+					cautious
+				}
+			}
+		}
+		scope:aoxiang_scope = {
+			add_modifier = {
+				name = aoxiang_unpopular
+			}
+		}
+		add_modifier = {
+			name = china_aggressive_expansion
+			months = normal_modifier_time
+		}
+	}
+}
+
+# Chinese Unification
+huaxia_unification.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = huaxia_unification.4.t
+	desc = huaxia_unification.4.d
+	flavor = huaxia_unification.4.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_military_parade.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/military_parade"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	option = {
+		name = huaxia_unification.4.a
+		default_option = yes
+		give_claims_on_china = yes
+		ruler = {
+			add_modifier = {
+				name = china_unifier_ruler
+			}
+		}
+	}
+	option = {
+		name = huaxia_unification.4.b
+		give_claims_on_china = yes
+		add_loyalists = {
+			value = 0.1
+			culture = cu:jianghuai
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:wu
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:hubei
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:xiang
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:zhili
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:zhongyuan
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:hakka
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:shandong
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:gan
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:jin
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:yue
+		}
+	}
+}

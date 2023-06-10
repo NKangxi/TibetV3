@@ -1,0 +1,32 @@
+CHARACTERS = {
+	c:CRN = {
+		create_character = {
+			first_name = "Dorogov"
+			last_name = "de_bar"
+			ruler = yes
+			noble = yes
+			age = 41
+			culture = cu:slovene
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				arrogant
+			}
+		}	
+	
+		create_character = {
+			first_name = "Yasar"
+			last_name = "de_bar"
+			heir = yes
+			noble = yes
+			age = 19
+			culture = cu:slovene
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				cautious
+				psychological_affliction
+			}
+		}
+	}
+}

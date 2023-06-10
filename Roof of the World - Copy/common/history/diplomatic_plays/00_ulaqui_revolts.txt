@@ -1,0 +1,36 @@
+DIPLOMATIC_PLAYS = {
+	c:ULQ = {
+		create_diplomatic_play = {
+			name = catalan_revolt
+		
+			target_state = s:STATE_CATALONIA.region_state:CAT
+			
+			war = yes
+			
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:CAT
+				type = conquer_state
+				target_state = s:STATE_NAVARRA.region_state:ULQ
+			}			
+		}	
+	}
+	c:ULQ = {
+		create_diplomatic_play = {
+			name = occitan_revolt
+		
+			target_state = s:STATE_RHONE.region_state:OCC
+			
+			war = yes
+			
+			type = dp_annex_war
+
+			add_war_goal = {
+				holder = c:OCC
+				type = conquer_state
+				target_state = s:STATE_ARMAGNAC.region_state:ULQ
+			}
+		}	
+	}
+}

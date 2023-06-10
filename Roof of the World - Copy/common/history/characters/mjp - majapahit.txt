@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:MJP = {
+		create_character = {
+			first_name = "Gitarja"
+			last_name = "Suryavansha"
+			ruler = yes
+			noble = yes
+			age = 74
+			culture = cu:javan
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_royalist
+			traits = {
+				romantic
+			}
+		}	
+	
+		create_character = {
+			first_name = "Jayaa"
+			last_name = "Suryavansha"
+			heir = yes
+			female = yes
+			noble = yes
+			age = 33
+			culture = cu:javan
+			interest_group = ig_industrialists
+			ideology = ideology_moderate
+			traits = {
+				direct
+			}
+		}
+	}
+}

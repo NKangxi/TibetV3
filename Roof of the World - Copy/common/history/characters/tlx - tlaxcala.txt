@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:TLX = {
+		create_character = {
+			first_name = "Aztahua"
+			last_name = "Cuitlahuac"
+			culture = cu:nahua
+			ruler = yes
+			age = 40
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				reckless
+			}
+		}
+	}
+}

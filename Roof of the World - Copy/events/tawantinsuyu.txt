@@ -1,0 +1,231 @@
+﻿namespace = tawantinsuyu
+
+# Unified tawantinsuyu
+tawantinsuyu.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = tawantinsuyu.1.t
+	desc = tawantinsuyu.1.d
+	flavor = tawantinsuyu.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		ruler.interest_group = {
+			save_scope_as = ruler_ig_scope
+		}
+	}
+
+	option = {
+		name = tawantinsuyu.1.a
+		default_option = yes
+		# prestige
+		add_modifier = {
+			name = inca_unifier_prestige
+			months = long_modifier_time
+		}
+	}
+	option = {
+		name = german_unification.1.b
+		# ruler IG attraction
+		scope:ruler_ig_scope = {
+			add_modifier = {
+				name = inca_unifiers_ig
+				months = normal_modifier_time
+			}
+		}
+	}
+}
+
+# Annex an Italian country
+tawantinsuyu.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = tawantinsuyu.2.t
+	desc = tawantinsuyu.2.d
+	flavor = tawantinsuyu.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/signed_contract"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 1
+
+	trigger = {
+		any_neighbouring_state = {
+			owner = {
+				OR = {
+					country_has_primary_culture = cu:chachapoya
+					country_has_primary_culture = cu:quechua
+					country_has_primary_culture = cu:aimara
+				}
+				OR = {
+					is_subject = no
+					is_subject_of = ROOT
+				}
+				has_diplomatic_pact = {
+					who = ROOT
+					type = customs_union
+				}
+				country_rank <= rank_value:minor_power
+				relations:root >= relations_threshold:amicable
+				is_player = no
+				NOT = { has_variable = inca_minor_dont_annex }
+			}
+		}
+	}
+
+	immediate = {
+		random_neighbouring_state = {
+			limit = {
+				owner = {
+					OR = {
+						country_has_primary_culture = cu:chachapoya
+						country_has_primary_culture = cu:quechua
+						country_has_primary_culture = cu:aimara
+					}
+					OR = {
+						is_subject = no
+						is_subject_of = ROOT
+					}
+					has_diplomatic_pact = {
+						who = ROOT
+						type = customs_union
+					}
+					country_rank <= rank_value:minor_power
+					relations:root >= relations_threshold:amicable
+					is_player = no
+					NOT = { has_variable = incan_minor_dont_annex }
+				}
+			}
+			owner = {
+				save_scope_as = inca_annex_country
+			}
+		}
+	}
+
+	option = {
+		name = tawantinsuyu.2.a
+		default_option = yes
+		create_incident = {
+			country = scope:inca_annex_country
+			value = 10
+		}
+		annex = scope:inca_annex_country
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = tawantinsuyu.2.b
+		change_relations = {
+			country = scope:inca_annex_country
+			value = 20
+		}
+		scope:inca_annex_country = {
+			set_variable = {
+				name = incan_minor_dont_annex
+				months = normal_modifier_time
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+# Garibaldi
+tawantinsuyu.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = tawantinsuyu.3.t
+	desc = tawantinsuyu.3.d
+	flavor = tawantinsuyu.3.f
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_before_the_battle.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/before_the_battle"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+		NOT = { has_global_variable = sapa_inca_variable }
+		NOT = { has_variable = sapa_inca_var }
+		game_date < 1882.1.1
+	}
+
+	immediate = {
+		set_global_variable = sapa_inca_variable
+		set_variable = sapa_inca_var
+	}
+
+	option = {
+		name = tawantinsuyu.3.a
+		default_option = yes
+		create_character = {
+			first_name = Mama
+			last_name = Raua
+			is_general = yes
+			interest_group = ig_armed_forces
+			female = yes
+			birth_date = 1807.7.4
+			ideology = ideology_republican_leader
+			traits = {
+				resupply_commander
+				surveyor
+				expert_artillery_commander
+			}
+			on_created = {
+				add_modifier = {
+					name = sapa_inca_popularity
+				}
+			}
+		}
+	}
+	option = {
+		name = tawantinsuyu.3.b
+		create_character = {
+			first_name = Mama
+			last_name = Raua
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			female = yes
+			birth_date = 1807.7.4
+			ideology = ideology_republican_leader
+			traits = {
+				meticulous
+				cautious
+			}
+			on_created = {
+				add_modifier = {
+					name = sapa_inca_popularity
+				}
+			}
+		}
+	}
+}

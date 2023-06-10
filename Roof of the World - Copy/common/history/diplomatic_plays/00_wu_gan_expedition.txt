@@ -1,0 +1,19 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:CWU = {
+		create_diplomatic_play = {
+			name = wu_gan_expedition
+		
+			target_state = s:STATE_JIANGXI.region_state:NIN
+			
+			war = yes
+			
+			type = dp_conquer_state
+			
+			add_war_goal = {
+				holder = c:NIN
+				type = conquer_state
+				target_state = s:STATE_FUJIAN.region_state:CWU
+			}			
+		}	
+	}
+}

@@ -1,0 +1,139 @@
+﻿DIPLOMACY = {
+	
+	c:CRN = { #Carantania
+		create_diplomatic_pact = {
+			country = c:GOT
+			type = personal_union
+		}
+	}
+	
+	#Tibet
+	c:TIB = {
+		create_diplomatic_pact = {
+			country = c:CYI
+			type = puppet
+		}		
+	}
+
+
+	#Anatolia
+	c:ANA = {
+		create_diplomatic_pact = {
+			country = c:KRU
+			type = puppet
+		}			
+	}
+	#Estonia
+	c:EST = {
+		create_diplomatic_pact = {
+			country = c:UKR
+			type = puppet
+		}	
+	}
+	
+	#Ethiopia
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:CTS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HDJ
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:YEM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:OMA
+			type = puppet
+	}
+
+	#Majapahit
+	c:MJP = {
+		create_diplomatic_pact = {
+			country = c:PPU
+			type = puppet
+		}		
+		create_diplomatic_pact = {
+			country = c:LAA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:AOT
+			type = protectorate
+		}
+	}
+	
+	#Luca Antara
+	c:LAA = {
+		create_diplomatic_pact = {
+			country = c:LUT
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:NNG
+			type = protectorate
+		}		
+	}
+	#Nakota
+	c:ASI = {
+		create_diplomatic_pact = {
+			country = c:NVJ
+			type = protectorate
+		}		
+	}
+
+	#Punjab
+	c:PAN = {
+		create_diplomatic_pact = {
+			country = c:TRH
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MAK
+			type = puppet
+		}
+	}
+	
+	#Gujarat
+	c:GUJ = {
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = puppet
+		}
+	}
+	
+	#Tamilakam
+	c:TAM = {
+		create_diplomatic_pact = {
+			country = c:SHP
+			type = puppet
+		}
+	}
+	
+	#Muisca
+	c:MCA = {
+		create_diplomatic_pact = {
+			country = c:ORP
+			type = dominion
+		}
+	}
+	
+	#Oil River Protectorate
+	c:ORP = {
+		create_diplomatic_pact = {
+			country = c:SOK
+			type = puppet
+		}
+	}
+	
+	#Cherokee/Tsalagi
+	c:CHE = {
+		create_diplomatic_pact = {
+			country = c:ULQ
+			type = dominion
+		}		
+	}
+}

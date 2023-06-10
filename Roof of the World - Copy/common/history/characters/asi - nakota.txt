@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:ASI = {
+		create_character = {
+			first_name = "Pitahonistah"
+			last_name = "Aegitina"
+			culture = cu:siouan
+			ruler = yes
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_radical
+			age = 66
+			traits = {
+				persistent
+			}
+		}
+		create_character = {
+			first_name = "Pitahannes"
+			last_name = "Aegitina"
+			culture = cu:siouan
+			heir = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			age = 41
+			traits = {
+				arrogant
+			}
+		}
+	}
+}

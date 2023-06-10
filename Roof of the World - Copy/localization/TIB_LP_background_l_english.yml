@@ -1,0 +1,107 @@
+﻿ l_english:
+  #wars
+ wu_gan_expedition:0 "Gan Expedition"
+ catalan_revolt:0 "Catalan Revolt"
+ occitan_revolt:0 "Occitan Revolt"
+ burmese_uprising:0 "Burmese Uprising"  
+  
+  #Tawantinsuyu Event Chain
+ sapa_inca_popularity:0 "Heroic Reputation"
+ inca_unifier_prestige:0 "Inca Restoration"
+ inca_unifiers_ig:0 "Inca Unifiers"
+ tawantinsuyu.1.t:0 "Inca Restoration"
+ tawantinsuyu.1.d:0 "Under the heroic leadership of [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName], the great Realm of the Four Parts has been restored. Unified under a common banner, The great Tawantinsuyu will surely shape the future of both Mictlampa and the world."
+ tawantinsuyu.1.f:0 ""Even the Incas themselves did this to set an example. And under their system there was none such in all the kingdom, for, if he had his health, he worked and lacked for nothing; and if he was ill, he received what he needed."" # Pedro de Cieza de Léon
+ tawantinsuyu.1.a:0 "May the sun shine on them all!"
+ tawantinsuyu.1.b:0 "It was all thanks to the [SCOPE.gsInterestGroup('ruler_ig_scope').GetName]."
+ tawantinsuyu.2.t:0 "Unification with [SCOPE.sCountry('inca_annex_country').GetName]"
+ tawantinsuyu.2.d:0 "The small state of [SCOPE.sCountry('inca_annex_country').GetName] has wisely decided to join our efforts to unify the Inca."
+ tawantinsuyu.2.f:0 ""The old kingdoms date from an era before a single state; we can look back to the days of before the Empire to see a kind of pastoral living. But to thrive again, we must look forward, not back. It is unity under a single state that will drive our people to greatness once more.""
+ tawantinsuyu.2.a:0 "Diplomacy has won the day!"
+ tawantinsuyu.2.b:0 "It is not the right time."
+ tawantinsuyu.3.t:0 "Mama Raua"
+ tawantinsuyu.3.d:0 "The renowned general Mama Raua, who has taken the name of one of the original daughters of Inti and Mama Killa, has offered her services to [ROOT.GetCountry.GetName]. A staunch republican and Incan nationalist, she is skilled as both a commander on the field and as a military politician."
+ tawantinsuyu.3.f:1 ""Every true Inca should rally round her. By the side of [ROOT.GetCountry.GetRuler.GetFirstName] every quarrel should be forgotten, all poverty vanish, all darkness come to light, all hatred depart.""
+ tawantinsuyu.3.a:0 "Let her lead from the front."
+ tawantinsuyu.3.b:0 "She should consider a career in politics."
+ je_tawantinsuyu:0 "Inca Unification"
+ je_tawantinsuyu_reason:0 "The people of the four realms are divided. Petty city-states and foreign powers vie for control of a people who are calling out for unity. We must lead the charge."
+ je_tawantinsuyu_status:0 "Minor nations within our Customs Union and with high mutual relations may unify with us."
+  
+  #Tibetan Bengali JE
+ ideology_tibetan_hegemony:0 "Plateau Hegemony"
+ tibetan_aristocracy:0 "Plateau Aristocracy"
+ ideology_reformed_bon:0 "Restorationist Bön"
+ je_tibetan_southerners:0 "Southern Integration"
+ tib_bengali_integration.1.t:0 "Bengali Acceptance"
+ tib_bengali_integration.1.d:0 "After a series of legal and cultural reforms, the Tibetan Republic has finally made substantial moves towards legal and social equality with its other neighbors."
+ tib_bengali_integration.1.d2:0 "Either through neglect, malice, or sheer incompetence, the Tibetan Republic has rejected any overtures towards legal equality towards the Bengalis and possibly for the entire south."
+ tib_bengali_integration.1.f:0 "The Tibetan Republic, inheriting vast territories in the Indo-Gangetic Basin from the Tibetan Empire, retains substantial populations who have an eye towards legal equality and political representation. While some on the plateau resent any perceived loss of their own prestige, others feel the time has come to fulfill the promises set out in both modern and ancient law."
+ 
+  #Chinese Reunification
+ je_north_huaxia_unification:0 "Huabei Confederation"
+ je_north_huaxia_unification_reason:0 "The age of nationalism is upon us, and the German people seek unification. We must strive to be the foremost power in northern Germany, so that the people look to us as champions of the cause."
+ je_huabei_status:0 "Minor nations within our Customs Union and with high mutual relations may unify with us."
+ je_german_status:0 "Minor nations within our Customs Union and with high mutual relations may unify with us."
+ je_huanan_status:0 "Minor nations within our Customs Union and with high mutual relations may unify with us."
+ huaxia_unification.1.t:0 "Towards a Greater China"
+ huaxia_unification.1.d1:0 "The majority of Huabei has now been united under our banner. Hopes are high that this will soon lead to a federation of all the Germanies."
+ huaxia_unification.1.d2:0 "The majority of Huanan has now been united under our banner. Hopes are high that this will soon lead to a federation of all the Germanies."
+ huaxia_unification.1.f:0 "Since the time of Lasya the Evil's great slaughter, the Han peoples have never truly been united. What the [ROOT.GetCountry.GetAdjectiveNoFormatting] state has achieved today is a step towards the impossible and the inevitable."
+ huaxia_unification.1.a:0 "The statesmen responsible are national heroes."
+ huaxia_unification.1.b:0 "The world will know of our achievement."
+ huaxia_unification.2.t:0 "Confederation with [SCOPE.sCountry('chinese_annex_country').GetName]"
+ huaxia_unification.2.d:0 "As part of our efforts to unify the Han people, [SCOPE.sCountry('chinese_annex_country').GetName] has agreed to join our growing confederation."
+ huaxia_unification.2.f:0 ""By joining this confederation with [ROOT.GetCountry.GetName], we may be surrendering [SCOPE.sCountry('chinese_annex_country').GetAdjectiveNoFormatting] sovereignty, but by doing so, we help to secure German sovereignty. The spirit of the times is undeniable; the German people desire unity, and the [ROOT.GetCountry.GetAdjectiveNoFormatting] seems set to be the ones to make it happen. To oppose the coming together of the German people would be utter folly.""
+ huaxia_unification.2.a:0 "One step closer to unification!"
+ huaxia_unification.2.b:0 "This is not in the interests of the state."
+ huaxia_unification.3.t:0 "The Iron Zhangxiguan"
+ huaxia_unification.3.d:0 "A great noblewoman named [SCOPE.sCharacter('aoxiang_scope').GetFullName] has risen to a prominent position among the [ROOT.GetCountry.GetAdjectiveNoFormatting] [SCOPE.gsInterestGroup('dizhu').GetName]. Advocating for Chinese national unity and political pragmatism, she offers her services to the state."
+ huaxia_unification.3.f:0 ""I shall soon be compelled to undertake the conduct of the [ROOT.GetCountry.GetAdjectiveNoFormatting] Government. My first care will be to reorganize the army, with or without the help of the Guohui. As soon as the army shall have been brought into such a condition as to inspire respect, I shall seize the first best pretext to declare war against the perfidious Tibetans, dissolve the old structures, subdue the minor States, and give national unity to Germany under [ROOT.GetCountry.GetAdjectiveNoFormatting] leadership.""
+ huaxia_unification.3.a:0 "Appoint Zeng as Zhangxiguan."
+ huaxia_unification.3.b:0 "Realpolitik is not the right policy."
+ realpolitik:0 "Triumph of Realpolitik"
+ germany_aggressive_expansion:0 "Realpolitik Condemned"
+ aoxiang_unpopular:0 "Zeng Disfavored"
+ aoxiang_popular:0 "Zeng Favored"
+ je_huaxia_unification:0 "Han Unification"
+ je_huaxia_unification_reason:0 "The time has come to make a decisive push for Han unification. As one of the foremost Chinese states, it is our duty to bring about this goal."
+ huaxia_unification.4.t:0 "Han Unification"
+ huaxia_unification.4.d:0 "The tireless efforts of statesmen and soldiers has been rewarded; China is united into a single state."
+ huaxia_unification.4.f:0 "Through blood and iron, through diplomacy and guile, the Chinese peoples are united. It is a day of triumph and of reflection. However the future unfolds, the German state will surely play a leading role in deciding the fate of mankind."
+ huaxia_unification.4.a:0 "All hail the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]."
+ huaxia_unification.4.b:0 "This is a victory for all the Chinese peoples."
+ je_south_huaxia_unification:0 "Huanan Federation"
+ je_south_huaxia_unification_reason:0 "The age of nationalism is upon us, and the Chinese peoples seek unification. We must strive to be the foremost power in southern Germany, so that the people look to us as champions of the cause."
+ partial_huaxia_unification_influence_prestige:0 "Chinese Unifier"
+ huaxia_unification_popularity:0 "Chinese Unifier"
+ china_unifier_ruler:0 "Chinese Unifier"
+ 
+  #Gan Expedition
+ gan_expedition.1.t:0 "Gan Expedition"
+ gan_expedition.1.d:0 "The border has been restless for too long. Jiangxi must be incorporated into Wu without delay."
+ 
+  
+  #State Traits
+ state_trait_red_river_delta:0 "Hong River Delta"
+ state_trait_yungui_plateau:0 "Yungui Plateau"
+ state_trait_grand_canal:0 "Grand Canal"
+ 
+ 
+  #buidings
+ building_pyramid_of_lasya:0 "Pyramid of Lasya"
+ 
+  #modifiers
+ gan_expedition_success:0 "Gan Expedition successful"
+ gan_unifier_ruler:0 "Unified Gan Province"
+ china_aggressive_expansion:0 "Aggressive Expansion"
+ xianshizhengzhi:0 "Xianshi Zhengzhi"
+ 
+  #ULQ Breakup
+  num_breakup.1.t:0 "The End of Tsalagi Rule?"
+ num_breakup.1.d:0 "Rudderless and without the support of its colonial overlord, the [ROOT.GetCountry.GetName] is on the verge of collapse. It seems that [SCOPE.sCulture('cherokee_culture').GetName] rule is at an end."
+ num_breakup.1.f:0 ""Abandoning our post? What post, what army? In a few hours this place will be swarming with northmen, or on fire, or both. Now stop complaining and pick up that sack. Take anything of value that isn't nailed down, and I'll secure passage to the Chesepiooc.""
+ num_breakup.1.a:0 "The local rulers will seize control."
+ num_breakup.1.b:0 "This is the birth a pan-Ulaqui nation."
+ num_breakup.1.c:0 "Tsalagi rule must be maintained at all costs."
+ india_princes_independent_tt:0 "All [concept_subject] countries will become independent, and our [Concept('concept_state', '$concept_states$')] will be divided between them."

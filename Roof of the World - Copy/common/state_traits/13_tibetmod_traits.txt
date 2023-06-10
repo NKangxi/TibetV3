@@ -1,0 +1,30 @@
+state_trait_red_river_delta = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.15
+		state_standard_of_living_add = 0.5
+		state_homeland_mortality_mult = -0.05
+	}
+}
+
+state_trait_yungui_plateau = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = -0.15
+		state_standard_of_living_add = -0.5
+		state_infrastructure_add = -15
+		state_infrastructure_mult = -0.15
+		state_construction_mult = -0.1
+	}
+}
+
+state_trait_grand_canal = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+
+	modifier = {
+		state_infrastructure_add = 10
+		state_infrastructure_mult = 0.1
+	}
+}

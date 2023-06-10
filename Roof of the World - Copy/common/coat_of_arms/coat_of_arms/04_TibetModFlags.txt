@@ -1,0 +1,1141 @@
+﻿AIN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "AIN.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ANA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "ANA.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ANA_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "ANA_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ANA_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "ANA_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ANA_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "ANA_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ASI = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "ASI.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+BYZ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "BYZ.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CHA.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CHE.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHE_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CHE_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHE_theocracy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CHE_theocracy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CHE_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CHE_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHE_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "CHE_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHE_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "CHE_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CHH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CHH.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CMB = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CMB.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CMB_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CMB_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CMB_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CMB_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CMB_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "CMB_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CMB_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "CMB_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CRN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CRN.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CRN_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CRN_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CRN_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CRN_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CRN_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "CRN_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CRN_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "CRN_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CSH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CSH.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CSH_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CSH_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CSH_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CSH_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CSH_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "CSH_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CSH_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "CSH_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+CWU = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CWU.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CWU_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CWU_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CWU_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CWU_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CWU_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "CWU_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CWU_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "CWU_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+CYA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "CYA.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+EGY = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "EGY.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ETH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "ETH.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ETH_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "ETH_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ETH_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "ETH_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ETH_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "ETH_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ETH_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "ETH_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+GLW = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "GLW.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+GLW_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "GLW_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+GLW_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "GLW_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+GLW_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "GLW_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+GLW_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "GLW_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+HLN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "HLN.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+IRE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {6 92 5}
+	
+	textured_emblem = {
+		texture = "IRE.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+JIN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "JIN.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+JIN_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "JIN_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+JIN_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "JIN_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+JIN_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "JIN_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+JIN_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "JIN_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MCA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "MCA.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MCA_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "MCA_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MCA_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "MCA_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MCA_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "MCA_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MCA_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "MCA_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MJP = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "MJP.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MJP_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "MJP_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+MJP_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "MJP_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MJP_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "MJP_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+MJP_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "MJP_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+NIN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "NIN.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NIN_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "NIN_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NIN_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "NIN_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NIN_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "NIN_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NIN_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "NIN_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+NVK = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "NVK.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+OTG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "OTG.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+PAN = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "PAN.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+PAN_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "PAN_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+PAN_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "PAN_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+PAN_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "PAN_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+PAN_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "PAN_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+PRP = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "PRP.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SCA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "SCA.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SHP = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {6 92 5}
+	
+	textured_emblem = {
+		texture = "SHP.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SOO = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "SOO.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SOO_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "SOO_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SOO_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "SOO_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SOO_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "SOO_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+SOO_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "SOO_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TAI = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TAI.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TAM = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TAM.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TAM_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TAM_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+TAM_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TAM_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TAM_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "TAM_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TAM_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "TAM_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TIB = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TIB.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TIB_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TIB_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TIB_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "TIB_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TIB_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "TIB_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TLX = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TLX.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TLX_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TLX_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+
+TLX_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TLX_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TLX_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "TLX_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TLX_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "TLX_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TSH = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {6 92 5}
+	
+	textured_emblem = {
+		texture = "TSH.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TTI = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TTI.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TTI_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TTI_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TTI_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "TTI_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TTI_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "TTI_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+TTI_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "TTI_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ULQ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "ULQ.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+VIJ = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "VIJ.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+XIU = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "XIU.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "YUE.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "YUE_monarchy.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE_republic = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {115 187 251}
+	
+	textured_emblem = {
+		texture = "YUE_republic.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE_socialist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {204 5 4}
+	
+	textured_emblem = {
+		texture = "YUE_socialist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+YUE_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb {228 12 20}
+	
+	textured_emblem = {
+		texture = "YUE_fascist.tga"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}

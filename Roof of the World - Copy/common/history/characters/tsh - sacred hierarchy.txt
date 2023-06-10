@@ -1,0 +1,16 @@
+﻿CHARACTERS = {	
+	c:TSH = {
+		create_character = {
+			first_name = "Lasyadevi"
+			last_name = "Purgyal"
+			ruler = yes
+			female = yes
+			age = 80
+			interest_group = ig_devout
+			ideology = ideology_theocrat
+			traits = {
+				imperious
+			}
+		}
+	}
+}

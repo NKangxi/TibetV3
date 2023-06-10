@@ -1,0 +1,181 @@
+﻿POPS = {
+	s:STATE_SAN_SALVADOR = {
+		region_state:XIU = {
+			create_pop = {
+				culture = mayan
+				size = 100000
+			}
+			create_pop = {
+				culture = central_american
+				size = 808204
+			}
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:XIU = {
+			create_pop = {
+				culture = central_american
+				size = 304404
+			}
+			create_pop = {
+				culture = mayan
+				size = 652000
+			}
+			create_pop = {
+				culture = nahua
+				size = 1000
+			}
+		}
+	}
+	s:STATE_HONDURAS = {
+		region_state:XIU = {
+			create_pop = {
+				culture = central_american
+				size = 750204
+			}
+			create_pop = {
+				culture = mayan
+				size = 200000
+			}
+			create_pop = {
+				culture = miskito # Cape of Gracias a Dios Miskito
+				size = 6000
+			}
+		}
+	}
+	s:STATE_NICARAGUA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = central_american
+				size = 564000
+			}
+			create_pop = {
+				culture = muisca
+				size = 100000
+			}
+			create_pop = {
+				culture = miskito 
+				religion = animist
+				size = 60000
+			}
+			create_pop = {
+				culture = miskito
+				religion = nahua
+				size = 20000
+			}
+		}
+	}
+	s:STATE_COSTA_RICA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = central_american
+				size = 165992
+			}
+			create_pop = {
+				culture = muisca
+				size = 20000
+			}
+		}
+	}
+	s:STATE_PANAMA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = central_american
+				size = 170792
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 55300
+			}
+			create_pop = {
+				culture = muisca
+				size = 8000
+			}
+			create_pop = {
+				culture = cariban
+				size = 8000
+			}
+		}
+	}
+	s:STATE_HAITI = {
+		region_state:MCA = {
+			create_pop = {
+				culture = cariban
+				size = 1250000
+			}
+		}
+	}
+	s:STATE_SANTO_DOMINGO = {
+		region_state:MCA = {
+			create_pop = {
+				culture = cariban
+				size = 1100000
+			}
+		}
+	}
+	s:STATE_PUERTO_RICO = {
+		region_state:MCA = {
+			create_pop = {
+				culture = cariban
+				size = 750000
+			}
+			create_pop = {
+				culture = muisca
+				size = 10004
+			}	
+		}
+	}
+	s:STATE_BAHAMAS = {
+		region_state:MCA = {
+			create_pop = {
+				culture = cherokee
+				size = 19200
+			}
+			create_pop = {
+				culture = cariban
+				size = 100400
+			}
+			create_pop = {
+				culture = muskogean
+				size = 50000
+			}
+		}
+	}
+	s:STATE_WEST_INDIES = {
+		region_state:MCA = {
+			create_pop = {
+				culture = muisca
+				size = 120200
+			}
+			create_pop = {
+				culture = cariban
+				size = 1006104
+			}
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:MCA = {
+			create_pop = {
+				culture = cariban
+				size = 700596
+			}
+			create_pop = {
+				culture = muisca
+				size = 60040
+			}
+		}
+	}
+	s:STATE_CUBA = {
+		region_state:MCA = {
+			# 896400
+			create_pop = {
+				culture = cariban
+				size = 1000304 
+			}		
+			create_pop = {
+				culture = muisca
+				size = 50004
+			}
+		}
+	}
+}

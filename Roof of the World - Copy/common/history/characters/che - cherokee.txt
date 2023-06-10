@@ -1,0 +1,31 @@
+CHARACTERS = {
+	c:CHE = {
+		create_character = {
+			first_name = "Tahlonteeskee"
+			last_name = "Atagulkalu"
+			ruler = yes
+			age = 50
+			interest_group = ig_landowners
+			ideology = ideology_theocrat
+			traits = {
+				romantic
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Wahnenauhi"
+			last_name = "Atagulkalu"
+			heir = yes
+			female = yes
+			age = 25
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_theocrat
+			traits = {
+				tactful
+			}
+		}
+	}
+}

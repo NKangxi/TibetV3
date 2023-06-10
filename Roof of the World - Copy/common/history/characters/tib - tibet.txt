@@ -1,0 +1,64 @@
+﻿CHARACTERS = {
+	c:TIB = {
+		create_character = {
+			first_name = "Tsultrim"
+			last_name = "Dbas"
+			culture = cu:tibetan
+			ruler = yes
+			female = yes
+			age = 77
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+		create_character = { # TIB, general
+			is_general = yes
+			first_name = "Qianlin"
+			last_name = "He"
+			culture = cu:sichuanese
+			female = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			birth_date = 1789.12.22 
+			hq = region_south_china
+			commander_rank = commander_rank_3
+			traits = {
+				traditionalist_commander
+				meticulous
+			}
+		}
+		create_character = { # TIB, general
+			is_general = yes
+			first_name = Lobsang
+			last_name = Purgyal
+			culture = cu:tibetan
+			interest_group = ig_landowners
+			ideology = ideology_reformer
+			birth_date = 1779.1.9
+			hq = region_himalayas
+			commander_rank = commander_rank_5
+			traits = {
+				stalwart_defender
+				wrathful
+			}
+		}
+		create_character = { # TIB, general
+			is_general = yes
+			first_name = "Vijnayavati"
+			last_name = "Chatterjee"
+			female = yes
+			culture = cu:bengali
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			birth_date = 1782.1.26
+			hq = region_north_india
+			commander_rank = commander_rank_3
+			traits = {
+				basic_offensive_planner
+				forest_commander
+			}
+		}
+	}
+}

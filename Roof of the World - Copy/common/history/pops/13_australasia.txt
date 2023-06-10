@@ -1,0 +1,126 @@
+﻿POPS = {
+	s:STATE_NEW_SOUTH_WALES = {
+		region_state:LAA = {
+			create_pop = {
+				culture = aborigine
+				size = 63200
+			}
+			create_pop = {
+				culture = lucaantaran
+				size = 101384
+			}
+			create_pop = {
+				culture = dayak
+				size = 16080
+			}
+		}
+	}
+	s:STATE_VICTORIA = {
+		region_state:LAA = {
+			create_pop = {
+				culture = aborigine
+				size = 31118
+			}
+			create_pop = {
+				culture = lucaantaran
+				size = 24676
+			}
+		}
+	}
+
+	s:STATE_TASMANIA = {
+		region_state:LUT = {
+			create_pop = {
+				culture = aborigine
+				size = 22208
+			}
+			create_pop = {
+				culture = lucaantaran
+				size = 11319
+			}
+		}
+	}
+	s:STATE_QUEENSLAND = {
+		region_state:LAA = {
+			create_pop = {
+				culture = aborigine
+				size = 59200
+			}
+			create_pop = {
+				culture = lucaantaran
+				size = 4000
+			}
+		}
+	}
+	s:STATE_SOUTH_AUSTRALIA = {
+		region_state:LAA = {
+			create_pop = {
+				culture = lucaantaran
+				size = 10500
+			}		
+			create_pop = {
+				culture = aborigine
+				size = 32000
+			}
+		}
+	}
+	s:STATE_WESTERN_AUSTRALIA = {
+		region_state:LAA = {
+			create_pop = {
+				culture = aborigine
+				size = 47500
+			}
+			create_pop = {
+				culture = lucaantaran
+				size = 3004
+			}
+		}
+		region_state:NNG = {
+			create_pop = {
+				culture = aborigine
+				size = 21100
+			}
+		}
+	}
+	s:STATE_NORTHERN_TERRITORY = {
+		region_state:LAA = {
+			create_pop = {
+				culture = aborigine
+				size = 31804
+			}
+		}
+	}
+	s:STATE_NORTH_ISLAND = {
+		region_state:AOT = {
+			create_pop = {
+				culture = maori
+				religion = hindu
+				size = 30000
+			}
+			create_pop = {
+				culture = maori
+				size = 62000
+			}
+			create_pop = {
+				culture = javan
+				size = 1004
+			}
+		}
+	}
+	s:STATE_SOUTH_ISLAND = {
+		region_state:AOT = {
+			create_pop = {
+				culture = javan
+				size = 428
+			}
+			create_pop = {
+				culture = maori
+				size = 78000
+			}
+			create_pop = {
+				culture = maori
+				size = 64000
+			}
+		}
+	}
+}

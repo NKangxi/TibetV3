@@ -1,0 +1,71 @@
+﻿je_tawantinsuyu = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:chachapoya
+			country_has_primary_culture = cu:quechua
+			country_has_primary_culture = cu:aimara
+		}
+	}
+
+	possible = {
+		country_rank >= rank_value:major_power
+		has_technology_researched = nationalism
+		is_subject = no
+	}
+
+	complete = {
+		hidden_trigger = {
+			has_variable = je_unification_progress
+		}
+		calc_true_if = {
+			amount > 12
+			owns_entire_state_region = STATE_CAUCA
+			owns_entire_state_region = STATE_ECUADOR
+			owns_entire_state_region = STATE_PASTAZA
+			owns_entire_state_region = STATE_CAJAMARCA
+			owns_entire_state_region = STATE_LIMA
+			owns_entire_state_region = STATE_ICA
+			owns_entire_state_region = STATE_AREQUIPA
+			owns_entire_state_region = STATE_LA_PAZ
+			owns_entire_state_region = STATE_POTOSI
+			owns_entire_state_region = STATE_SANTA_CRUZ
+			owns_entire_state_region = STATE_TARAPACA
+			owns_entire_state_region = STATE_ANTOFAGASTA
+			owns_entire_state_region = STATE_JUJUY
+			owns_entire_state_region = STATE_SANTIAGO
+			owns_entire_state_region = STATE_TUCUMAN
+			owns_entire_state_region = STATE_CHACO
+			owns_entire_state_region = STATE_ALTO_PARAGUAY
+		}
+	}
+
+	on_monthly_pulse = {
+		events = {
+			tawantinsuyu.2 # confederation
+			tawantinsuyu.3 # Sapa Inca
+		}
+		effect = {
+			if = { 
+				limit = { NOT = { has_variable = je_unification_progress } } 
+				set_variable = je_unification_progress
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = tawantinsuyu.1 }
+		remove_variable = je_unification_progress
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_tawantinsuyu_status
+			}
+		}
+	}
+
+	weight = 100
+}

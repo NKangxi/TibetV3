@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:ANA = {
+		create_character = {
+			first_name = "Noura"
+			last_name = "al-Askari"
+			culture = cu:mashriqi
+			female = yes
+			ruler = yes
+			age = 51
+			interest_group = ig_rural_folk
+			ideology = ideology_moderate
+			traits = {
+				charismatic
+			}
+		}
+	}
+}

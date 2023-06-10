@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:CWU = {
+		create_character = {
+			first_name = "Shanlan"
+			last_name = "Qi"
+			culture = cu:wu
+			ruler = yes
+			female = yes
+			age = 55
+			interest_group = ig_landowners
+			ideology = ideology_radical
+			traits = {
+				direct
+			}
+		}
+		create_character = { # CWU, general
+			is_general = yes
+			first_name = "Yunmei"
+			last_name = "Wang"
+			culture = cu:wu
+			female = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			birth_date = 1797.12.22 
+			hq = region_south_china
+			commander_rank = commander_rank_3
+			traits = {
+				traditionalist_commander
+			}
+		}
+	}
+}

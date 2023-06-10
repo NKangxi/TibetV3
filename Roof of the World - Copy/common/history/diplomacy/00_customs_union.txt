@@ -1,0 +1,64 @@
+﻿DIPLOMACY = {
+	#Remnants of the Sacred Tibetan Empire
+	c:TIB = {	
+		create_diplomatic_pact = {
+			country = c:BUN
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:DLH
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:JAI
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:GWA
+			type = customs_union
+		}		
+		create_diplomatic_pact = {
+			country = c:ORI
+			type = customs_union
+		}			
+		create_diplomatic_pact = {
+			country = c:BAS
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:NAG
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:HYD
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:TSH
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:MEW
+			type = customs_union
+		}
+	}
+	#Greater Chinese Trading Union
+	c:CWU = {
+		create_diplomatic_pact = {
+			country = c:CSH
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:CXI
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:JIN
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:YUE
+			type = customs_union
+		}			
+	}
+}
