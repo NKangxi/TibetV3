@@ -666,6 +666,13 @@ ACH = {
 	capital = STATE_UGANDA
 }
 
+AFS = { #Dynamic African Free State
+	color = {130 23 47}
+	country_type = colonial
+	tier = principality
+	cultures = { bakongo }
+}
+
 ANK = {
 	color = { 126 162 98 }
 	
