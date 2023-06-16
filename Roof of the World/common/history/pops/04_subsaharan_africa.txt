@@ -1302,27 +1302,33 @@
 		}
 	}
 	s:STATE_WADDAI = {
-		region_state:BOR = {
+		region_state:WAD = {
 			create_pop = {
 				culture = fur
 				size = 108004
 			}
 			create_pop = {
 				culture = bedouin
-				size = 28000
+				size = 16000
 			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 49996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 12000
+			}
+		}
+		region_state:BGI = {
 			create_pop = {
 				culture = baguirmi
 				size = 31992
 			}
 			create_pop = {
 				culture = equatorial_bantu
-				size = 96996
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = equatorial_bantu
-				size = 15000
+				size = 32000
 			}
 			create_pop = {
 				culture = sara
@@ -1332,6 +1338,21 @@
 				pop_type = slaves
 				culture = sara
 				size = 8000
+			}
+		}
+		region_state:BOR = {
+			create_pop = {
+				culture = bedouin
+				size = 12000
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 14000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 3000
 			}
 		}
 	}

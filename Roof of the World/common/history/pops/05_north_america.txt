@@ -333,11 +333,11 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = algonquian
-				size = 60000
+				size = 160000
 			}
 			create_pop = {
 				culture = siouan
-				size = 116004
+				size = 416004
 			}
 		}
 	}

@@ -97,11 +97,11 @@
  HUB_NAME_STATE_BRANDENBURG_farm:0 "Potsdam"
  HUB_NAME_STATE_BRANDENBURG_wood:0 "Stargard"
  HUB_NAME_STATE_SAXONY_city:0 "Dräsdn" #Dresden
- HUB_NAME_STATE_SAXONY_mine:0 "Leipzig"
+ HUB_NAME_STATE_SAXONY_mine:0 "Leibz'sch" #Leipzig
  HUB_NAME_STATE_SAXONY_farm:0 "Erfurt"
  HUB_NAME_STATE_SAXONY_wood:0 "Gera"
- HUB_NAME_STATE_FRANCONIA_city:0 "Nürnberg" #Nuremberg
- HUB_NAME_STATE_FRANCONIA_mine:0 "Bayreuth"
+ HUB_NAME_STATE_FRANCONIA_city:0 "Nämberch" #Nuremberg
+ HUB_NAME_STATE_FRANCONIA_mine:0 "Bareid" #Bayreuth
  HUB_NAME_STATE_FRANCONIA_farm:0 "Coburg"
  HUB_NAME_STATE_FRANCONIA_wood:0 "Würzburg"
  HUB_NAME_STATE_BAVARIA_city:0 "Minga" #Munich
@@ -254,11 +254,16 @@
  HUB_NAME_STATE_BRITTANY_mine:1 "Gwened" #Vannes
  HUB_NAME_STATE_BRITTANY_farm:0 "Saint-Brieuc"
  HUB_NAME_STATE_BRITTANY_wood:0 "Rennes"
- HUB_NAME_STATE_NORMANDY_city:0 "Rouen"
+ HUB_NAME_STATE_NORMANDY_city:0 "Ruþaborg" #Rouen
  HUB_NAME_STATE_NORMANDY_port:1 "Le Havre"
  HUB_NAME_STATE_NORMANDY_mine:1 "Cherbourg"
  HUB_NAME_STATE_NORMANDY_farm:0 "Caen"
  HUB_NAME_STATE_NORMANDY_wood:1 "Avranches"
+ HUB_NAME_STATE_PICARDY_city:1 "Anmien" #Amiens
+ HUB_NAME_STATE_PICARDY_port:1 "Le Crotoy"
+ HUB_NAME_STATE_PICARDY_mine:1 "Saint-Quentin"
+ HUB_NAME_STATE_PICARDY_farm:1 "Beauvais"
+ HUB_NAME_STATE_PICARDY_wood:1 "Compiègne"
  HUB_NAME_STATE_CHAMPAGNE_city:0 "Reims"
  HUB_NAME_STATE_CHAMPAGNE_mine:0 "Sens"
  HUB_NAME_STATE_CHAMPAGNE_farm:0 "Saint-Quentin"
@@ -334,6 +339,10 @@
  HUB_NAME_STATE_AQUITAINE_mine:0 "Lourdes"
  HUB_NAME_STATE_AQUITAINE_farm:0 "Mont-de-Marsan"
  HUB_NAME_STATE_AQUITAINE_wood:0 "Pau"
+ HUB_NAME_STATE_MAINE_ANJOU_city: "Angeus" #Angers
+ HUB_NAME_STATE_MAINE_ANJOU_mine: "Laval"
+ HUB_NAME_STATE_MAINE_ANJOU_farm: "Le Mans"
+ HUB_NAME_STATE_MAINE_ANJOU_wood: "Tours"
 
   # Portugal
  HUB_NAME_STATE_ALENTEJO_city:0 "Ebora" #Evora

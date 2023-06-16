@@ -73,15 +73,6 @@ STATES = {
 		add_homeland = hualanitscah
 		add_homeland = occitan
 	}
-	s:STATE_LANGUEDOC = {
-		create_state = {
-			country = c:OCC
-			owned_provinces = { "x106040" "x1060C0" "x1727F7" "x306080" "x3784B2" "x5615DD" "x7C1D57" "x906080" "xB0E000" "xBBB6AD" "xCF9FBF" "xECF077" "xF0C060" }
-		}
-		
-		add_homeland = hualanitscah
-		add_homeland = occitan
-	}
 	s:STATE_NORMANDY = {
 		create_state = {
 			country = c:HLN
@@ -2747,14 +2738,6 @@ STATES = {
 		
 		add_homeland = hualanitscah
 		add_homeland = occitan
-	}
-	s:STATE_MAINE_ANJOU = {
-		create_state = {
-			country = c:HLN
-			owned_provinces = { "x093DF5" "x192CA5" "x30E080" "x56E158" "x6B5474" "x7CAE05" "xB0E080" "xD02040" "xF6A48C" }
-		}
-		
-		add_homeland = hualanitscah
 	}
 	s:STATE_ORLEANS = {
 		create_state = {

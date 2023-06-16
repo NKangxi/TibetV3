@@ -1,0 +1,49 @@
+tib_anmolika_roy_character_template = {
+    first_name = Anmolika
+    last_name = Roy
+    historical = yes
+    birth_date = 1809.5.25
+    is_agitator = yes
+    female = yes
+    culture = cu:bengali
+    interest_group = ig_intelligentsia
+    ideology = ideology_communist
+    traits = {
+        literary
+        inspirational_orator
+        brave
+    }
+}
+
+agitator_tang_yanmin = { # Alexis de Tocqueville
+	first_name = Yanmin
+	last_name = Tang
+	historical = yes
+	culture = cu:wu
+	religion = rel:bon
+	female = yes
+	interest_group = ig_landowners
+	ideology = ideology_reformer
+	birth_date = 1805.7.29
+	traits = {
+		literary
+		honorable
+		basic_political_operator
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_preorder
+			c:CWU ?= this
+		}
+        interest_group_trigger = {
+            is_marginal = no
+            OR = {
+			    is_interest_group_type = ig_landowners
+			    is_interest_group_type = ig_intelligentsia
+			}
+        }   
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1852.1.1
+		chance = 50
+	}
+}
