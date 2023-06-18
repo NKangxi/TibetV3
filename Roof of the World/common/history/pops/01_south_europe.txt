@@ -421,9 +421,9 @@
 	}
 
 	s:STATE_CANARY_ISLANDS = {
-		region_state:SPA = {
+		region_state:TAN = {
 			create_pop = {
-				culture = spanish
+				culture = maghrebi
 				size = 208004
 			}
 		}

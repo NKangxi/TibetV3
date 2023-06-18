@@ -259,6 +259,20 @@
 				size = 101220
 			}
 		}
+		region_state:EGY = {
+			create_pop = {
+				culture = zhili # nanfaren
+				size = 60000
+			}
+			create_pop = {
+				culture = korean
+				size = 10220
+			}
+			create_pop = {
+				culture = misri
+				size = 1000
+			}
+		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
 		region_state:AIN = {

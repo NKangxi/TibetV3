@@ -624,6 +624,12 @@
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" "pm_cannons" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}			
 			create_building={
 				building="building_construction_sector"
@@ -1029,9 +1035,15 @@
 		region_state:GUJ={
 			create_building={
 				building="building_government_administration"
-				level=12
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_sugar_plantation"

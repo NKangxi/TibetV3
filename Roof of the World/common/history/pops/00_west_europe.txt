@@ -143,17 +143,17 @@
 		region_state:ASI = {
 			create_pop = {
 				culture = siouan
-				size = 410
+				size = 1410
 			}
 			create_pop = {
 				culture = inuit
 				religion = nahuatl
-				size = 9254
+				size = 39254
 			}
 			create_pop = {
 				culture = inuit
 				religion = animist
-				size = 1510
+				size = 11510
 			}
 		}
 	}

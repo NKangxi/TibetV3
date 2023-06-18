@@ -420,6 +420,21 @@
 				size = 24000
 			}
 		}
+		region_state:SAH = {
+			create_pop = {
+				culture = berber
+				size = 3109
+			}
+			create_pop = {
+				culture = bedouin
+				size = 4612
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bedouin
+				size = 129
+			}
+		}
 	}
 	s:STATE_ALGIERS = {
 		region_state:TAN = {
@@ -487,6 +502,34 @@
 			create_pop = {
 				culture = bambara
 				size = 31000
+			}
+		}
+	}
+	s:STATE_ORAN = {
+		region_state:TAN = {
+			create_pop = {
+				culture = maghrebi
+				size = 655178
+			}
+			create_pop = {
+				culture = berber
+				size = 105234
+			}
+			create_pop = {
+				culture = turkish
+				size = 2084
+			}
+			create_pop = {
+				culture = sephardic
+				size = 6010
+			}
+			create_pop = {
+				culture = bambara
+				size = 20401
+			}
+			create_pop = {
+				culture = mongol
+				size = 681
 			}
 		}
 	}
@@ -629,6 +672,20 @@
 			create_pop = {
 				culture = berber
 				size = 8004
+			}
+		}
+		region_state:TUG = {
+			create_pop = {
+				culture = maghrebi
+				size = 16020
+			}
+			create_pop = {
+				culture = berber
+				size = 29991
+			}
+			create_pop = {
+				culture = sephardic
+				size = 389
 			}
 		}
 	}
@@ -894,6 +951,25 @@
 				pop_type = slaves
 				culture = equatorial_bantu
 				size = 6000
+			}
+		}
+		region_state:BOR = {
+			create_pop = {
+				culture = kanuri
+				size = 28000
+			}
+			create_pop = {
+				culture = bedouin
+				size = 42000
+			}	
+			create_pop = {
+				culture = tuareg
+				size = 5000
+			}	
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 7000
 			}
 		}
 	}

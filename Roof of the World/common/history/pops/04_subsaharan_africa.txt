@@ -337,46 +337,87 @@
 		}
 	}
 	s:STATE_OUTER_HAUSALAND = {
-		region_state:SON = {
+		region_state:HAU = {
 			create_pop = {
 				culture = hausa
-				size = 296400
+				size = 168948
 			}
 			create_pop = {
 				culture = dyula
-				size = 28000
+				size = 15960
 			}
 			create_pop = {
 				culture = equatorial_bantu
-				size = 167604
+				size = 95534
 			}
 			create_pop = {
 				culture = tuareg
-				size = 63996
+				size = 36478
 			}
 			create_pop = {
 				culture = songhai
-				size = 53004
+				size = 30212
 			}
 			create_pop = {
 				culture = fulbe
-				size = 42992
+				size = 24505
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = tuareg
-				size = 20000
+				size = 11400
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = songhai
-				size = 15000
+				size = 8550
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = fulbe
-				size = 15000
+				size = 8550
 			}
+		}
+		region_state:SOK = {
+			create_pop = {
+				culture = hausa
+				size = 12752
+			}
+			create_pop = {
+				culture = dyula
+				size = 12040
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 72070
+			}
+			create_pop = {
+				culture = tuareg
+				size = 27518
+			}
+			create_pop = {
+				culture = songhai
+				size = 22792
+			}
+			create_pop = {
+				culture = fulbe
+				size = 18487
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tuareg
+				size = 8600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = songhai
+				size = 6450
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fulbe
+				size = 6450
+			}		
 		}
 		region_state:BOR = {
 			create_pop = {

@@ -18,4 +18,8 @@
 		set_relations = { country = c:GWA value = 30 }
 		set_relations = { country = c:MEW value = 30 }
 	}
+	c:CWU = {
+		set_relations = { country = C:YUE value = 30 }
+		set_relations = { country = C:CXI value = 30 }
+	}
 }

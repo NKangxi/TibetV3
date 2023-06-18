@@ -63,6 +63,16 @@
 				size = 32000
 			}
 		}
+		region_state:KAU = {
+			create_pop = {
+				culture = lucaantaran
+				size = 300
+			}		
+			create_pop = {
+				culture = aborigine
+				size = 51000
+			}
+		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
 		region_state:LAA = {
@@ -73,12 +83,6 @@
 			create_pop = {
 				culture = lucaantaran
 				size = 3004
-			}
-		}
-		region_state:NNG = {
-			create_pop = {
-				culture = aborigine
-				size = 21100
 			}
 		}
 	}

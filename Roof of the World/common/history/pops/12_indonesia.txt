@@ -163,7 +163,7 @@
 		region_state:MJP = {
 			create_pop = {
 				culture = javan
-				size = 1873792
+				size = 2073792
 			}
 			create_pop = {
 				culture = yue
@@ -181,7 +181,7 @@
 				size = 21000
 			}
 			create_pop = {
-				culture = dutch
+				culture = min
 				size = 2400
 			}
 		}
@@ -256,7 +256,7 @@
 				size = 12212
 			}
 			create_pop = {
-				culture = dutch
+				culture = hakka
 				size = 300
 			}
 			create_pop = {
@@ -344,7 +344,7 @@
 				size = 96808
 			}
 			create_pop = {
-				culture = dutch
+				culture = min
 				size = 388
 			}
 			create_pop = {
