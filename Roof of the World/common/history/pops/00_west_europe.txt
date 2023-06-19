@@ -589,7 +589,7 @@
 		}
 	}
 	s:STATE_LORRAINE = {
-		region_state:HLN = {
+		region_state:ULQ = {
 			create_pop = {
 				culture = hualanitscah
 				size = 1133731

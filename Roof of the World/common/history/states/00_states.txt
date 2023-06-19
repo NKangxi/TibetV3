@@ -169,6 +169,7 @@ STATES = {
 			}
 		}
 		
+		add_claim = c:CWU		
 		add_homeland = shandong
 	}
 	s:STATE_SUZHOU = {
@@ -2724,7 +2725,7 @@ STATES = {
 	}
 	s:STATE_LORRAINE = {
 		create_state = {
-			country = c:HLN
+			country = c:ULQ
 			owned_provinces = { "x282DCC" "x3080E0" "x70BFA0" "x7FC1E6" "xB080E0" "xC5F13A" }
 		}
 		
@@ -5068,6 +5069,7 @@ STATES = {
 			owned_provinces = { x6070E0 x8143A9 x7830B6 xDE8D7F x8A2708 x50EE81 xCB4590 xEA426A x66C698 xBD9510 xCA0553 x672D89 xE9FADC x101080 x9170CB x2D7544 x451612 xD0D000 x079CCD x1186AE xB56A25 x60F0E0 xB7BDDC x172021 xD9A554 xDC867F x37F6F7 xE2F9D6 x50D080 x3DE539 x0C0AE5 x50D000 x64A1E9 x5279EB x607060 x176746 x535CB8 }
 		}
 		
+		add_claim = c:CWU		
 		add_homeland = gan	
 		add_homeland = hakka
 	}
