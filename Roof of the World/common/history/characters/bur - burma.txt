@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BUR = {
+		create_character = {
+			first_name = "Shin Myat Hla"
+			last_name = "Ava"
+			female = yes
+			ruler = yes
+			birth_date = 1790.7.23
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				reckless
+			}
+		}	
+	}
+}

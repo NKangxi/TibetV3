@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:SIC = {
+		create_character = {
+			first_name = "Sigismondo"
+			last_name = "Hallenborg"
+			historical = no
+			ruler = yes
+			birth_date = 1810.1.12
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				imperious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}	
+	}
+}

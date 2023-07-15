@@ -1,10 +1,24 @@
 CHARACTERS = {
 	c:PAN = {
 		create_character = {
+			first_name = "Dhalip"
+			last_name = "Singh"
+			ruler = yes
+			historical = no
+			birth_date = 1780.11.2
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			hq = region_north_india
+			commander_rank = commander_rank_3
+			traits = {
+				ambitious
+			}
+		}	
+		create_character = {
 			first_name = "Tenzin"
 			last_name = "Bahadur"
 			culture = cu:panjabi
-			ruler = yes
+			ruler = no
 			age = 62
 			interest_group = ig_armed_forces
 			ideology = ideology_moderate

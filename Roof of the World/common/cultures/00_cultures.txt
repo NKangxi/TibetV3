@@ -10874,13 +10874,16 @@ burmese={
 		Chandra
 		Hsinbyumashin
 		Supayalat
+		Shin_Myat_Hla
 	}	
 	noble_last_names = {
 		Konbaung
 		Sao
 		Min
+		Ava
 	}
 	common_last_names={
+		Ava
 		Bagyidaw
 		Bandula
 		Dabayin
@@ -13082,6 +13085,7 @@ korean={
 		Bang-bo Byung-guk Byung-hak Byung-si
 		Choi-ung
 		Don-in Du-seon
+		Eon-jeok
 		Ha-eung Hong-jip Hunggun
 		Gyu-ho
 		In-young

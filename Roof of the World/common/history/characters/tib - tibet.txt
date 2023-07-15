@@ -7,7 +7,7 @@
 			ruler = yes
 			female = yes
 			age = 77
-			interest_group = ig_rural_folk
+			interest_group = ig_intelligentsia
 			ideology = ideology_moderate
 			traits = {
 				meticulous
