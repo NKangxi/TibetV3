@@ -1,6 +1,6 @@
 namespace = num_breakup
 
-# Independent British East India Company decides how to proceed
+# Independent NUM decides how to proceed
 num_breakup.1 = {
 	type = country_event
 	placement = root
@@ -8,6 +8,8 @@ num_breakup.1 = {
 	title = num_breakup.1.t
 	desc = num_breakup.1.d
 	flavor = num_breakup.1.f
+	
+	orphan = yes
 	
 	event_image = {
 		video = "gfx/event_pictures/asia_sepoy_mutiny.bk2"

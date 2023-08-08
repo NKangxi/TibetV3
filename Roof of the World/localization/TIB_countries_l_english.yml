@@ -420,8 +420,8 @@
  KAL_ADJ:0 "Kalati"
  KAS:0 "Kashmir"
  KAS_ADJ:0 "Kashmiri"
- KAZ:0 "Kazakh Ulus" 
- KAZ_ADJ:0 "Kazakh"
+ KAZ:0 "Qazaq Ulus" 
+ KAZ_ADJ:0 "Qazaq"
  KBA:0 "Kuba"
  KBA_ADJ:0 "Kuban"
  KBD:0 "Kabadougou"
@@ -699,7 +699,7 @@
  PRU_ADJ:0 "Prussian"
  PCO:0 "Puerto Rico"
  PCO_ADJ:0 "Puerto Rican"
- QUE:0 "Quebec"
+ QUE:0 "Kebec" #Quebec
  QUE_ADJ:0 "Quebec"
  REB:0 "Rebels"
  REB_ADJ:0 "Rebel"
@@ -1050,7 +1050,7 @@
  CEY_ADJ:0 "Ceylon"
  HBC:0 "Hudson Bay Company"
  HBC_ADJ:0 "Hudson Bay"
- ONT:0 "Ontario"
+ ONT:0 "Ontarí:io" #Ontario
  ONT_ADJ:0 "Ontarian"
  NBS:0 "New Brunswick"
  NBS_ADJ:0 "New Brunswicker"
@@ -1315,6 +1315,6 @@
  dyn_c_mancunian_commune_adj:0 "Mancunian"
  dyn_c_schleswig_holstein:0 "Schleswig-Holstein"
  dyn_c_schleswig_holstein_adj:0 "Schleswig-Holsteinian"
- dyn_c_ruthenia:0 "Principality of Ruthenia"
- dyn_c_ruthenia_adj:0 "Ruthenian"
+ dyn_c_ruthenia:0 "Principality of Kyiv"
+ dyn_c_ruthenia_adj:0 "Kyivan"
  

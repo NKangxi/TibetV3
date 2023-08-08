@@ -1516,6 +1516,92 @@ swiss={
 	}
 }
 
+alemannic={
+	color= hsv{ 0.0 0.47 0.70 }
+	religion = protestant
+	traits = { german_speaking swiss european_heritage }
+	male_common_first_names={
+		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
+		Benedicht
+		Carl Christoph Christian Constant CA_sar Carl-Friedrich
+		Dominik Damian
+		Eduard Ernst Eugen Emil Ernst_August
+		Friedrich Franz Florian Franz_Xaver
+		Gall Gabriel Gustav Gottfried Georg Gottlieb
+		Hermann Heinrich
+		Imbert
+		Johann Jakob Joseph Johann_Baptist Johann_Konrad Johann_Peter Jakob_Christoph
+		Kaspar Klemens Kajetan Konrad
+		Ludwig Leo
+		Manfred Martin Moritz
+		Nazar Nikolaus
+		Otto Oswald
+		Peter Placidus Philipp
+		Rudolf
+		Samuel Stephan Silvan Severin
+		Theodor
+		Ulrich
+		Wolfgang Walter Wilhelm
+		Xavier
+	}
+	female_common_first_names = {
+		Anna
+		Barbara
+		Emilie
+		Gertrud
+		Germaine
+		Henriette
+		Isabelle
+		Johanna
+		Julie
+		Lydia
+		Maria
+		Rosalie
+	}	
+	noble_last_names = { # mostly patrician families of Bern
+		von_Bonstetten von_BU_ren von_Bergmann
+		von_Donatz
+		Effinger von_Erlach
+		von_Frisching
+		von_Graffenried
+		von_Hettlingen
+		Lentulus Lombach von_Ligerz
+		May von_Muelinen von_Muralt
+		von_Reding-Biberegg von_RU_pplin
+		von_Salis-Soglio von_Steiger von_Schorno von_Streng
+		von_Tavel von_Thurn
+		von_Wattenwyl von_Weber
+		Zehender
+	}
+	common_last_names={
+		Ador Anderwert Angehrn Altwegg Aepli
+		Brenner BA_chtold Bacher BlO_sch Barblan Balmer Bodenheimer Bitzius Burren Benzinger BU_eler Bachmann Bamert Bettschart Binzegger
+		Calonder Corrodi Castell Camenzind
+		Deucher DA_hler Dieth Dinkelmann DU_rrenmatt DU_ggelin Dumelin
+		Enderlin ElsA_sser Eggenschwyler Eggli Eberle Etter Egloff
+		Fornerod Funk Fassbind Freyenmuth
+		Haab Herzog Haller HU_gelberger Henggeler Hegglin
+		Iten
+		Jaggi
+		Knusel Kuoni Kurz KlA_y KO_nitzer KU_ndig KA_lin
+		Leinert Loosli Lindt Lienhard Lohner Litschi Loser Labhardt Leutenegger
+		Motta Munzinger Meyer Morel Marti Minder Morgenthaler Moser Mettler Moos Merz MO_rikofer
+		Naff Nussbaumer
+		Oethiker Ochsner
+		RA_z Ritschard Ruoss Rogenmoser Ruckstuhl Reutlinger Roth
+		Schneider de_Staeel Siegwart-Muller Stutz Streiff StA_mpfli Stockmar Schneider Schurer SchA_r Simonin Stutzer Steinegger Styger Sidler Schwerzmann Sulzberger Scherb
+		Tschudi Tschiemer Theiler Trinkler
+		Usteri
+		ValA_r Villiger
+		Wille Wyss Wynistorf Willi Winet Wiss
+		Zeni Zeerleder Ziltener ZU_rcher
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 swedish={
 	color= hsv{ 0.64 0.57 0.62 }
 	religion = protestant
@@ -8085,8 +8171,9 @@ persian={
 		Davallu
 		Esfahani
 		Farhani
+		Gyalyum
 		Jahanbani Jamshidian
-		Kashani Khan Khuzai
+		Kashani  Khuzai
 		Meshhedi
 		Nakhchevani
 		Pesyan
@@ -8156,6 +8243,7 @@ uzbek={
 	noble_last_names = {
 		Kokand
 		Bahadur
+		Gyalyum
 		Khan
 	}
 	common_last_names={
@@ -8207,7 +8295,7 @@ kazak={
 	}	
 	noble_last_names = {
 		Bukeikhanov
-		Beg
+		Gyalyum
 		Khan
 	}
 	common_last_names={
@@ -8260,6 +8348,8 @@ kirgiz={
 		Madali
 		Beg
 		Khan
+		Tsenmo
+		Gyalyum
 	}
 	common_last_names={
 		Boryak
@@ -8319,7 +8409,8 @@ tajik={
 	}	
 	noble_last_names = {
 		Khan
-		Bek
+		Gyalyum
+		Tsenmo
 	}
 	common_last_names={
 		Kasym
@@ -8362,8 +8453,8 @@ uighur={
 		Madina
 	}	
 	noble_last_names = {
-		Beg
-		Khan
+		Tsenmo
+		Gyalyum
 		Muhiti
 		Shah
 	}
@@ -8434,7 +8525,8 @@ pashtun={
 		Damani
 		Durrani
 		Hotak
-		Khan
+		Gyalyum
+		Tsenmo
 	}
 	common_last_names={
 		Arif
@@ -8477,7 +8569,7 @@ baluchi={
 	noble_last_names = {
 		Badini
 		Baloch
-		Khan
+		Gyalyum
 		Mengal
 		Qaisrani
 		Raisani
@@ -8519,8 +8611,9 @@ hazara={
 		Beg
 		Besudi
 		Hazara
-		Khan
+		Gyalyum
 		Mazari
+		Tsenmo
 	}
 	common_last_names={
 		Balkhi
@@ -8560,8 +8653,8 @@ turkmen={
 		Semsat
 	}	
 	noble_last_names = {
-		Beg
-		Khan
+		Tsenmo
+		Gyalyum
 	}
 	common_last_names={
 		Aytakov
@@ -8606,7 +8699,7 @@ kurdish={
 	noble_last_names = {
 		Ardalan
 		Barzanji
-		Khan
+		Gyalyum
 	}
 	common_last_names={
 		Barzani
@@ -8803,11 +8896,32 @@ siberian={
 		Viktor
 	}
 	female_common_first_names = {
-		Galina
-		Sainkho
+		Cholha
+		Daod
+		Dolma
+		Dralha	
+		Jamyang
+		Lhakpa
+		Lhamo
+		Lobsang
+		Ngawang
+		Ngodup
+		Nima
+		Phuntsog
+		Rinchen
+		Suklha
+		Tsewang
+		Wangchuk
+		Wangmo 
+		Lasya
+		Gyalyum
+		Yama
+		Youdron
+		Zopa
 	}	
 	noble_last_names = {
-		Khan
+		Gyalyum
+		Tsenmo
 	}
 	common_last_names={
 		Bilyaletdinov
@@ -8840,10 +8954,28 @@ yakut={
 		Nyurgun
 	}
 	female_common_first_names = {
-		Anna
-		Natalia
-		Sardana
-		Zoya
+		Cholha
+		Daod
+		Dolma
+		Dralha	
+		Jamyang
+		Lhakpa
+		Lhamo
+		Lobsang
+		Ngawang
+		Ngodup
+		Nima
+		Phuntsog
+		Rinchen
+		Suklha
+		Tsewang
+		Wangchuk
+		Wangmo 
+		Lasya
+		Gyalyum
+		Yama
+		Youdron
+		Zopa
 	}	
 	noble_last_names = {
 		Anabar
@@ -9149,7 +9281,7 @@ assamese={
 		Pushpalata
 	}	
 	noble_last_names = {
-		Khan
+		Gyalyum
 		Singha
 	}
 	common_last_names={
@@ -9613,9 +9745,8 @@ kashmiri={
 		Tehmina
 	}	
 	noble_last_names = {
-		Ghafar_Khan
-		Khan
-		Muhammad_Khan
+		Gyalyum
+		Tsenmo
 	}
 	common_last_names={
 		Alokzai

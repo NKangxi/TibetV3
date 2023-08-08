@@ -8089,41 +8089,13 @@ TEX = { # Texas
 }
 
 TIB = { # Tibet
-	flag_definition = {
-		coa = TIB
-		subject_canton = TIB
-		allow_overlord_canton = yes			
-		coa_with_overlord_canton = TIB_subject			
-		priority = 1
-	}
-	flag_definition = {
-		coa = TIB
-		subject_canton = TIB
-		allow_overlord_canton = no				
-		priority = 2
-		trigger = { 
-			coa_def_independent_trigger = no
-			coa_def_chinese_ensign_trigger = yes
-		}		
-	}	
-	flag_definition = {
-		coa = TIB_monarchy
-		subject_canton = TIB_monarchy
-		allow_overlord_canton = yes			
-		coa_with_overlord_canton = TIB_subject			
-		priority = 5
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = TIB_republic
-		subject_canton = TIB_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
+    pattern = "pattern_solid.tga"
+    color1 = "yellow"
+
+    colored_emblem = {
+        texture = "ce_eternal_knot.dds"
+        color1 = "blue"
+    }
 }
 
 TID = { # Tidore

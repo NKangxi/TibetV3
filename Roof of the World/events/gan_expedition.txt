@@ -1,3 +1,5 @@
+namespace = gan_expedition
+
 # Gan Expedition
 gan_expedition.1 = {
 	type = country_event
